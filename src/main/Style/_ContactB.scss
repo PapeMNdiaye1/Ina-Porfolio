@@ -1,0 +1,29 @@
+#ContactB {
+  // background: var(--color0);
+  z-index: 4;
+
+  #contactB_title {
+    position: absolute;
+    top: 2%;
+    left: 1em;
+    color: #000;
+    font-size: 0.9em;
+    font-weight: 900;
+    text-shadow: 1px 0px 0px rgba(0, 0, 0, 1);
+    z-index: 10;
+    // filter: url(#shad);
+  }
+}
+
+@media all and (max-width: 800px) {
+  #Contact {
+    width: 100%;
+
+    #contact_title {
+      width: 100%;
+      top: 1%;
+      left: 0%;
+      text-align: center;
+    }
+  }
+}

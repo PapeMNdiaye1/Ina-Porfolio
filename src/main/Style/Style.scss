@@ -1,0 +1,47 @@
+@mixin cent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+  &::selection {
+    color: var(--color0);
+    background: var(--colorX);
+  }
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: var(--color0);
+  --color0: #f1f1f1;
+  --colorX: #222;
+  --color_bak: #fff;
+  --color_tab_hover: #222;
+  --shadow0: 0px 1px 2px rgba(0, 0, 0, 0.3);
+
+  display: flex;
+  overflow-y: scroll;
+  font-family: "Ubuntu", sans-serif;
+}
+
+@import "./LeftBare";
+// ################################################
+@import "./TopBare";
+// ################################################
+@import "./Home";
+
+//?#########################################################
+
+@media all and (max-width: 1000px) {
+  #home-container {
+    width: 100vw;
+    min-height: 100vh;
+    border-radius: 0em;
+  }
+}

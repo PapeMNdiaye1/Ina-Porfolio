@@ -1,0 +1,185 @@
+#Contact {
+    // background: var(--color0);
+    z-index: 4;
+
+
+    #contact_title {
+        position: absolute;
+        top: 2%;
+        left: 1em;
+        color: #000;
+        font-size: 0.9em;
+        font-weight: 900;
+        text-shadow: 1px 0px 0px rgba(0, 0, 0, 1);
+        z-index: 10;
+        // filter: url(#shad);
+    }
+
+    .contact_container_flex {
+        height: 100%;
+        width: 100%;
+        @include cent;
+        align-items: center;
+
+        .contact_container {
+            @include cent;
+            flex-direction: column;
+            align-items: center;
+            line-height: 3.2em;
+            // width: 10%;
+            height: 100%;
+            font-family: "Notable", sans-serif;
+            z-index: 3;
+
+            // background-color: rgba(0, 0, 0, 1);
+            a {
+                text-decoration: none;
+
+                &:hover {
+                    color: #000;
+                }
+            }
+
+            a:nth-child(1) {
+                left: 20%;
+            }
+
+            a:nth-child(2) {
+                left: -20%;
+            }
+
+            a:nth-child(3) {
+                left: 15%;
+            }
+
+            a:nth-child(4) {
+                left: -20%;
+            }
+
+            a:nth-child(5) {
+                left: 10%;
+            }
+
+            a:nth-child(6) {
+                left: -35%;
+            }
+
+            .contact_cart {
+                cursor: pointer;
+                font-size: 4em;
+                font-stretch: condensed;
+                color: var(--colorX);
+                // color: rgb(222, 222, 222);
+                @include cent;
+                text-shadow: var(--shadow0);
+                transform: scale(1);
+
+                &:hover {
+                    color: var(--colorX);
+                    z-index: 40;
+                    transform: scale(1.2);
+                }
+            }
+        }
+
+        .contact_cart_info {
+            @include cent;
+            color: var(--color0);
+            background-color: var(--colorX);
+            font-size: 0.6em;
+            border: 0.3em var(--colorX) solid;
+            border-radius: 0.3em;
+            opacity: 0.1;
+            transition: all 1s;
+            position: absolute;
+            user-select: none;
+        }
+
+        .contact_cart_info:nth-child(2) {
+            top: 50%;
+            left: 55%;
+        }
+
+        .contact_cart_info:nth-child(3) {
+            top: 50%;
+            left: 15%;
+        }
+
+        .contact_cart_info:nth-child(4) {
+            top: 64%;
+            left: 25%;
+        }
+
+        .contact_cart_info:nth-child(5) {
+            top: 72%;
+            left: 45%;
+        }
+
+        .contact_cart_info:nth-child(6) {
+            top: 20%;
+            left: 65%;
+        }
+
+        .contact_cart_info:nth-child(7) {
+            top: 56%;
+            left: 75%;
+        }
+
+        .contact_cart_info:nth-child(8) {
+            top: 35%;
+            left: 35%;
+        }
+    }
+
+    #tel_gMail {
+        bottom: 2%;
+        right: 50%;
+        position: absolute;
+        max-width: 15em;
+        width: 40%;
+        font-weight: 700;
+        font-size: 0.6em;
+        z-index: 3;
+        display: flex;
+        color: #000;
+        transform: translate(50%, 0%);
+    }
+}
+
+@media all and (max-width: 800px) {
+    #Contact {
+        width: 100%;
+
+        #contact_title {
+            width: 100%;
+            top: 1%;
+            left: 0%;
+            text-align: center;
+        }
+
+        .contact_container_flex {
+            height: 100%;
+            width: 90%;
+            left: 10%;
+            @include cent;
+            align-items: center;
+
+            .contact_container {
+                line-height: 2em;
+
+                a:nth-child(6) {
+                    left: -25%;
+                }
+
+                .contact_cart {
+                    font-size: 2em;
+                    color: var(--colorX);
+                }
+            }
+        }
+
+        #tel_gMail {
+            text-align: center;
+        }
+    }
+}

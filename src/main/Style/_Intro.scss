@@ -1,0 +1,311 @@
+@mixin cent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#TheIntro {
+  width: 100%;
+  height: 100%;
+  @include cent();
+
+  #home {
+    margin: auto;
+    width: 70vw;
+    background: var(--color0);
+    z-index: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+
+    .container1 {
+      margin: auto;
+      width: 25em;
+      grid-row-start: 1;
+      grid-row-end: 2;
+      @include cent();
+      flex-wrap: wrap;
+
+      .name-container {
+        width: 100%;
+        flex-direction: column;
+
+        #my_name {
+          color: #000;
+          font-size: 1.2em;
+          font-weight: 900;
+          z-index: 1;
+          -webkit-text-stroke-width: 2px;
+
+          &::after {
+            content: "";
+            position: absolute;
+            bottom: 0%;
+            width: 10em;
+            height: 0.1em;
+            background-color: #000;
+          }
+        }
+
+        #hello {
+          top: -2em;
+          width: auto;
+          height: auto;
+          color: rgba(0, 0, 0, 1);
+          font-size: 0.5em;
+          font-weight: 900;
+          -webkit-text-stroke-width: 0.5px;
+          z-index: 1;
+          // color: aqua;
+        }
+      }
+
+      .profile-picture {
+        width: 25em;
+        height: 37em;
+        // background-image: url("./Image/Moi-Sur-Fond-Noir-1-min.jpg");
+        background-color: gray;
+        background-position: center;
+        background-position-y: 0%;
+        background-size: 125%;
+      }
+    }
+
+    .container2 {
+      margin: auto;
+      max-width: 30em;
+      grid-row-start: 1;
+      grid-row-end: 2;
+      height: 100%;
+      @include cent();
+      flex-direction: column;
+
+      #name_in_mobil_mode {
+        display: none;
+      }
+
+      #home_logo {
+        background-image: url("./Image/Logos/Signatur.svg");
+        width: 100%;
+        height: 10em;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 1;
+        @include cent();
+        display: none;
+      }
+
+      #intro {
+        width: 100%;
+        height: 7em;
+        font-size: 0.9em;
+        @include cent();
+        padding: 2%;
+        border-radius: 0.5em;
+        z-index: 100;
+
+        .intro_title {
+          width: 70%;
+          color: #000;
+          text-align: center;
+          margin-bottom: 0.4em;
+          font-size: 0.8em;
+          line-height: 2em;
+        }
+      }
+
+      #tel_gMailin_mobil_mode {
+        display: none;
+      }
+    }
+  }
+
+  #tel_gMail {
+    bottom: 2%;
+    left: 2%;
+    position: absolute;
+    max-width: 15em;
+    width: 40%;
+    font-weight: 700;
+    font-size: 0.6em;
+    z-index: 3;
+    display: flex;
+    color: #000;
+  }
+
+  .network_container {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    width: 30%;
+    height: 2em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 3;
+    color: var(--colorX);
+    filter: url(#noise);
+
+    a {
+      color: var(--colorX);
+
+      &:hover {
+        transform: scale(1.5);
+        color: #000;
+      }
+
+      &:active {
+        transform: scale(0.9);
+      }
+
+      .network {
+        width: 1.5em;
+        height: 1.5em;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 1.1em;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1000px) {
+  #TheIntro {
+    border-radius: 0em;
+
+    #home {
+      width: 100%;
+      height: 100%;
+      margin: auto;
+      display: flex;
+      background: #000;
+
+      .container1 {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 15% 85%;
+        background-position: center;
+        background-size: 140%;
+        background-repeat: no-repeat;
+
+        .name-container {
+          top: 2%;
+          width: auto;
+          grid-row: 1;
+          margin: auto;
+          display: none;
+          color: #fff;
+
+          #my_name {
+            font-size: 1.2em;
+            font-weight: 900;
+            z-index: 2;
+            -webkit-text-stroke-width: 1px;
+
+            &::after {
+              display: none;
+            }
+          }
+
+          #hello {
+            -webkit-text-stroke-width: 0px;
+          }
+        }
+
+        .profile-picture {
+          background-image: none;
+        }
+      }
+
+      .container2 {
+        max-width: 100vw;
+        width: 100vw;
+        grid-row: 1;
+        position: absolute;
+        @include cent();
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: space-between;
+
+        z-index: 3;
+
+        #name_in_mobil_mode {
+          display: block;
+          margin-top: 2%;
+          width: auto;
+          grid-row: 1;
+
+          #my_name {
+            z-index: 1;
+            color: var(--color0);
+            font-size: 1.2em;
+            font-weight: 900;
+            z-index: 2;
+            -webkit-text-stroke-width: 1px;
+
+            &::after {
+              display: none;
+            }
+          }
+
+          #hello {
+            top: -2em;
+            width: auto;
+            height: auto;
+            color: rgba(0, 0, 0, 1);
+            font-size: 0.5em;
+            font-weight: 900;
+            z-index: 1;
+            -webkit-text-stroke-width: 0px;
+            color: var(--color0);
+          }
+        }
+
+        #home_logo {
+          display: none;
+        }
+
+        #intro {
+          font-size: 1em;
+          max-width: 19em;
+          background-color: rgba(0, 0, 0, 0.2);
+          top: 5em;
+          padding: 0.5em;
+
+          .intro_title {
+            border-radius: 2em;
+            color: var(--color0);
+          }
+        }
+
+        #tel_gMailin_mobil_mode {
+          display: block;
+          @include cent();
+          max-width: 15em;
+          width: 40%;
+          font-weight: 700;
+          font-size: 0.6em;
+          z-index: 3;
+          display: flex;
+          color: var(--color0);
+          text-align: center;
+          margin-bottom: 2%;
+          background-color: rgba(0, 0, 0, 0.2);
+          border-radius: 0.4em;
+          padding: 0.5em;
+          color: var(--color0);
+        }
+      }
+    }
+
+    #tel_gMail {
+      display: none;
+    }
+
+    .network_container {
+      display: none;
+    }
+  }
+}

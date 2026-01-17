@@ -1,0 +1,55 @@
+@mixin cent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#TopBare-container {
+  top: 1em;
+  right: 0em;
+  width: 4em;
+  height: 2em;
+  z-index: 50;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 0.5px 2px rgba(0, 0, 0, 0.3);
+  background-color: var(--color0);
+  border-radius: 0.05em;
+  @include cent();
+  /* Safari */
+  -webkit-user-select: none;
+  /* Konqueror HTML */
+  -khtml-user-select: none;
+  /* Firefox */
+  -moz-user-select: none;
+  /* Internet Explorer/Edge */
+  -ms-user-select: none;
+  /* Standard property */
+  user-select: none;
+
+  .buttons {
+    // background-color: salmon;
+    cursor: pointer;
+    margin: 0.5em;
+    &:hover {
+      transform: scale(1.1);
+    }
+    &:active {
+      transform: scale(1);
+    }
+  }
+  .En-button {
+  }
+  .Fr-button {
+  }
+}
+
+@media all and (max-width: 800px) {
+  #TopBare-container {
+    position: absolute;
+    bottom: 1em;
+    left: 1em;
+    top: auto;
+    right: auto;
+  }
+}

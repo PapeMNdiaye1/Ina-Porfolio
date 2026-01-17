@@ -1,0 +1,245 @@
+@mixin cent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#LeftBare-container {
+  top: 2vh;
+  left: 0;
+  width: 5em;
+  height: 96vh;
+  border-radius: 0.5em 0.5em 0.5em 0em;
+  z-index: 10;
+  overflow: hidden;
+  transition: width 0.5s;
+
+  .LeftBare-Closer-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 2.5em;
+    height: 2.5em;
+    margin: 0.9em;
+    background-color: var(--color0);
+    color: var(--colorX);
+    font-size: 0.8em;
+    cursor: pointer;
+    box-shadow: 0px 0.5px 2px rgba(0, 0, 0, 0.3);
+    @include cent();
+    z-index: 100;
+    display: none;
+
+    .Menu {
+      width: 2.3em;
+      height: 2.3em;
+      border-radius: 50%;
+      background-color: rgba($color: #222, $alpha: 0);
+      transition-duration: 0.2s;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: calc(40% - 0.1em);
+        left: 25%;
+        width: 50%;
+        height: 0.15em;
+        background-color: var(--colorX);
+        transition-duration: 0.2s;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: calc(60% - 0.1em);
+        left: 25%;
+        width: 50%;
+        height: 0.15em;
+        background-color: var(--colorX);
+        transition-duration: 0.2s;
+      }
+
+      &:hover {
+        background-color: rgba($color: #222, $alpha: 0.1);
+      }
+    }
+
+    .Menu_On {
+      background-color: rgba($color: #222, $alpha: 0);
+
+      &::before {
+        transform: rotate(-45deg);
+        top: calc(50% - 0.1em);
+      }
+
+      &::after {
+        transform: rotate(45deg);
+        top: calc(50% - 0.1em);
+      }
+
+      &:hover {
+        background-color: rgba($color: #222, $alpha: 0.1);
+      }
+    }
+  }
+
+  #tabs {
+    position: fixed;
+    top: 20%;
+    left: -3.9em;
+    width: 12em;
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    transform: translate(0%, -5%);
+    .tab {
+      margin-bottom: 0.5em;
+      left: 35%;
+      width: 90%;
+      height: 2.3em;
+      font-size: 0.8em;
+      box-shadow: 0px 0.5px 2px rgba(0, 0, 0, 0.3);
+      border-radius: 0.2em;
+      transform: scale(1);
+      overflow: hidden;
+      transition-duration: 1s;
+      transition-delay: 0s;
+      background: var(--color0);
+      color: var(--colorX);
+      transition: left 0.5s;
+      cursor: pointer;
+      @include cent();
+    }
+    .activeTag {
+      background: var(--colorX);
+      left: 55%;
+      color: var(--color0);
+    }
+    .activeTag0 {
+      background: var(--colorX);
+      left: 55%;
+      transform: scale(1.2);
+      color: var(--color0);
+    }
+
+    // ######################################################
+    .tab_icon {
+      position: absolute;
+      top: 27%;
+      right: 3%;
+      width: 2.2em;
+      height: 100%;
+      text-align: right;
+      font-size: 1.1em;
+      padding-right: 6px;
+      pointer-events: none;
+      &::after {
+        content: "";
+        position: absolute;
+        top: -5%;
+        left: 35%;
+        width: 1px;
+        height: 55%;
+        background: var(--colorX);
+      }
+    }
+    #tab1 {
+      // background-color: red;
+      width: 80%;
+    }
+    #tab4 {
+      // background-color: red;
+      width: 90%;
+    }
+    #tab5 {
+      // background-color: red;
+      width: 85%;
+    }
+    #tab8 {
+      // background-color: red;
+      width: 70%;
+    }
+    #tab9 {
+      // background-color: red;
+      width: 75%;
+    }
+    #tab10 {
+      // background-color: red;
+      width: 95%;
+    }
+    #tab11 {
+      // background-color: red;
+      width: 100%;
+    }
+    #tab12 {
+      // background-color: red;
+      width: 80%;
+    }
+    #tab13 {
+      // background-color: red;
+      width: 80%;
+    }
+    #tab14 {
+      // background-color: red;
+      width: 70%;
+    }
+    #tab15 {
+      // background-color: red;
+      width: 75%;
+    }
+  }
+}
+
+@media all and (max-width: 800px) {
+  #LeftBare-container {
+    position: absolute;
+    width: 0vw;
+    height: 100vh;
+    top: 0vh;
+    border-radius: 0em;
+    @include cent();
+    background-color: rgba($color: #000000, $alpha: 0);
+
+    .LeftBare-Closer-container {
+      display: flex;
+      /* Safari */
+      -webkit-user-select: none;
+      /* Konqueror HTML */
+      -khtml-user-select: none;
+      /* Firefox */
+      -moz-user-select: none;
+      /* Internet Explorer/Edge */
+      -ms-user-select: none;
+      /* Standard property */
+      user-select: none;
+    }
+
+    #tabs {
+      top: 0vh;
+      width: 100vw;
+      height: 75vh;
+      max-height: 75vh;
+      padding-bottom: 21vh;
+      padding-top: 9vh;
+      @include cent();
+      transform: translate(0%, -0%);
+      transition-duration: 1s;
+      background-color: rgba($color: #f1f1f1, $alpha: 0.8);
+      left: 0%;
+      .tab {
+        width: 90vw;
+        left: 0%;
+        transform: scale(0.8);
+        margin-bottom: 0.1em;
+      }
+      .activeTag {
+        left: 0%;
+        transform: scale(0.8);
+      }
+      .activeTag0 {
+        left: 0%;
+        transform: scale(0.9);
+      }
+    }
+  }
+}
