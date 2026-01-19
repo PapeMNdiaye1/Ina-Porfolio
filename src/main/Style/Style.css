@@ -1547,12 +1547,12 @@
 #home-container #Magnifique .Image-container .one-Image-container:nth-child(5) {
   background-image: url("./Image/Magnifique/STEFFI - TU ES MAGNIFIQUE - BRUXELLES 2025.jpg");
   animation-delay: 1.5s;
-  height: 100%;
+  height: 85%;
 }
 #home-container #Magnifique .Image-container .one-Image-container:nth-child(6) {
   background-image: url("./Image/Magnifique/STEFFI, TU ES MAGNIFIQUE - BRUXELLES 2025.jpg");
   animation-delay: 1.5s;
-  height: 100%;
+  height: 85%;
 }
 #home-container #Magnifique .Image-presentation-container {
   position: fixed;
