@@ -48,7 +48,7 @@
 
   .Image-container {
     width: 73em;
-    height: 40em;
+    height: 48em;
     display: grid;
     grid-template-columns: repeat(15, auto);
     grid-template-rows: repeat(5, auto);
@@ -100,12 +100,13 @@
     }
 
     .one-Image-container:nth-child(1) {
-      // background-image: url("./Image/Issue/BOUSSO\,\ TU\ ES\ Issue\ -\ DAKAR\ 2021.jpg");
+      background-image: url("./Image/Issue/1-ACT_.jpg");
       height: 100%;
       animation-delay: 0.5s;
     }
 
     .one-Image-container:nth-child(2) {
+      background-image: url("./Image/Issue/2-ABSCENCE.jpg");
       // background-image: url("./Image/Issue/KAREN\ -\ TU\ ES\ Issue\ -\ MONTREAL\ 2019.jpg");
       grid-row: span 2;
       animation-delay: 1s;
@@ -113,23 +114,35 @@
     }
 
     .one-Image-container:nth-child(3) {
+      background-image: url("./Image/Issue/3-TRISTESSE.jpg");
       // background-image: url("./Image/Issue/KAREN\,\ TU\ ES\ MAGNFIQUE\ -\ MONTREAL\ 2019.jpg");
       animation-delay: 1.5s;
       height: 100%;
     }
     .one-Image-container:nth-child(4) {
+      background-image: url("./Image/Issue/4-BASKET.jpg");
       // background-image: url("./Image/Issue/ROXY\,\ TU\ ES\ Issue\ -\ MONTREAL\ 2019.jpg");
+      grid-row: span 4;
       animation-delay: 1.5s;
       height: 100%;
       // height: 90%;
     }
     .one-Image-container:nth-child(5) {
+      background-image: url("./Image/Issue/5-ERREUR.jpg");
       // background-image: url("./Image/Issue/STEFFI\ -\ TU\ ES\ Issue\ -\ BRUXELLES\ 2025.jpg");
       animation-delay: 1.5s;
       height: 100%;
       // height: 90%;
     }
     .one-Image-container:nth-child(6) {
+      background-image: url("./Image/Issue/6-HH-ISSUE-DE-SECOURS.jpg");
+      // background-image: url("./Image/Issue/STEFFI\,\ TU\ ES\ Issue\ -\ BRUXELLES\ 2025.jpg");
+      animation-delay: 1.5s;
+      height: 100%;
+      // height: 90%;
+    }
+    .one-Image-container:nth-child(7) {
+      background-image: url("./Image/Issue/7-EXPRESSION.jpg");
       // background-image: url("./Image/Issue/STEFFI\,\ TU\ ES\ Issue\ -\ BRUXELLES\ 2025.jpg");
       animation-delay: 1.5s;
       height: 100%;

@@ -1857,7 +1857,7 @@
 }
 #home-container #Issue .Image-container {
   width: 73em;
-  height: 40em;
+  height: 48em;
   display: grid;
   grid-template-columns: repeat(15, auto);
   grid-template-rows: repeat(5, auto);
@@ -1903,27 +1903,39 @@
   }
 }
 #home-container #Issue .Image-container .one-Image-container:nth-child(1) {
+  background-image: url("./Image/Issue/1-ACT_.jpg");
   height: 100%;
   animation-delay: 0.5s;
 }
 #home-container #Issue .Image-container .one-Image-container:nth-child(2) {
+  background-image: url("./Image/Issue/2-ABSCENCE.jpg");
   grid-row: span 2;
   animation-delay: 1s;
   height: 100%;
 }
 #home-container #Issue .Image-container .one-Image-container:nth-child(3) {
+  background-image: url("./Image/Issue/3-TRISTESSE.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Issue .Image-container .one-Image-container:nth-child(4) {
+  background-image: url("./Image/Issue/4-BASKET.jpg");
+  grid-row: span 4;
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Issue .Image-container .one-Image-container:nth-child(5) {
+  background-image: url("./Image/Issue/5-ERREUR.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Issue .Image-container .one-Image-container:nth-child(6) {
+  background-image: url("./Image/Issue/6-HH-ISSUE-DE-SECOURS.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Issue .Image-container .one-Image-container:nth-child(7) {
+  background-image: url("./Image/Issue/7-EXPRESSION.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }

@@ -184,10 +184,17 @@ function Issue({ title, langToShow }) {
         </div>
         <div
           onClick={clickOnImage}
-          className="one-Image-container Horizontal"
+          className="one-Image-container vertical"
           title="Boubacar Ndiaye"
         >
           <p>Image-4 [07 ‎06 ‎2021]</p>
+        </div>
+        <div
+          onClick={clickOnImage}
+          className="one-Image-container Horizontal"
+          title="Boubacar Ndiaye"
+        >
+          <p>Image-5 [07 ‎06 ‎2021]</p>
         </div>
         <div
           onClick={clickOnImage}
