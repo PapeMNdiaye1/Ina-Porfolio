@@ -1,6 +1,6 @@
 import { React, useEffect, useState } from "react";
 
-const LenversPresentation = ({
+const MemoirePresentation = ({
   ImageBack,
   parentCallback,
   Title,
@@ -39,7 +39,7 @@ const LenversPresentation = ({
   );
 };
 
-function Magnifique({ title, langToShow }) {
+function Memoire({ title, langToShow }) {
   // let [TheImageReloader, setTheImageReloader] = useState();
 
   useEffect(() => {
@@ -63,7 +63,7 @@ function Magnifique({ title, langToShow }) {
     };
   }, []);
   let [TheImage, setTheImage] = useState();
-  let [PresentationLenvers, setPresentationLenvers] = useState(false);
+  let [PresentationMemoire, setPresentationMemoire] = useState(false);
   let [ImageTitle, setImageTitle] = useState("");
   let [ImageDescription, setImageDescription] = useState("");
   let [IsImageVertical, setIsImageVertical] = useState(true);
@@ -75,7 +75,7 @@ function Magnifique({ title, langToShow }) {
     let theImageUrl = getComputedStyle(thImg).backgroundImage;
     setTheImage((TheImage) => theImageUrl);
     console.log(theImageUrl);
-    setPresentationLenvers((PresentationLenvers) => true);
+    setPresentationMemoire((PresentationMemoire) => true);
     setImageTitle((ImageTitle) => thImg.title);
     setImageDescription((ImageDescription) => thImg.childNodes[0].innerText);
     console.log(thImg.childNodes[0].innerText);
@@ -92,56 +92,70 @@ function Magnifique({ title, langToShow }) {
   };
 
   const callback = () => {
-    setPresentationLenvers((PresentationLenvers) => false);
+    setPresentationMemoire((PresentationMemoire) => false);
   };
 
   return (
-    <div id="Magnifique" className=".all">
+    <div id="Memoire" className=".all">
       <div className="Nimp">gggg</div>
       <div id="Article-title">
-        {langToShow === "En" ? <h1>Behind the Scenes</h1> : <h1>{title}</h1>}
+        {langToShow === "En" ? <h1>Emergency Exit</h1> : <h1>{title}</h1>}
       </div>
       {langToShow === "En" ? (
         <p className="the-paragraph">
-          Traditions remain strong in the Lebou community. In their cosmology,
-          the "tuur" and the "rab" are important beings. They embody the souls
-          of ancestors (tuur), or occult forces, often guardians of a territory,
-          or they coexist with humans. To inhabit a place where a rab lives,
-          prior religious rites and ceremonies were required to establish
-          harmony with all these forces of creation. It is within this context
-          that ANDANDO takes shape, a series of portraits depicting the
-          relationship between five women entrepreneurs from Ouakam and the
-          protective spirit that accompanies them in their daily activities The
-          moments of shooting tell us about the evolution of their day; fadiar,
-          tisbar, takussane, timiss and guéwé, these hours of prayer, which are
-          also moments, in the popular imagination the spirits roam in the
-          streets… just like these women who work at all hours… The idea is to
-          highlight this companionship between the spirits and the women which
-          dates back to the first inhabitants of Ouakam.
+          The history of a country, the destiny of a community, or the life of a
+          family are not written solely from a male perspective, but also, and
+          equally so, from a female one. Many women acted for the common good,
+          particularly for the recognition of women's rights. Remembering the
+          activism of our elders is a matter of duty. The preservation of this
+          fragile memory demands a committed act of transmission. Through her
+          photographic approach, Ina Thiam forges a connection she hopes will be
+          unbreakable with those who are no longer with us. During her stay in
+          Kédougou, Ina Thiam met eleven women aged 18 to 25. She invited them
+          to reflect on one of their elders with a remarkable life story. A
+          visual mirror was created before the photographer's lens: the first
+          portrait, embodied by the young woman, evokes her role model as an
+          influential woman. Ina Thiam uses staging, adorning the young woman
+          with clothing and makeup, creating a palimpsest, a symbol of the
+          threat of oblivion or a promise of remembrance. The second portrait
+          shows this same young woman in her contemporary life, inspired by the
+          activism of her predecessor. These illustrious figures include
+          revolutionaries, writers, high-level athletes, and a beloved
+          grandmother, described as "courageous" and even "warrior." Kédougou, a
+          reflection of the world? Memory in a mirror reveals the universal
+          nature of the need to remember committed women. For, beyond the
+          tribute paid to them, they are a model for all.
         </p>
       ) : (
         <p className="the-paragraph">
-          Les traditions restent vives dans la communauté « lébou ». Dans leur
-          Cosmogonie les « tuur » et les « rab » sont des Êtres importants. Ils
-          incarnent les âmes des ancêtres (tuur), ou des forces occultes,
-          souvent gardiens d'un territoire, ou ils cohabitent avec des humains.
-          Pour pouvoir habiter un lieu où vit un rab, il fallait des rites et
-          cérémonies religieuses préalables, afin d'établir une harmonie avec
-          toutes ces forces de la création. C’est dans ce contexte que s’inscrit
-          ANDANDO, une série de portraits qui met en scène le compagnonnage
-          entre Cinq femmes entrepreneurs ouakamoises et l’esprit protecteur qui
-          les accompagne dans leurs activités quotidiennes. Les moments de prise
-          de vue nous racontent l’évolution de leur journée ; fadiar, tisbar,
-          takussane, timiss et guéwé, ces heures de prières, qui sont aussi des
-          moments, dans l’imaginaire populaire les esprits rôdent dans les rues…
-          tout comme ces femmes qui travaillent à toute heure … L’idée est de
-          mettre en lumière ce compagnonnage entre Les esprits et les femmes qui
-          date depuis les premiers habitants de Ouakam.
+          L’histoire d’un pays, le destin d’une communauté ou bien la vie d’une
+          famille ne s’écrivent pas seulement au masculin, mais aussi à part
+          entière au féminin. Nombreuses sont celles qui agirent pour le bien de
+          tous, pour la reconnaissance des droits des femmes en particulier. Le
+          souvenir du militantisme de nos aînées ressort du devoir. La
+          persistance de cette mémoire si fragile, exige un acte de transmission
+          engagé. Par sa démarche photographique, Ina Thiam tisse un lien
+          qu’elle souhaite indéfectible avec les absentes. Lors de son séjour à
+          Kédougou, Ina Thiam rencontre onze femmes âgées de 18 à 25 ans. Elle
+          les invite à se remémorer une de leurs aînées au parcours remarquable.
+          Un miroir visuel se construit devant l’objectif de la photographe : le
+          premier portrait, incarné par la jeune femme, évoque son modèle de
+          femme influente. Ina Thiam recourt à une mise en scène en parant la
+          jeune femme de vêtements et d’un maquillage, créant un palimpseste,
+          symbole de la menace de l’oubli ou promesse du souvenir. Le second
+          portrait montre cette même jeune femme dans sa contemporanéité,
+          inspirée par l’activisme de celle qui l’a précédée. Ces illustres
+          personnalités sont des révolutionnaires, des écrivaines, des sportives
+          de haut niveau ou encore une grand-mère chérie, « courageuse » et même
+          « guerrière ». Kédougou, reflet du monde ? Mémoire en miroir révèle le
+          caractère universel de la nécessité de se souvenir des femmes
+          engagées. Car, au-delà de l’hommage qui leur est rendu, elles sont un
+          modèle pour tous.
         </p>
       )}
 
-      {PresentationLenvers && (
-        <LenversPresentation
+      {PresentationMemoire && (
+        <MemoirePresentation
           parentCallback={callback}
           ImageBack={TheImage}
           ImageDescription={ImageDescription}
@@ -173,17 +187,10 @@ function Magnifique({ title, langToShow }) {
         </div>
         <div
           onClick={clickOnImage}
-          className="one-Image-container Horizontal"
+          className="one-Image-container vertical"
           title="Boubacar Ndiaye"
         >
           <p>Image-4 [07 ‎06 ‎2021]</p>
-        </div>
-        <div
-          onClick={clickOnImage}
-          className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
-        >
-          <p>Image-5 [07 ‎06 ‎2021]</p>
         </div>
         <div
           onClick={clickOnImage}
@@ -237,4 +244,4 @@ function Magnifique({ title, langToShow }) {
   );
 }
 
-export default Magnifique;
+export default Memoire;

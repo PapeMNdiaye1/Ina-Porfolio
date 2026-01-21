@@ -1,6 +1,6 @@
 import { React, useEffect, useState } from "react";
 
-const LenversPresentation = ({
+const CaillouPresentation = ({
   ImageBack,
   parentCallback,
   Title,
@@ -39,7 +39,7 @@ const LenversPresentation = ({
   );
 };
 
-function Magnifique({ title, langToShow }) {
+function Caillou({ title, langToShow }) {
   // let [TheImageReloader, setTheImageReloader] = useState();
 
   useEffect(() => {
@@ -63,7 +63,7 @@ function Magnifique({ title, langToShow }) {
     };
   }, []);
   let [TheImage, setTheImage] = useState();
-  let [PresentationLenvers, setPresentationLenvers] = useState(false);
+  let [PresentationCaillou, setPresentationCaillou] = useState(false);
   let [ImageTitle, setImageTitle] = useState("");
   let [ImageDescription, setImageDescription] = useState("");
   let [IsImageVertical, setIsImageVertical] = useState(true);
@@ -75,7 +75,7 @@ function Magnifique({ title, langToShow }) {
     let theImageUrl = getComputedStyle(thImg).backgroundImage;
     setTheImage((TheImage) => theImageUrl);
     console.log(theImageUrl);
-    setPresentationLenvers((PresentationLenvers) => true);
+    setPresentationCaillou((PresentationCaillou) => true);
     setImageTitle((ImageTitle) => thImg.title);
     setImageDescription((ImageDescription) => thImg.childNodes[0].innerText);
     console.log(thImg.childNodes[0].innerText);
@@ -92,56 +92,55 @@ function Magnifique({ title, langToShow }) {
   };
 
   const callback = () => {
-    setPresentationLenvers((PresentationLenvers) => false);
+    setPresentationCaillou((PresentationCaillou) => false);
   };
 
   return (
-    <div id="Magnifique" className=".all">
+    <div id="Caillou" className=".all">
       <div className="Nimp">gggg</div>
       <div id="Article-title">
-        {langToShow === "En" ? <h1>Behind the Scenes</h1> : <h1>{title}</h1>}
+        {langToShow === "En" ? <h1>Emergency Exit</h1> : <h1>{title}</h1>}
       </div>
       {langToShow === "En" ? (
         <p className="the-paragraph">
-          Traditions remain strong in the Lebou community. In their cosmology,
-          the "tuur" and the "rab" are important beings. They embody the souls
-          of ancestors (tuur), or occult forces, often guardians of a territory,
-          or they coexist with humans. To inhabit a place where a rab lives,
-          prior religious rites and ceremonies were required to establish
-          harmony with all these forces of creation. It is within this context
-          that ANDANDO takes shape, a series of portraits depicting the
-          relationship between five women entrepreneurs from Ouakam and the
-          protective spirit that accompanies them in their daily activities The
-          moments of shooting tell us about the evolution of their day; fadiar,
-          tisbar, takussane, timiss and guéwé, these hours of prayer, which are
-          also moments, in the popular imagination the spirits roam in the
-          streets… just like these women who work at all hours… The idea is to
-          highlight this companionship between the spirits and the women which
-          dates back to the first inhabitants of Ouakam.
+          “Caillou” brings together women from the Atlantic coast: lands of
+          France, Senegal, and Guadeloupe. These women are dancers, dance
+          facilitators, and videographers. They have explored the memory and
+          present of their territories, encountering streets, spaces, and people
+          through immersive dance and film experiences. In this journey, not
+          without unequal administrative hurdles, they have been confronted and
+          challenged by the intricacies of contemporary issues rooted in the
+          past: the migration and climate crises. The encounter between these
+          women, born and living on lands linked by the crimes against humanity
+          of the transatlantic slave trade and colonization, has allowed dance
+          to open sacred spaces for dialogue, healing, reconstruction, and
+          humanism. “Caillou” is a project, with a show, films, a process… 2024,
+          2025… “Caillou” will become “Kayou”, a phoenix project that we wish to
+          deliver to the world in multiple ways.
         </p>
       ) : (
         <p className="the-paragraph">
-          Les traditions restent vives dans la communauté « lébou ». Dans leur
-          Cosmogonie les « tuur » et les « rab » sont des Êtres importants. Ils
-          incarnent les âmes des ancêtres (tuur), ou des forces occultes,
-          souvent gardiens d'un territoire, ou ils cohabitent avec des humains.
-          Pour pouvoir habiter un lieu où vit un rab, il fallait des rites et
-          cérémonies religieuses préalables, afin d'établir une harmonie avec
-          toutes ces forces de la création. C’est dans ce contexte que s’inscrit
-          ANDANDO, une série de portraits qui met en scène le compagnonnage
-          entre Cinq femmes entrepreneurs ouakamoises et l’esprit protecteur qui
-          les accompagne dans leurs activités quotidiennes. Les moments de prise
-          de vue nous racontent l’évolution de leur journée ; fadiar, tisbar,
-          takussane, timiss et guéwé, ces heures de prières, qui sont aussi des
-          moments, dans l’imaginaire populaire les esprits rôdent dans les rues…
-          tout comme ces femmes qui travaillent à toute heure … L’idée est de
-          mettre en lumière ce compagnonnage entre Les esprits et les femmes qui
-          date depuis les premiers habitants de Ouakam.
+          « Caillou » réunit des femmes de l Atlantique : terres de France, du
+          Sénégal et de Guadeloupe. Des femmes danseuses, passeuse de danse et
+          vidéastes. Qui sont allées à la rencontre de la mémoire et du présent
+          de leurs territoires, à la rencontre des rues, des espaces, des
+          populations, à l’occasion d’immersion dansées et filmées. Dans cette
+          circulation, non sans difficultés administratives inégales, elles ont
+          été confrontée et bousculée aux tenants et aboutissants de
+          problématiques d’aujourd’hui, qui prennent racines dans le passé: les
+          crises migratoires et climatiques. La rencontre de ces femmes nées et
+          qui habitent des terres liées par les crimes contre l’humanité de la
+          traite transatlantique et de la colonisation, a permis par la danse
+          d’ouvrir des espaces sacrés de dialogue, de réparation, de
+          reconstructions, d’humanisme. « Caillou » c est un projet, avec un
+          spectacle, des films, un processus…2024, 2025… « Caillou » deviendra
+          «Kayou », projet phénix que nous souhaitons livrer au monde de
+          multiples manières
         </p>
       )}
 
-      {PresentationLenvers && (
-        <LenversPresentation
+      {PresentationCaillou && (
+        <CaillouPresentation
           parentCallback={callback}
           ImageBack={TheImage}
           ImageDescription={ImageDescription}
@@ -173,17 +172,10 @@ function Magnifique({ title, langToShow }) {
         </div>
         <div
           onClick={clickOnImage}
-          className="one-Image-container Horizontal"
+          className="one-Image-container vertical"
           title="Boubacar Ndiaye"
         >
           <p>Image-4 [07 ‎06 ‎2021]</p>
-        </div>
-        <div
-          onClick={clickOnImage}
-          className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
-        >
-          <p>Image-5 [07 ‎06 ‎2021]</p>
         </div>
         <div
           onClick={clickOnImage}
@@ -237,4 +229,4 @@ function Magnifique({ title, langToShow }) {
   );
 }
 
-export default Magnifique;
+export default Caillou;

@@ -16,7 +16,13 @@ const Intro = React.lazy(() => import("./Pages/Intro"));
 // const Design = React.lazy(() => import("./Pages/Design"));
 // const Logos = React.lazy(() => import("./Pages/Logos"));
 const Lenvers = React.lazy(() => import("./Pages/Lenvers"));
+const Andadon = React.lazy(() => import("./Pages/Andadon"));
+const Memoire = React.lazy(() => import("./Pages/Memoire"));
 const Magnifique = React.lazy(() => import("./Pages/Magnifique"));
+const Temple = React.lazy(() => import("./Pages/Temple"));
+const Caillou = React.lazy(() => import("./Pages/Caillou"));
+const Une = React.lazy(() => import("./Pages/Une"));
+const Vagabonde = React.lazy(() => import("./Pages/Vagabonde"));
 const Issue = React.lazy(() => import("./Pages/Issue"));
 const Work = React.lazy(() => import("./Pages/Work"));
 
@@ -46,7 +52,19 @@ function Home() {
         return <Magnifique title="Tu Es Magnifique" langToShow={langToShow} />;
       case "Issue":
         return <Issue title="Issue de Secours" langToShow={langToShow} />;
-      case "Web":
+      case "Andadon":
+        return <Andadon title="th Andadon" langToShow={langToShow} />;
+      case "Memoire":
+        return <Memoire title="th Memoire" langToShow={langToShow} />;
+      case "Temple":
+        return <Temple title="th Temple" langToShow={langToShow} />;
+      case "Caillou":
+        return <Caillou title="Caillou" langToShow={langToShow} />;
+      case "Une":
+        return <Une title="A la Une" langToShow={langToShow} />;
+      case "Vagabonde":
+        return <Vagabonde title="Vagabonde" langToShow={langToShow} />;
+      case "Work":
         return <Work />;
       case "Skills":
         return <Skills />;

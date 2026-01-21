@@ -162,7 +162,7 @@ const LeftBare = ({ onChangeTab, langToShow }) => {
           parentCallback={callback}
           tabTitleToShow="Andadon"
           tabTitleToShowEn="Andando"
-          tabTitle="One Title Exemple"
+          tabTitle="Andadon"
           tabId="tab5"
         />
         <Tab
@@ -170,7 +170,7 @@ const LeftBare = ({ onChangeTab, langToShow }) => {
           parentCallback={callback}
           tabTitleToShow="La Memoire en Miroir"
           tabTitleToShowEn="Memory in the Mirror"
-          tabTitle="Web"
+          tabTitle="Memoire"
           tabId="tab6"
         />
         <Tab
@@ -178,7 +178,7 @@ const LeftBare = ({ onChangeTab, langToShow }) => {
           parentCallback={callback}
           tabTitleToShow="les Gradiennes Du Temple"
           tabTitleToShowEn="The Gradients of the Temple"
-          tabTitle="Skills"
+          tabTitle="Temple"
           tabId="tab7"
         />
         <Tab
@@ -186,7 +186,7 @@ const LeftBare = ({ onChangeTab, langToShow }) => {
           parentCallback={callback}
           tabTitleToShow="Caillou"
           tabTitleToShowEn="Caillou"
-          tabTitle="ContactB"
+          tabTitle="Caillou"
           tabId="tab8"
         />
         <Tab
@@ -194,7 +194,7 @@ const LeftBare = ({ onChangeTab, langToShow }) => {
           parentCallback={callback}
           tabTitleToShow="A La Une"
           tabTitleToShowEn="in the news"
-          tabTitle="ContactC"
+          tabTitle="Une"
           tabId="tab9"
         />
         <Tab
@@ -202,7 +202,7 @@ const LeftBare = ({ onChangeTab, langToShow }) => {
           parentCallback={callback}
           tabTitleToShow="Identité Vagabonde"
           tabTitleToShowEn="Wandering Identity"
-          tabTitle="ContactD"
+          tabTitle="Vagabonde"
           tabId="tab10"
         />
         <Tab

@@ -1,6 +1,6 @@
 import { React, useEffect, useState } from "react";
 
-const LenversPresentation = ({
+const TemplePresentation = ({
   ImageBack,
   parentCallback,
   Title,
@@ -39,7 +39,7 @@ const LenversPresentation = ({
   );
 };
 
-function Magnifique({ title, langToShow }) {
+function Temple({ title, langToShow }) {
   // let [TheImageReloader, setTheImageReloader] = useState();
 
   useEffect(() => {
@@ -63,7 +63,7 @@ function Magnifique({ title, langToShow }) {
     };
   }, []);
   let [TheImage, setTheImage] = useState();
-  let [PresentationLenvers, setPresentationLenvers] = useState(false);
+  let [PresentationTemple, setPresentationTemple] = useState(false);
   let [ImageTitle, setImageTitle] = useState("");
   let [ImageDescription, setImageDescription] = useState("");
   let [IsImageVertical, setIsImageVertical] = useState(true);
@@ -75,7 +75,7 @@ function Magnifique({ title, langToShow }) {
     let theImageUrl = getComputedStyle(thImg).backgroundImage;
     setTheImage((TheImage) => theImageUrl);
     console.log(theImageUrl);
-    setPresentationLenvers((PresentationLenvers) => true);
+    setPresentationTemple((PresentationTemple) => true);
     setImageTitle((ImageTitle) => thImg.title);
     setImageDescription((ImageDescription) => thImg.childNodes[0].innerText);
     console.log(thImg.childNodes[0].innerText);
@@ -92,56 +92,58 @@ function Magnifique({ title, langToShow }) {
   };
 
   const callback = () => {
-    setPresentationLenvers((PresentationLenvers) => false);
+    setPresentationTemple((PresentationTemple) => false);
   };
 
   return (
-    <div id="Magnifique" className=".all">
+    <div id="Temple" className=".all">
       <div className="Nimp">gggg</div>
       <div id="Article-title">
-        {langToShow === "En" ? <h1>Behind the Scenes</h1> : <h1>{title}</h1>}
+        {langToShow === "En" ? <h1>Emergency Exit</h1> : <h1>{title}</h1>}
       </div>
       {langToShow === "En" ? (
         <p className="the-paragraph">
-          Traditions remain strong in the Lebou community. In their cosmology,
-          the "tuur" and the "rab" are important beings. They embody the souls
-          of ancestors (tuur), or occult forces, often guardians of a territory,
-          or they coexist with humans. To inhabit a place where a rab lives,
-          prior religious rites and ceremonies were required to establish
-          harmony with all these forces of creation. It is within this context
-          that ANDANDO takes shape, a series of portraits depicting the
-          relationship between five women entrepreneurs from Ouakam and the
-          protective spirit that accompanies them in their daily activities The
-          moments of shooting tell us about the evolution of their day; fadiar,
-          tisbar, takussane, timiss and guéwé, these hours of prayer, which are
-          also moments, in the popular imagination the spirits roam in the
-          streets… just like these women who work at all hours… The idea is to
-          highlight this companionship between the spirits and the women which
-          dates back to the first inhabitants of Ouakam.
+          Women, land, and matriarchy are interconnected themes in Africa, as
+          women often play a central role in natural resource management and
+          agriculture. In many traditional African societies, women are the
+          primary food producers and the keepers of knowledge related to the use
+          of natural resources. Matriarchal societies are those in which women
+          hold dominant positions within family and social structures, and these
+          societies often have environmentally sound and sustainable natural
+          resource management systems. This series highlights the valiant women
+          of the Saloum Islands and their relationship to the marine ecosystem.
+          They are the guardians of the temple, in the sense that they are the
+          bridge between humans and the ocean, the land, and the protective
+          spirits of the mangroves. They are responsible for reforestation,
+          seafood harvesting, cultivating the land, and developing initiatives
+          to combat climate change. They preserve the pact that their ancestors
+          made with nature, since before colonization.
         </p>
       ) : (
         <p className="the-paragraph">
-          Les traditions restent vives dans la communauté « lébou ». Dans leur
-          Cosmogonie les « tuur » et les « rab » sont des Êtres importants. Ils
-          incarnent les âmes des ancêtres (tuur), ou des forces occultes,
-          souvent gardiens d'un territoire, ou ils cohabitent avec des humains.
-          Pour pouvoir habiter un lieu où vit un rab, il fallait des rites et
-          cérémonies religieuses préalables, afin d'établir une harmonie avec
-          toutes ces forces de la création. C’est dans ce contexte que s’inscrit
-          ANDANDO, une série de portraits qui met en scène le compagnonnage
-          entre Cinq femmes entrepreneurs ouakamoises et l’esprit protecteur qui
-          les accompagne dans leurs activités quotidiennes. Les moments de prise
-          de vue nous racontent l’évolution de leur journée ; fadiar, tisbar,
-          takussane, timiss et guéwé, ces heures de prières, qui sont aussi des
-          moments, dans l’imaginaire populaire les esprits rôdent dans les rues…
-          tout comme ces femmes qui travaillent à toute heure … L’idée est de
-          mettre en lumière ce compagnonnage entre Les esprits et les femmes qui
-          date depuis les premiers habitants de Ouakam.
+          Les femmes, la terre et les matriarcats sont des sujets liés en
+          Afrique car les femmes jouent souvent un rôle central dans la gestion
+          des ressources naturelles et l'agriculture. Dans de nombreuses
+          sociétés traditionnelles en Afrique, les femmes sont les principales
+          productrices alimentaires et les gardiennes des connaissances
+          relatives à l'utilisation des ressources naturelles. Les matriarcats
+          sont des sociétés où les femmes ont une position dominante dans les
+          structures familiales et sociales, et ces sociétés ont souvent des
+          systèmes de gestion des ressources naturelles qui sont respectueux de
+          l'environnement et durables.. Cette série met en lumière les
+          Vaillantes femmes des îles du Saloum et leur rapport à l'écosystème
+          marin  . Elles sont les Gardiennes du temple , dans le sens ou elles
+          sont le pont entre les humains et l'océan , la terre , et les esprits
+          protecteurs de la mangrove . Elles sont en charge du reboisement , de
+          la collecte des fruits de mer , de cultiver la terre , et proposent
+          des initiatives pour la lutte face aux changements climatiques . Elles
+          préservent le pacte que leurs ancêtres ont fait avec la nature ,
+          depuis avant la colonisation . 
         </p>
       )}
 
-      {PresentationLenvers && (
-        <LenversPresentation
+      {PresentationTemple && (
+        <TemplePresentation
           parentCallback={callback}
           ImageBack={TheImage}
           ImageDescription={ImageDescription}
@@ -173,17 +175,10 @@ function Magnifique({ title, langToShow }) {
         </div>
         <div
           onClick={clickOnImage}
-          className="one-Image-container Horizontal"
+          className="one-Image-container vertical"
           title="Boubacar Ndiaye"
         >
           <p>Image-4 [07 ‎06 ‎2021]</p>
-        </div>
-        <div
-          onClick={clickOnImage}
-          className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
-        >
-          <p>Image-5 [07 ‎06 ‎2021]</p>
         </div>
         <div
           onClick={clickOnImage}
@@ -237,4 +232,4 @@ function Magnifique({ title, langToShow }) {
   );
 }
 
-export default Magnifique;
+export default Temple;

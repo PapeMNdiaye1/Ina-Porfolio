@@ -1,6 +1,6 @@
 import { React, useEffect, useState } from "react";
 
-const LenversPresentation = ({
+const VagabondePresentation = ({
   ImageBack,
   parentCallback,
   Title,
@@ -39,7 +39,7 @@ const LenversPresentation = ({
   );
 };
 
-function Magnifique({ title, langToShow }) {
+function Vagabonde({ title, langToShow }) {
   // let [TheImageReloader, setTheImageReloader] = useState();
 
   useEffect(() => {
@@ -63,7 +63,7 @@ function Magnifique({ title, langToShow }) {
     };
   }, []);
   let [TheImage, setTheImage] = useState();
-  let [PresentationLenvers, setPresentationLenvers] = useState(false);
+  let [PresentationVagabonde, setPresentationVagabonde] = useState(false);
   let [ImageTitle, setImageTitle] = useState("");
   let [ImageDescription, setImageDescription] = useState("");
   let [IsImageVertical, setIsImageVertical] = useState(true);
@@ -75,7 +75,7 @@ function Magnifique({ title, langToShow }) {
     let theImageUrl = getComputedStyle(thImg).backgroundImage;
     setTheImage((TheImage) => theImageUrl);
     console.log(theImageUrl);
-    setPresentationLenvers((PresentationLenvers) => true);
+    setPresentationVagabonde((PresentationVagabonde) => true);
     setImageTitle((ImageTitle) => thImg.title);
     setImageDescription((ImageDescription) => thImg.childNodes[0].innerText);
     console.log(thImg.childNodes[0].innerText);
@@ -92,56 +92,73 @@ function Magnifique({ title, langToShow }) {
   };
 
   const callback = () => {
-    setPresentationLenvers((PresentationLenvers) => false);
+    setPresentationVagabonde((PresentationVagabonde) => false);
   };
 
   return (
-    <div id="Magnifique" className=".all">
+    <div id="Vagabonde" className=".all">
       <div className="Nimp">gggg</div>
       <div id="Article-title">
-        {langToShow === "En" ? <h1>Behind the Scenes</h1> : <h1>{title}</h1>}
+        {langToShow === "En" ? <h1>Emergency Exit</h1> : <h1>{title}</h1>}
       </div>
       {langToShow === "En" ? (
         <p className="the-paragraph">
-          Traditions remain strong in the Lebou community. In their cosmology,
-          the "tuur" and the "rab" are important beings. They embody the souls
-          of ancestors (tuur), or occult forces, often guardians of a territory,
-          or they coexist with humans. To inhabit a place where a rab lives,
-          prior religious rites and ceremonies were required to establish
-          harmony with all these forces of creation. It is within this context
-          that ANDANDO takes shape, a series of portraits depicting the
-          relationship between five women entrepreneurs from Ouakam and the
-          protective spirit that accompanies them in their daily activities The
-          moments of shooting tell us about the evolution of their day; fadiar,
-          tisbar, takussane, timiss and guéwé, these hours of prayer, which are
-          also moments, in the popular imagination the spirits roam in the
-          streets… just like these women who work at all hours… The idea is to
-          highlight this companionship between the spirits and the women which
-          dates back to the first inhabitants of Ouakam.
+          In a world of constant change, where physical and symbolic borders are
+          blurring, where encounters and exchanges shape our perceptions,
+          identity becomes a fluid concept. It is here that the idea for a
+          Belgian-Senegalese collaboration on a sound and photography project
+          germinated, a project that seeks out artists with fluid identities,
+          sometimes rooted in certain cultures, sometimes in others, and
+          accepting that these roots can lead to multiple evolutions. Our
+          project is structured around a series of portraits and short audio
+          pieces capturing encounters and discussions with artists based in
+          Brussels and from diverse diasporas. The aim is to challenge
+          simplistic notions about what constitutes a diaspora, which is
+          sometimes not perceived as such or only partially identified with
+          these terms. It is also about listening to what artists with multiple
+          or singular identities have to say about their vision of the search
+          for identity. Each artwork invites you to contemplate, feel, and
+          reflect on the multifaceted nature of human identity, which, like an
+          endless adventure, is constantly searching, reinventing, and
+          confronting itself. Beyond aesthetics and technique, these works
+          invite us to rethink our own relationship to identity, to consider the
+          richness of our differences and the fluidity of our individual
+          journeys. "Wandering Identity" is not a fixed destination, but rather
+          a perpetual voyage where each step, each encounter, each experience
+          contributes to shaping who we are. By Gnilane Jeanne Diiouf
         </p>
       ) : (
         <p className="the-paragraph">
-          Les traditions restent vives dans la communauté « lébou ». Dans leur
-          Cosmogonie les « tuur » et les « rab » sont des Êtres importants. Ils
-          incarnent les âmes des ancêtres (tuur), ou des forces occultes,
-          souvent gardiens d'un territoire, ou ils cohabitent avec des humains.
-          Pour pouvoir habiter un lieu où vit un rab, il fallait des rites et
-          cérémonies religieuses préalables, afin d'établir une harmonie avec
-          toutes ces forces de la création. C’est dans ce contexte que s’inscrit
-          ANDANDO, une série de portraits qui met en scène le compagnonnage
-          entre Cinq femmes entrepreneurs ouakamoises et l’esprit protecteur qui
-          les accompagne dans leurs activités quotidiennes. Les moments de prise
-          de vue nous racontent l’évolution de leur journée ; fadiar, tisbar,
-          takussane, timiss et guéwé, ces heures de prières, qui sont aussi des
-          moments, dans l’imaginaire populaire les esprits rôdent dans les rues…
-          tout comme ces femmes qui travaillent à toute heure … L’idée est de
-          mettre en lumière ce compagnonnage entre Les esprits et les femmes qui
-          date depuis les premiers habitants de Ouakam.
+          Dans un monde en perpétuelle mutation, ou les frontières physiques et
+          symboliques s'estompent, où les rencontres et les échanges façonnent
+          nos perceptions, l’identité devient un concept en mouvement. C'est ici
+          qu'a germé l'idée d'une collaboration belgo-sénégalaise autour d'un
+          projet sono-photographique partant à la rencontre d'artistes aux
+          identités vagabondes, s'enracinant parfois dans certaines cultures,
+          parfois dans d'autres et acceptant que ces ancrages soient propices à
+          plusieurs évolutions. Notre projet s'articule donc autour d'une série
+          de portraits et de courts audio immortalisant des rencontres et des
+          discussions avec des artistes basées à Bruxelles et issues de
+          différentes diasporas. L'objectif est d'interroger les idées
+          laconiques sur ce que représente une diaspora, qui parfois ne se vit
+          pas comme telle ou ne s’identifie que partiellement à ces termes. Il
+          est aussi question d'écouter ce que des artistes aux identités
+          multiples ou singulières ont à raconter sur leur vision de la
+          recherche identitaire. Chacune des œuvres vous invite à contempler, à
+          ressentir et à réfléchir sur les multiples facettes de l'identité
+          humaine, qui, telle une aventure sans fin, se cherche, se réinvente,
+          se confronte. Au-delà de l'esthétique et de la technique, ces œuvres
+          nous invitent à repenser notre propre rapport à l'identité, à
+          considérer la richesse de nos différences et la fluidité de nos
+          parcours individuels. « Identité Vagabonde » n'est pas une destination
+          fixe, mais plutôt un voyage perpétuel où chaque pas, chaque rencontre,
+          chaque expérience contribue à façonner qui nous sommes. Par Gnilane
+          Jeanne Diouf
         </p>
       )}
 
-      {PresentationLenvers && (
-        <LenversPresentation
+      {PresentationVagabonde && (
+        <VagabondePresentation
           parentCallback={callback}
           ImageBack={TheImage}
           ImageDescription={ImageDescription}
@@ -173,17 +190,10 @@ function Magnifique({ title, langToShow }) {
         </div>
         <div
           onClick={clickOnImage}
-          className="one-Image-container Horizontal"
+          className="one-Image-container vertical"
           title="Boubacar Ndiaye"
         >
           <p>Image-4 [07 ‎06 ‎2021]</p>
-        </div>
-        <div
-          onClick={clickOnImage}
-          className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
-        >
-          <p>Image-5 [07 ‎06 ‎2021]</p>
         </div>
         <div
           onClick={clickOnImage}
@@ -237,4 +247,4 @@ function Magnifique({ title, langToShow }) {
   );
 }
 
-export default Magnifique;
+export default Vagabonde;

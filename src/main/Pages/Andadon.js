@@ -1,6 +1,6 @@
 import { React, useEffect, useState } from "react";
 
-const LenversPresentation = ({
+const AndadonPresentation = ({
   ImageBack,
   parentCallback,
   Title,
@@ -39,7 +39,7 @@ const LenversPresentation = ({
   );
 };
 
-function Magnifique({ title, langToShow }) {
+function Andadon({ title, langToShow }) {
   // let [TheImageReloader, setTheImageReloader] = useState();
 
   useEffect(() => {
@@ -63,7 +63,7 @@ function Magnifique({ title, langToShow }) {
     };
   }, []);
   let [TheImage, setTheImage] = useState();
-  let [PresentationLenvers, setPresentationLenvers] = useState(false);
+  let [PresentationAndadon, setPresentationAndadon] = useState(false);
   let [ImageTitle, setImageTitle] = useState("");
   let [ImageDescription, setImageDescription] = useState("");
   let [IsImageVertical, setIsImageVertical] = useState(true);
@@ -75,7 +75,7 @@ function Magnifique({ title, langToShow }) {
     let theImageUrl = getComputedStyle(thImg).backgroundImage;
     setTheImage((TheImage) => theImageUrl);
     console.log(theImageUrl);
-    setPresentationLenvers((PresentationLenvers) => true);
+    setPresentationAndadon((PresentationAndadon) => true);
     setImageTitle((ImageTitle) => thImg.title);
     setImageDescription((ImageDescription) => thImg.childNodes[0].innerText);
     console.log(thImg.childNodes[0].innerText);
@@ -92,56 +92,67 @@ function Magnifique({ title, langToShow }) {
   };
 
   const callback = () => {
-    setPresentationLenvers((PresentationLenvers) => false);
+    setPresentationAndadon((PresentationAndadon) => false);
   };
 
   return (
-    <div id="Magnifique" className=".all">
+    <div id="Andadon" className=".all">
       <div className="Nimp">gggg</div>
       <div id="Article-title">
-        {langToShow === "En" ? <h1>Behind the Scenes</h1> : <h1>{title}</h1>}
+        {langToShow === "En" ? <h1>Emergency Exit</h1> : <h1>{title}</h1>}
       </div>
       {langToShow === "En" ? (
         <p className="the-paragraph">
-          Traditions remain strong in the Lebou community. In their cosmology,
-          the "tuur" and the "rab" are important beings. They embody the souls
-          of ancestors (tuur), or occult forces, often guardians of a territory,
-          or they coexist with humans. To inhabit a place where a rab lives,
-          prior religious rites and ceremonies were required to establish
-          harmony with all these forces of creation. It is within this context
-          that ANDANDO takes shape, a series of portraits depicting the
-          relationship between five women entrepreneurs from Ouakam and the
-          protective spirit that accompanies them in their daily activities The
-          moments of shooting tell us about the evolution of their day; fadiar,
-          tisbar, takussane, timiss and guéwé, these hours of prayer, which are
-          also moments, in the popular imagination the spirits roam in the
-          streets… just like these women who work at all hours… The idea is to
-          highlight this companionship between the spirits and the women which
-          dates back to the first inhabitants of Ouakam.
+          “Justice doesn’t heal the trauma suffered,” says Aminata Libain
+          Mbengue. I describe the life of a victim of sexual violence as being
+          trapped in a burning building. The smoke makes it impossible to
+          breathe. They can’t even see themselves. They run around frantically.
+          They’re terrified but try to open every door. Sometimes they open a
+          door and realize the fire has spread to that part of the building. In
+          that case, they either close it again or go in and perish. It all
+          depends on the degree of their trauma. But what they’re really
+          searching for is that door marked “Emergency Exit” that would allow
+          them to leave the building, to breathe, to see themselves, to exist,
+          and to be able to appreciate everything. As a victim, I know this
+          building; I lived there for about 20 years. I opened and closed doors,
+          but I finally saw the Emergency Exit. My escape route is art, urban
+          culture. So, I believe that every victim has the right to find that
+          door and free themselves. Emergency Exit is a 105-page photo book that
+          combines 10 self-portraits and 10 dialogues. Each photo/dialogue
+          pairing describes a stage in my resilience. Working on this project is
+          therapeutic for me, a way to accept myself in front of everyone and,
+          above all, to move beyond the victim mentality. I am a survivor, and
+          the goal is for Emergency Exit to inspire other women.
         </p>
       ) : (
         <p className="the-paragraph">
-          Les traditions restent vives dans la communauté « lébou ». Dans leur
-          Cosmogonie les « tuur » et les « rab » sont des Êtres importants. Ils
-          incarnent les âmes des ancêtres (tuur), ou des forces occultes,
-          souvent gardiens d'un territoire, ou ils cohabitent avec des humains.
-          Pour pouvoir habiter un lieu où vit un rab, il fallait des rites et
-          cérémonies religieuses préalables, afin d'établir une harmonie avec
-          toutes ces forces de la création. C’est dans ce contexte que s’inscrit
-          ANDANDO, une série de portraits qui met en scène le compagnonnage
-          entre Cinq femmes entrepreneurs ouakamoises et l’esprit protecteur qui
-          les accompagne dans leurs activités quotidiennes. Les moments de prise
-          de vue nous racontent l’évolution de leur journée ; fadiar, tisbar,
-          takussane, timiss et guéwé, ces heures de prières, qui sont aussi des
-          moments, dans l’imaginaire populaire les esprits rôdent dans les rues…
-          tout comme ces femmes qui travaillent à toute heure … L’idée est de
-          mettre en lumière ce compagnonnage entre Les esprits et les femmes qui
-          date depuis les premiers habitants de Ouakam.
+          La justice ne guérit pas le traumatisme subi dit Aminata Libain
+          Mbengue.  Je décris la vie d'une  victime de violence sexuelle comme
+          quand une personne est coincée dans un immeuble qui prend feu. L'effet
+          du fumé fait que la personne ne peut pas respirer. Elle n'arrive pas à
+          se voir elle-même. Elle court dans tous les sens. Elle a peur mais
+          essaie d'ouvrir toutes les portes.  Des fois, elle ouvre une porte et
+          se rend compte que le feu a gagné cette partie de l'immeuble. Dans ce
+          cas soit elle la referme, soit elle y entre et succombe. Tout dépend
+          de son degrés de traumatisme. Mais ce qu'elle recherche en réalité
+          c'est cette porte ou il est écrit Andadon De Secours qui lui
+          permettrait de sortir de cet immeuble, de respirer, de se voir,
+          d'exister et de pouvoir d'apprécier tout.  En tant que victime, je
+          connais cet immeuble, j'y ai vécu pendant environ 20 ans. J'ai ouvert
+          et refermé des portes mais j'ai fini par voir l'Andadon De Secours. 
+          Mon Andadon De Secours, c'est l'art, les cultures urbaines. Alors, je
+          pense que chaque victime a le droit de trouver cette porte et de se
+          libérer.  Andadon De Secours est un livre photo de 105 pages qui
+          combine 10 autoportraits et 10 dialogues. Chaque couple photo/dialogue
+          décrit une étape de ma résilience. Travailler sur cette œuvre est une
+          thérapie pour moi, une façon de m’assumer devant tout le monde et
+          surtout de dépasser l’étape de victime. Je suis une survivante et
+          l’objectif est que Andadon De Secours puisse inspirer d’autres femmes.
         </p>
       )}
 
-      {PresentationLenvers && (
-        <LenversPresentation
+      {PresentationAndadon && (
+        <AndadonPresentation
           parentCallback={callback}
           ImageBack={TheImage}
           ImageDescription={ImageDescription}
@@ -173,17 +184,10 @@ function Magnifique({ title, langToShow }) {
         </div>
         <div
           onClick={clickOnImage}
-          className="one-Image-container Horizontal"
+          className="one-Image-container vertical"
           title="Boubacar Ndiaye"
         >
           <p>Image-4 [07 ‎06 ‎2021]</p>
-        </div>
-        <div
-          onClick={clickOnImage}
-          className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
-        >
-          <p>Image-5 [07 ‎06 ‎2021]</p>
         </div>
         <div
           onClick={clickOnImage}
@@ -237,4 +241,4 @@ function Magnifique({ title, langToShow }) {
   );
 }
 
-export default Magnifique;
+export default Andadon;
