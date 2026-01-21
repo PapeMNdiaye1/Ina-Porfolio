@@ -23,6 +23,9 @@ const Temple = React.lazy(() => import("./Pages/Temple"));
 const Caillou = React.lazy(() => import("./Pages/Caillou"));
 const Une = React.lazy(() => import("./Pages/Une"));
 const Vagabonde = React.lazy(() => import("./Pages/Vagabonde"));
+const Meilleur = React.lazy(() => import("./Pages/Meilleur"));
+const Sama = React.lazy(() => import("./Pages/Sama"));
+const Obstacle = React.lazy(() => import("./Pages/Obstacle"));
 const Issue = React.lazy(() => import("./Pages/Issue"));
 const Work = React.lazy(() => import("./Pages/Work"));
 
@@ -64,6 +67,12 @@ function Home() {
         return <Une title="A la Une" langToShow={langToShow} />;
       case "Vagabonde":
         return <Vagabonde title="Vagabonde" langToShow={langToShow} />;
+      case "Meilleur":
+        return <Meilleur title="Meilleur" langToShow={langToShow} />;
+      case "Sama":
+        return <Sama title="Sama" langToShow={langToShow} />;
+      case "Obstacle":
+        return <Obstacle title="Obstacle" langToShow={langToShow} />;
       case "Work":
         return <Work />;
       case "Skills":

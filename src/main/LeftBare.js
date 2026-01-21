@@ -210,7 +210,7 @@ const LeftBare = ({ onChangeTab, langToShow }) => {
           parentCallback={callback}
           tabTitleToShow="Pour Le Meilleur Et Pour Le Pire"
           tabTitleToShowEn="For Better Or For Worse"
-          tabTitle="ContactE"
+          tabTitle="Meilleur"
           tabId="tab11"
         />
         <Tab
@@ -218,7 +218,7 @@ const LeftBare = ({ onChangeTab, langToShow }) => {
           parentCallback={callback}
           tabTitleToShow="Sama Medina"
           tabTitleToShowEn="My Medina"
-          tabTitle="ContactF"
+          tabTitle="Sama"
           tabId="tab12"
         />
         <Tab
@@ -226,7 +226,7 @@ const LeftBare = ({ onChangeTab, langToShow }) => {
           parentCallback={callback}
           tabTitleToShow="Sans Obstacle"
           tabTitleToShowEn="Without Obstacle"
-          tabTitle="ContactG"
+          tabTitle="Obstacle"
           tabId="tab13"
         />
         <Tab

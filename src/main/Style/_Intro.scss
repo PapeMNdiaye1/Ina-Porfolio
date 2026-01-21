@@ -63,6 +63,7 @@
         width: 25em;
         height: 37em;
         // background-image: url("./Image/Moi-Sur-Fond-Noir-1-min.jpg");
+        background-image: url("./Image/Ina-Makosi.jpeg");
         background-color: gray;
         background-position: center;
         background-position-y: 0%;
@@ -189,6 +190,7 @@
         background-position: center;
         background-size: 140%;
         background-repeat: no-repeat;
+        background-image: url("./Image/Ina-Makosi.jpeg");
 
         .name-container {
           top: 2%;
@@ -228,7 +230,9 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: space-between;
-
+        // background-color: red;
+        background-image: url("./Image/Ina-Makosi.jpeg");
+        background-size: cover;
         z-index: 3;
 
         #name_in_mobil_mode {
