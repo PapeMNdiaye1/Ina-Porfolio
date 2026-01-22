@@ -28,7 +28,7 @@ const Meilleur = React.lazy(() => import("./Pages/Meilleur"));
 const Sama = React.lazy(() => import("./Pages/Sama"));
 const Obstacle = React.lazy(() => import("./Pages/Obstacle"));
 const Issue = React.lazy(() => import("./Pages/Issue"));
-const Work = React.lazy(() => import("./Pages/Work"));
+// const Work = React.lazy(() => import("./Pages/Work"));
 
 function Home() {
   const [tabToShow, setTabToShow] = useState("Accueil");
@@ -76,10 +76,10 @@ function Home() {
         return <Sama title="Sama" langToShow={langToShow} />;
       case "Obstacle":
         return <Obstacle title="Obstacle" langToShow={langToShow} />;
-      case "Work":
-        return <Work />;
-      case "Skills":
-        return <Skills />;
+      // case "Work":
+      //   return <Work />;
+      // case "Skills":
+      //   return <Skills />;
       case "Contact":
         return <Contact />;
       case "ContactB":

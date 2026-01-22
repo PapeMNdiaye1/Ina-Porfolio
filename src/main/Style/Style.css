@@ -118,7 +118,6 @@
   box-shadow: 0px 0.5px 2px rgba(0, 0, 0, 0.3);
   border-radius: 0.2em;
   transform: scale(1);
-  overflow: hidden;
   transition-duration: 1s;
   transition-delay: 0s;
   background: var(--color0);
@@ -128,6 +127,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#LeftBare-container #tabs .tab::before {
+  content: "";
+  position: absolute;
+  top: 1%;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: salmon;
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 #LeftBare-container #tabs .activeTag {
   background: var(--colorX);
@@ -1060,14 +1070,17 @@
   animation-delay: 0.5s;
 }
 #home-container #Andadon .Image-container .one-Image-container:nth-child(2) {
+  background-image: url("./Image/Andadon/2_ TISBAAR- ANDANDO- OUAKAM 2021.JPG.jpg");
   animation-delay: 1s;
   height: 100%;
 }
 #home-container #Andadon .Image-container .one-Image-container:nth-child(3) {
+  background-image: url("./Image/Andadon/3_ TAKOUSSAN- ANDANDO- OUAKAM 2021.JPG.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Andadon .Image-container .one-Image-container:nth-child(4) {
+  background-image: url("./Image/Andadon/4_ TIMISS- ANDANDO- OUAKAM 2021.JPG.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
