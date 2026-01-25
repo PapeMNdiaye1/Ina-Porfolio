@@ -55,7 +55,7 @@ function Home() {
       case "Magnifique":
         return <Magnifique title="Tu Es Magnifique" langToShow={langToShow} />;
       case "Issue":
-        return <Issue title="Issue de Secours" langToShow={langToShow} />;
+        return <Issue title="Issue De Secours" langToShow={langToShow} />;
       case "Andadon":
         return <Andadon title="th Andadon" langToShow={langToShow} />;
       case "Memoire":

@@ -239,8 +239,8 @@ function Memoire({ title, langToShow }) {
         </div>
 
         <div id="tel_gMail">
-          Mail: Pmomar44@gmail.com <br />
-          Tel: 77 727 86 55
+          Mail: makosiprod@gmail.com <br />
+          Tel: +221 76 611 75 08
         </div>
       </div>
     </div>
