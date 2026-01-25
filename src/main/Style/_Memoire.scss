@@ -49,7 +49,7 @@
 
   .Image-container {
     width: 73em;
-    height: 40em;
+    height: 70em;
     display: grid;
     grid-template-columns: repeat(15, auto);
     grid-template-rows: repeat(5, auto);
@@ -102,31 +102,61 @@
     }
 
     .one-Image-container:nth-child(1) {
-      // background-image: url("./Image/Memoire/1_\ FADIAR-\ ANDANDO-\ OUAKAM\ 2021.JPG.jpg");
+      background-image: url("./Image/Memoire/1-IDJATOU-DIALLO-LA-MEMEOIRE-EN-MIROIR-KEDOUGOU-20211.jpg");
       height: 100%;
       animation-delay: 0.5s;
     }
 
     .one-Image-container:nth-child(2) {
-      // background-image: url("./Image/Memoire/AISSATOU\ 2\ -\ L'ENVERS\ DU\ DÉCOR\ -\ DIAMAGUEUNE\ 2017.jpg");
+      background-image: url("./Image/Memoire/2-KHADIDJATOU-DIALLO-LA-MEMOIRE-EN-MIROIR-KEDOUGOU-20211.jpg");
       // grid-row: span 2;
       animation-delay: 1s;
       height: 100%;
     }
 
     .one-Image-container:nth-child(3) {
-      // background-image: url("./Image/Memoire/DABA-\ L'ENVERS\ DU\ DÉCOR\ -\ RUFISQUE\ 2018jpg.jpg");
+      background-image: url("./Image/Memoire/3-KHADIJA-DIALLO-LA-MEMEOIRE-EN-MIROIR-KEDOUGOU-2021.jpg");
       animation-delay: 1.5s;
       height: 100%;
     }
     .one-Image-container:nth-child(4) {
-      // background-image: url("./Image/Memoire/VENUS\ -L'ENVERS\ DU\ DECCORD\,\ THIAROYE\ 2018.jpg");
+      background-image: url("./Image/Memoire/4-SARO-MALI-LA-MEMOIRE-EN-MIROIR-KEDOUGOU-2021.jpg");
       animation-delay: 1.5s;
       height: 100%;
       // height: 90%;
     }
     .one-Image-container:nth-child(5) {
-      // background-image: url("./Image/Memoire/WASSO-\ L'ENVERS\ DU\ DÉCOR\ -\ HANN\ PECHEUR\ 2017.jpg");
+      background-image: url("./Image/Memoire/5-MARIAMA-DIALLO-LA-MEMOIRE-EN-MIROIR-KEDOUGOU-2021.jpg");
+      animation-delay: 1.5s;
+      height: 100%;
+      // height: 90%;
+    }
+    .one-Image-container:nth-child(6) {
+      background-image: url("./Image/Memoire/6-FATOU-SOUARÉ-LA-MEMEOIRE-EN-MIROIR-KEDOUGOU-2021.jpg");
+      animation-delay: 1.5s;
+      height: 100%;
+      // height: 90%;
+    }
+    .one-Image-container:nth-child(7) {
+      background-image: url("./Image/Memoire/7-AMINATA-DIOUF-LA-MEMOIRE-EN-MIROIR-KEDOUGOU-2021.jpg");
+      animation-delay: 1.5s;
+      height: 100%;
+      // height: 90%;
+    }
+    .one-Image-container:nth-child(8) {
+      background-image: url("./Image/Memoire/8-AYA-NDIAYE-LA-MEMOIRE-EN-MIROIR-KEDOUGOU-2021.jpg");
+      animation-delay: 1.5s;
+      height: 100%;
+      // height: 90%;
+    }
+    .one-Image-container:nth-child(9) {
+      background-image: url("./Image/Memoire/9-MARIAMA-DIALLO-LA-MEMOIR-EN-MIROIR-KEDOUGOU-2021.jpg");
+      animation-delay: 1.5s;
+      height: 100%;
+      // height: 90%;
+    }
+    .one-Image-container:nth-child(10) {
+      background-image: url("./Image/Memoire/10-ALINE-SITOE-LA-MEMOIR-EN-MIROIR-KEDOUGOU-2021.jpg");
       animation-delay: 1.5s;
       height: 100%;
       // height: 90%;

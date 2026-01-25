@@ -46,10 +46,7 @@ function Home() {
     switch (theNewTab) {
       case "Accueil":
         return <Intro title="Ina Makosi" langToShow={langToShow} />;
-      // case "Tableaux":
-      //   return <Design title="Tableaux" />;
-      // case "Logos":
-      //   return <Logos title="Logos" />;
+
       case "Lenvers":
         return <Lenvers title="l'Envers Du Décor" langToShow={langToShow} />;
       case "Magnifique":
@@ -57,9 +54,9 @@ function Home() {
       case "Issue":
         return <Issue title="Issue De Secours" langToShow={langToShow} />;
       case "Andadon":
-        return <Andadon title="th Andadon" langToShow={langToShow} />;
+        return <Andadon title="Andadon" langToShow={langToShow} />;
       case "Memoire":
-        return <Memoire title="th Memoire" langToShow={langToShow} />;
+        return <Memoire title="La Memoire En Miroir" langToShow={langToShow} />;
       case "Temple":
         return <Temple title="th Temple" langToShow={langToShow} />;
       case "Caillou":

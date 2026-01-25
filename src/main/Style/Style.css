@@ -670,6 +670,7 @@
   transition-duration: 0.3s;
   color: transparent;
   animation: mymove 5s ease infinite;
+  background-size: cover;
 }
 #home-container #Lenvers .Image-container .one-Image-container p {
   display: none;
@@ -1045,6 +1046,7 @@
   transition-duration: 0.3s;
   color: transparent;
   animation: mymove 5s ease infinite;
+  background-size: cover;
 }
 #home-container #Andadon .Image-container .one-Image-container p {
   display: none;
@@ -1392,7 +1394,7 @@
 }
 #home-container #Memoire .Image-container {
   width: 73em;
-  height: 40em;
+  height: 70em;
   display: grid;
   grid-template-columns: repeat(15, auto);
   grid-template-rows: repeat(5, auto);
@@ -1418,6 +1420,7 @@
   transition-duration: 0.3s;
   color: transparent;
   animation: mymove 5s ease infinite;
+  background-size: cover;
 }
 #home-container #Memoire .Image-container .one-Image-container p {
   display: none;
@@ -1438,22 +1441,52 @@
   }
 }
 #home-container #Memoire .Image-container .one-Image-container:nth-child(1) {
+  background-image: url("./Image/Memoire/1-IDJATOU-DIALLO-LA-MEMEOIRE-EN-MIROIR-KEDOUGOU-20211.jpg");
   height: 100%;
   animation-delay: 0.5s;
 }
 #home-container #Memoire .Image-container .one-Image-container:nth-child(2) {
+  background-image: url("./Image/Memoire/2-KHADIDJATOU-DIALLO-LA-MEMOIRE-EN-MIROIR-KEDOUGOU-20211.jpg");
   animation-delay: 1s;
   height: 100%;
 }
 #home-container #Memoire .Image-container .one-Image-container:nth-child(3) {
+  background-image: url("./Image/Memoire/3-KHADIJA-DIALLO-LA-MEMEOIRE-EN-MIROIR-KEDOUGOU-2021.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Memoire .Image-container .one-Image-container:nth-child(4) {
+  background-image: url("./Image/Memoire/4-SARO-MALI-LA-MEMOIRE-EN-MIROIR-KEDOUGOU-2021.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Memoire .Image-container .one-Image-container:nth-child(5) {
+  background-image: url("./Image/Memoire/5-MARIAMA-DIALLO-LA-MEMOIRE-EN-MIROIR-KEDOUGOU-2021.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Memoire .Image-container .one-Image-container:nth-child(6) {
+  background-image: url("./Image/Memoire/6-FATOU-SOUARÉ-LA-MEMEOIRE-EN-MIROIR-KEDOUGOU-2021.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Memoire .Image-container .one-Image-container:nth-child(7) {
+  background-image: url("./Image/Memoire/7-AMINATA-DIOUF-LA-MEMOIRE-EN-MIROIR-KEDOUGOU-2021.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Memoire .Image-container .one-Image-container:nth-child(8) {
+  background-image: url("./Image/Memoire/8-AYA-NDIAYE-LA-MEMOIRE-EN-MIROIR-KEDOUGOU-2021.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Memoire .Image-container .one-Image-container:nth-child(9) {
+  background-image: url("./Image/Memoire/9-MARIAMA-DIALLO-LA-MEMOIR-EN-MIROIR-KEDOUGOU-2021.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Memoire .Image-container .one-Image-container:nth-child(10) {
+  background-image: url("./Image/Memoire/10-ALINE-SITOE-LA-MEMOIR-EN-MIROIR-KEDOUGOU-2021.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
@@ -1787,6 +1820,7 @@
   transition-duration: 0.3s;
   color: transparent;
   animation: mymove 5s ease infinite;
+  background-size: cover;
 }
 #home-container #Temple .Image-container .one-Image-container p {
   display: none;
@@ -2156,6 +2190,7 @@
   transition-duration: 0.3s;
   color: transparent;
   animation: mymove 5s ease infinite;
+  background-size: cover;
 }
 #home-container #Caillou .Image-container .one-Image-container p {
   display: none;
@@ -2525,6 +2560,7 @@
   transition-duration: 0.3s;
   color: transparent;
   animation: mymove 5s ease infinite;
+  background-size: cover;
 }
 #home-container #Une .Image-container .one-Image-container p {
   display: none;
@@ -2894,6 +2930,7 @@
   transition-duration: 0.3s;
   color: transparent;
   animation: mymove 5s ease infinite;
+  background-size: cover;
 }
 #home-container #Magnifique .Image-container .one-Image-container p {
   display: none;
@@ -3273,6 +3310,7 @@
   transition-duration: 0.3s;
   color: transparent;
   animation: mymove 5s ease infinite;
+  background-size: cover;
 }
 #home-container #Vagabonde .Image-container .one-Image-container p {
   display: none;
@@ -3642,6 +3680,7 @@
   transition-duration: 0.3s;
   color: transparent;
   animation: mymove 5s ease infinite;
+  background-size: cover;
 }
 #home-container #Meilleur .Image-container .one-Image-container p {
   display: none;
@@ -4011,6 +4050,7 @@
   transition-duration: 0.3s;
   color: transparent;
   animation: mymove 5s ease infinite;
+  background-size: cover;
 }
 #home-container #Sama .Image-container .one-Image-container p {
   display: none;
@@ -4783,6 +4823,7 @@
   transition-duration: 0.3s;
   color: transparent;
   animation: mymove 5s ease infinite;
+  background-size: cover;
 }
 #home-container #Obstacle .Image-container .one-Image-container p {
   display: none;
@@ -5314,6 +5355,7 @@
   transition-duration: 0.3s;
   color: transparent;
   animation: mymove 5s ease infinite;
+  background-size: cover;
 }
 #home-container #Tn .Image-container .one-Image-container p {
   display: none;

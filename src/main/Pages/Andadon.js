@@ -99,7 +99,7 @@ function Andadon({ title, langToShow }) {
     <div id="Andadon" className=".all">
       <div className="Nimp">gggg</div>
       <div id="Article-title">
-        {langToShow === "En" ? <h1>Emergency Exit</h1> : <h1>{title}</h1>}
+        {langToShow === "En" ? <h1>Andadon</h1> : <h1>{title}</h1>}
       </div>
       {langToShow === "En" ? (
         <p className="the-paragraph">

@@ -99,7 +99,7 @@ function Memoire({ title, langToShow }) {
     <div id="Memoire" className=".all">
       <div className="Nimp">gggg</div>
       <div id="Article-title">
-        {langToShow === "En" ? <h1>Emergency Exit</h1> : <h1>{title}</h1>}
+        {langToShow === "En" ? <h1>Memory In The Mirror</h1> : <h1>{title}</h1>}
       </div>
       {langToShow === "En" ? (
         <p className="the-paragraph">
@@ -167,37 +167,72 @@ function Memoire({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Portrait Digital"
+          title="Khadidjatou Diallo"
         >
-          <p>Peinture de portrait sur commande [ ‎18 ‎01 ‎2022]</p>{" "}
+          <p>Kedougou 2021</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Anna"
+          title="Khadidjatou Diallo"
         >
-          <p>Digital oil painting[‎12 ‎01 ‎2022]</p>
+          <p>Kedougou 2021</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
+          title="Khadidjatou Diallo"
         >
-          <p>Compositing and montage [07 ‎06 ‎2021]</p>
+          <p>Kedougou 2021</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container vertical"
-          title="Boubacar Ndiaye"
+          title="Saro Mali"
         >
-          <p>Image-4 [07 ‎06 ‎2021]</p>
+          <p>Kedougou 2021</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
+          title="Mariama Diallo"
         >
-          <p>Image-5 [07 ‎06 ‎2021]</p>
+          <p>Kedougou 2021</p>
+        </div>
+        <div
+          onClick={clickOnImage}
+          className="one-Image-container Horizontal"
+          title="Fatou Souaré"
+        >
+          <p>Kedougou 2021</p>
+        </div>
+        <div
+          onClick={clickOnImage}
+          className="one-Image-container Horizontal"
+          title="Aminata Diouf"
+        >
+          <p>Kedougou 2021</p>
+        </div>
+        <div
+          onClick={clickOnImage}
+          className="one-Image-container Horizontal"
+          title="Aya Ndiaye"
+        >
+          <p>Kedougou 2021</p>
+        </div>
+        <div
+          onClick={clickOnImage}
+          className="one-Image-container Horizontal"
+          title="Mariama Diallo"
+        >
+          <p>Kedougou 2021</p>
+        </div>
+        <div
+          onClick={clickOnImage}
+          className="one-Image-container Horizontal"
+          title="Aline Sitoé"
+        >
+          <p>Kedougou 2021</p>
         </div>
       </div>
       <div className="network">
