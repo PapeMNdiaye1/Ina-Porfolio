@@ -675,7 +675,7 @@
   display: none;
 }
 #home-container #Lenvers .Image-container .one-Image-container:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   z-index: 2;
 }
 @keyframes mymove {
@@ -755,10 +755,11 @@
   margin: 2em;
   margin-right: 0em;
   width: 50em;
-  height: 28em;
+  height: 30em;
   background-position: center;
-  background-size: 103%;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: contain;
   grid-column: 1;
   grid-row: 1;
 }
@@ -1049,7 +1050,7 @@
   display: none;
 }
 #home-container #Andadon .Image-container .one-Image-container:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   z-index: 2;
 }
 @keyframes mymove {
@@ -1127,10 +1128,11 @@
   margin: 2em;
   margin-right: 0em;
   width: 50em;
-  height: 28em;
+  height: 30em;
   background-position: center;
-  background-size: 103%;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: contain;
   grid-column: 1;
   grid-row: 1;
 }
@@ -1421,7 +1423,7 @@
   display: none;
 }
 #home-container #Memoire .Image-container .one-Image-container:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   z-index: 2;
 }
 @keyframes mymove {
@@ -1495,10 +1497,11 @@
   margin: 2em;
   margin-right: 0em;
   width: 50em;
-  height: 28em;
+  height: 30em;
   background-position: center;
-  background-size: 103%;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: contain;
   grid-column: 1;
   grid-row: 1;
 }
@@ -1789,7 +1792,7 @@
   display: none;
 }
 #home-container #Temple .Image-container .one-Image-container:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   z-index: 2;
 }
 @keyframes mymove {
@@ -1863,10 +1866,11 @@
   margin: 2em;
   margin-right: 0em;
   width: 50em;
-  height: 28em;
+  height: 30em;
   background-position: center;
-  background-size: 103%;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: contain;
   grid-column: 1;
   grid-row: 1;
 }
@@ -2157,7 +2161,7 @@
   display: none;
 }
 #home-container #Caillou .Image-container .one-Image-container:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   z-index: 2;
 }
 @keyframes mymove {
@@ -2231,10 +2235,11 @@
   margin: 2em;
   margin-right: 0em;
   width: 50em;
-  height: 28em;
+  height: 30em;
   background-position: center;
-  background-size: 103%;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: contain;
   grid-column: 1;
   grid-row: 1;
 }
@@ -2525,7 +2530,7 @@
   display: none;
 }
 #home-container #Une .Image-container .one-Image-container:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   z-index: 2;
 }
 @keyframes mymove {
@@ -2599,10 +2604,11 @@
   margin: 2em;
   margin-right: 0em;
   width: 50em;
-  height: 28em;
+  height: 30em;
   background-position: center;
-  background-size: 103%;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: contain;
   grid-column: 1;
   grid-row: 1;
 }
@@ -2893,7 +2899,7 @@
   display: none;
 }
 #home-container #Magnifique .Image-container .one-Image-container:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   z-index: 2;
 }
 @keyframes mymove {
@@ -2929,7 +2935,6 @@
   height: 100%;
 }
 #home-container #Magnifique .Image-container .one-Image-container:nth-child(5) {
-  background-image: url("./Image/Magnifique/STEFFI - TU ES MAGNIFIQUE - BRUXELLES 2025.jpg");
   animation-delay: 1.5s;
   height: 85%;
 }
@@ -2978,10 +2983,11 @@
   margin: 2em;
   margin-right: 0em;
   width: 50em;
-  height: 28em;
+  height: 30em;
   background-position: center;
-  background-size: 103%;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: contain;
   grid-column: 1;
   grid-row: 1;
 }
@@ -3272,7 +3278,7 @@
   display: none;
 }
 #home-container #Vagabonde .Image-container .one-Image-container:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   z-index: 2;
 }
 @keyframes mymove {
@@ -3346,10 +3352,11 @@
   margin: 2em;
   margin-right: 0em;
   width: 50em;
-  height: 28em;
+  height: 30em;
   background-position: center;
-  background-size: 103%;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: contain;
   grid-column: 1;
   grid-row: 1;
 }
@@ -3640,7 +3647,7 @@
   display: none;
 }
 #home-container #Meilleur .Image-container .one-Image-container:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   z-index: 2;
 }
 @keyframes mymove {
@@ -3714,10 +3721,11 @@
   margin: 2em;
   margin-right: 0em;
   width: 50em;
-  height: 28em;
+  height: 30em;
   background-position: center;
-  background-size: 103%;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: contain;
   grid-column: 1;
   grid-row: 1;
 }
@@ -4008,7 +4016,7 @@
   display: none;
 }
 #home-container #Sama .Image-container .one-Image-container:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   z-index: 2;
 }
 @keyframes mymove {
@@ -4082,10 +4090,11 @@
   margin: 2em;
   margin-right: 0em;
   width: 50em;
-  height: 28em;
+  height: 30em;
   background-position: center;
-  background-size: 103%;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: contain;
   grid-column: 1;
   grid-row: 1;
 }
@@ -4345,7 +4354,7 @@
 }
 #home-container #Issue .Image-container {
   width: 73em;
-  height: 48em;
+  height: 80em;
   display: grid;
   grid-template-columns: repeat(15, auto);
   grid-template-rows: repeat(5, auto);
@@ -4371,12 +4380,13 @@
   transition-duration: 0.3s;
   color: transparent;
   animation: mymove 5s ease infinite;
+  background-size: cover;
 }
 #home-container #Issue .Image-container .one-Image-container p {
   display: none;
 }
 #home-container #Issue .Image-container .one-Image-container:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   z-index: 2;
 }
 @keyframes mymove {
@@ -4427,6 +4437,22 @@
   animation-delay: 1.5s;
   height: 100%;
 }
+#home-container #Issue .Image-container .one-Image-container:nth-child(8) {
+  background-image: url("./Image/Issue/8-JOIE.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Issue .Image-container .one-Image-container:nth-child(9) {
+  background-image: url("./Image/Issue/9-COLÉRE.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Issue .Image-container .one-Image-container:nth-child(10) {
+  background-image: url("./Image/Issue/10-RECONCILIATION.jpg");
+  grid-row: span 4;
+  animation-delay: 1.5s;
+  height: 100%;
+}
 #home-container #Issue .Image-presentation-container {
   position: fixed;
   width: 100%;
@@ -4467,10 +4493,11 @@
   margin: 2em;
   margin-right: 0em;
   width: 50em;
-  height: 28em;
+  height: 30em;
   background-position: center;
-  background-size: 103%;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: contain;
   grid-column: 1;
   grid-row: 1;
 }
@@ -4761,7 +4788,7 @@
   display: none;
 }
 #home-container #Obstacle .Image-container .one-Image-container:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   z-index: 2;
 }
 @keyframes mymove {
@@ -4835,10 +4862,11 @@
   margin: 2em;
   margin-right: 0em;
   width: 50em;
-  height: 28em;
+  height: 30em;
   background-position: center;
-  background-size: 103%;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: contain;
   grid-column: 1;
   grid-row: 1;
 }
@@ -5291,7 +5319,7 @@
   display: none;
 }
 #home-container #Tn .Image-container .one-Image-container:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   z-index: 2;
 }
 @keyframes mymove {
@@ -5365,10 +5393,11 @@
   margin: 2em;
   margin-right: 0em;
   width: 50em;
-  height: 28em;
+  height: 30em;
   background-position: center;
-  background-size: 103%;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: contain;
   grid-column: 1;
   grid-row: 1;
 }

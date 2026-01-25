@@ -153,59 +153,59 @@ function Magnifique({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Portrait Digital"
+          title="Bousso"
         >
-          <p>Peinture de portrait sur commande [ ‎18 ‎01 ‎2022]</p>{" "}
+          <p>DAKAR 2021</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Anna"
+          title="Karen"
         >
-          <p>Digital oil painting[‎12 ‎01 ‎2022]</p>
+          <p>Montreal 2019</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
+          title="Karen"
         >
-          <p>Compositing and montage [07 ‎06 ‎2021]</p>
+          <p>Montreal 2019</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
+          title="Roxy"
         >
-          <p>Image-4 [07 ‎06 ‎2021]</p>
+          <p>Montreal 2019</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
+          title="Steffi"
         >
-          <p>Image-5 [07 ‎06 ‎2021]</p>
+          <p>Bruxelles 2025</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
+          title="Steffi"
         >
-          <p>Image-5 [07 ‎06 ‎2021]</p>
+          <p>Bruxelles 2025</p>
         </div>
       </div>
       <div className="network">
         <div className="network_container">
           <a
-            href="https://api.whatsapp.com/send?phone=221777278655&text=The message"
+            href="https://www.facebook.com/share/1DNHhzrKZ2/?mibextid=wwXIfr"
             target="_blank"
           >
             <div className="network">
-              <ion-icon name="logo-whatsapp"></ion-icon>
+              <ion-icon name="logo-facebook"></ion-icon>
             </div>
           </a>
 
           <a
-            href="https://www.instagram.com/pape_momar_ndiaye/"
+            href="https://www.instagram.com/ina_makosi?igsh=MWFwaTh0cjdqZHUwNQ=="
             target="_blank"
           >
             <div className="network">
@@ -213,7 +213,7 @@ function Magnifique({ title, langToShow }) {
             </div>
           </a>
           <a
-            href="https://www.linkedin.com/in/pape-momar-ndiaye-37b862199/"
+            href="https://www.linkedin.com/in/ina-thiam-b13bb5281/"
             target="_blank"
           >
             <div className="network">
@@ -221,9 +221,12 @@ function Magnifique({ title, langToShow }) {
             </div>
           </a>
 
-          <a href="https://www.behance.net/papendiay" target="_blank">
+          <a
+            href="https://x.com/inanfthiam?s=21&t=oSME2Spx7YOFp0F-kXd1CQ"
+            target="_blank"
+          >
             <div className="network">
-              <ion-icon name="logo-behance"></ion-icon>
+              <ion-icon name="logo-twitter"></ion-icon>
             </div>
           </a>
         </div>

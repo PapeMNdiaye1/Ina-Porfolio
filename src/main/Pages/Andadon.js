@@ -200,16 +200,16 @@ function Andadon({ title, langToShow }) {
       <div className="network">
         <div className="network_container">
           <a
-            href="https://api.whatsapp.com/send?phone=221777278655&text=The message"
+            href="https://www.facebook.com/share/1DNHhzrKZ2/?mibextid=wwXIfr"
             target="_blank"
           >
             <div className="network">
-              <ion-icon name="logo-whatsapp"></ion-icon>
+              <ion-icon name="logo-facebook"></ion-icon>
             </div>
           </a>
 
           <a
-            href="https://www.instagram.com/pape_momar_ndiaye/"
+            href="https://www.instagram.com/ina_makosi?igsh=MWFwaTh0cjdqZHUwNQ=="
             target="_blank"
           >
             <div className="network">
@@ -217,7 +217,7 @@ function Andadon({ title, langToShow }) {
             </div>
           </a>
           <a
-            href="https://www.linkedin.com/in/pape-momar-ndiaye-37b862199/"
+            href="https://www.linkedin.com/in/ina-thiam-b13bb5281/"
             target="_blank"
           >
             <div className="network">
@@ -225,9 +225,12 @@ function Andadon({ title, langToShow }) {
             </div>
           </a>
 
-          <a href="https://www.behance.net/papendiay" target="_blank">
+          <a
+            href="https://x.com/inanfthiam?s=21&t=oSME2Spx7YOFp0F-kXd1CQ"
+            target="_blank"
+          >
             <div className="network">
-              <ion-icon name="logo-behance"></ion-icon>
+              <ion-icon name="logo-twitter"></ion-icon>
             </div>
           </a>
         </div>

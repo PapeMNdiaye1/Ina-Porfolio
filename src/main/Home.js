@@ -76,10 +76,7 @@ function Home() {
         return <Sama title="Sama" langToShow={langToShow} />;
       case "Obstacle":
         return <Obstacle title="Obstacle" langToShow={langToShow} />;
-      // case "Work":
-      //   return <Work />;
-      // case "Skills":
-      //   return <Skills />;
+
       case "Contact":
         return <Contact />;
       case "ContactB":
