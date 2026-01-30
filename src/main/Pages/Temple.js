@@ -99,7 +99,11 @@ function Temple({ title, langToShow }) {
     <div id="Temple" className=".all">
       <div className="Nimp">gggg</div>
       <div id="Article-title">
-        {langToShow === "En" ? <h1>Emergency Exit</h1> : <h1>{title}</h1>}
+        {langToShow === "En" ? (
+          <h1>The Guardians Of The Temple</h1>
+        ) : (
+          <h1>{title}</h1>
+        )}
       </div>
       {langToShow === "En" ? (
         <p className="the-paragraph">
@@ -155,37 +159,51 @@ function Temple({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Portrait Digital"
+          title="Amy Thior Et Cie Les Gardiennes Du Temple Djirnda"
         >
-          <p>Peinture de portrait sur commande [ ‎18 ‎01 ‎2022]</p>{" "}
+          <p>Djirnda 2021</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
           title="Anna"
         >
-          <p>Digital oil painting[‎12 ‎01 ‎2022]</p>
+          <p>Djirnda 2021</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
           title="Boubacar Ndiaye"
         >
-          <p>Compositing and montage [07 ‎06 ‎2021]</p>
+          <p>Kedougouou 20211</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container vertical"
           title="Boubacar Ndiaye"
         >
-          <p>Image-4 [07 ‎06 ‎2021]</p>
+          <p>Kedougouou 20211</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
           title="Boubacar Ndiaye"
         >
-          <p>Image-5 [07 ‎06 ‎2021]</p>
+          <p>Kedougouou 20211</p>
+        </div>
+        <div
+          onClick={clickOnImage}
+          className="one-Image-container Horizontal"
+          title="Boubacar Ndiaye"
+        >
+          <p>Kedougouou 20211</p>
+        </div>
+        <div
+          onClick={clickOnImage}
+          className="one-Image-container Horizontal"
+          title="Boubacar Ndiaye"
+        >
+          <p>Kedougouou 20211</p>
         </div>
       </div>
       <div className="network">

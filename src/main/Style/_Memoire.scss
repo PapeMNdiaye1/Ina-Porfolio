@@ -48,13 +48,13 @@
   }
 
   .Image-container {
-    width: 73em;
-    height: 70em;
+    width: 63em;
+    height: 100em;
     display: grid;
-    grid-template-columns: repeat(15, auto);
+    grid-template-columns: repeat(14, auto);
     grid-template-rows: repeat(5, auto);
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
     margin-top: 5em;
     margin-bottom: 3em;
 
@@ -63,7 +63,7 @@
       justify-content: flex-end;
       align-items: flex-end;
       background: var(--colorX);
-      grid-column: span 5;
+      grid-column: span 7;
       grid-row: span 2;
       border: 0.1em solid var(--colorX);
       border-radius: 0.2em;

@@ -49,7 +49,7 @@
 
   .Image-container {
     width: 73em;
-    height: 40em;
+    height: 50em;
     display: grid;
     grid-template-columns: repeat(15, auto);
     grid-template-rows: repeat(5, auto);
@@ -102,31 +102,43 @@
     }
 
     .one-Image-container:nth-child(1) {
-      // background-image: url("./Image/Temple/1_\ FADIAR-\ ANDANDO-\ OUAKAM\ 2021.JPG.jpg");
+      background-image: url("./Image/Temple/1-AIDA-SARR-\ LES-GARDIENNES-DU-TEMPLE-\ MAYA-2021.jpg");
       height: 100%;
       animation-delay: 0.5s;
     }
 
     .one-Image-container:nth-child(2) {
-      // background-image: url("./Image/Temple/AISSATOU\ 2\ -\ L'ENVERS\ DU\ DÉCOR\ -\ DIAMAGUEUNE\ 2017.jpg");
+      background-image: url("./Image/Temple/2-AMY-THIOR-ET-CIE-LES-GARDIENNES-DU-TEMPLE-DJIRNDA-2021.jpg");
       // grid-row: span 2;
       animation-delay: 1s;
       height: 100%;
     }
 
     .one-Image-container:nth-child(3) {
-      // background-image: url("./Image/Temple/DABA-\ L'ENVERS\ DU\ DÉCOR\ -\ RUFISQUE\ 2018jpg.jpg");
+      background-image: url("./Image/Temple/3-AWA-SARR-LES-GARDIENNES-DU-TEMPLE-DJIRNDA-2021.jpg");
       animation-delay: 1.5s;
       height: 100%;
     }
     .one-Image-container:nth-child(4) {
-      // background-image: url("./Image/Temple/VENUS\ -L'ENVERS\ DU\ DECCORD\,\ THIAROYE\ 2018.jpg");
+      background-image: url("./Image/Temple/4-KHADY-NDIAYE-LES-GARDIENNES\ DU-TEMPLE-MAYA-2021.jpg");
       animation-delay: 1.5s;
       height: 100%;
       // height: 90%;
     }
     .one-Image-container:nth-child(5) {
-      // background-image: url("./Image/Temple/WASSO-\ L'ENVERS\ DU\ DÉCOR\ -\ HANN\ PECHEUR\ 2017.jpg");
+      background-image: url("./Image/Temple/5-BANBOUGAR-LES-GARDIENNES-DU-TEMPLE-SOKONE-2023.jpg");
+      animation-delay: 1.5s;
+      height: 100%;
+      // height: 90%;
+    }
+    .one-Image-container:nth-child(6) {
+      background-image: url("./Image/Temple/6-BINETA-LES-GARDIENNES-DU-TEMPLE-DJILOR-2023.jpg");
+      animation-delay: 1.5s;
+      height: 100%;
+      // height: 90%;
+    }
+    .one-Image-container:nth-child(7) {
+      background-image: url("./Image/Temple/7-AWA-SARR-ET-CIE-LES-GARDIENNES-DU-TEMPLE-DJIRNDA-2021.jpg");
       animation-delay: 1.5s;
       height: 100%;
       // height: 90%;
