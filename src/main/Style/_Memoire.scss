@@ -74,7 +74,7 @@
       background-repeat: no-repeat;
       transition-duration: 0.3s;
       color: transparent;
-      animation: mymove 5s ease infinite;
+      // animation: mymove 5s ease infinite;
       background-size: cover;
 
       p {
@@ -87,19 +87,19 @@
       }
     }
 
-    @keyframes mymove {
-      0% {
-        background-color: var(--colorX);
-      }
+    // @keyframes mymove {
+    //   0% {
+    //     background-color: var(--colorX);
+    //   }
 
-      50% {
-        background-color: rgb(73, 72, 72);
-      }
+    //   50% {
+    //     background-color: rgb(73, 72, 72);
+    //   }
 
-      100% {
-        background-color: var(--colorX);
-      }
-    }
+    //   100% {
+    //     background-color: var(--colorX);
+    //   }
+    // }
 
     .one-Image-container:nth-child(1) {
       background-image: url("./Image/Memoire/1-IDJATOU-DIALLO-LA-MEMEOIRE-EN-MIROIR-KEDOUGOU-20211.jpg");

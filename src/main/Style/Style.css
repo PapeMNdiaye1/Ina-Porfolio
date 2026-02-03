@@ -669,7 +669,6 @@
   background-repeat: no-repeat;
   transition-duration: 0.3s;
   color: transparent;
-  animation: mymove 5s ease infinite;
   background-size: cover;
 }
 #home-container #Lenvers .Image-container .one-Image-container p {
@@ -678,17 +677,6 @@
 #home-container #Lenvers .Image-container .one-Image-container:hover {
   transform: scale(1.1);
   z-index: 2;
-}
-@keyframes mymove {
-  0% {
-    background-color: var(--colorX);
-  }
-  50% {
-    background-color: rgb(73, 72, 72);
-  }
-  100% {
-    background-color: var(--colorX);
-  }
 }
 #home-container #Lenvers .Image-container .one-Image-container:nth-child(1) {
   background-image: url("./Image/Lenvers/AISSATOU - L'ENVERS DU DÉCOR - DIAMAGUEUNE 2017.jpg");
@@ -1045,7 +1033,6 @@
   background-repeat: no-repeat;
   transition-duration: 0.3s;
   color: transparent;
-  animation: mymove 5s ease infinite;
   background-size: cover;
 }
 #home-container #Andadon .Image-container .one-Image-container p {
@@ -1054,17 +1041,6 @@
 #home-container #Andadon .Image-container .one-Image-container:hover {
   transform: scale(1.1);
   z-index: 2;
-}
-@keyframes mymove {
-  0% {
-    background-color: var(--colorX);
-  }
-  50% {
-    background-color: rgb(73, 72, 72);
-  }
-  100% {
-    background-color: var(--colorX);
-  }
 }
 #home-container #Andadon .Image-container .one-Image-container:nth-child(1) {
   background-image: url("./Image/Andadon/1_ FADIAR- ANDANDO- OUAKAM 2021.JPG.jpg");
@@ -1419,7 +1395,6 @@
   background-repeat: no-repeat;
   transition-duration: 0.3s;
   color: transparent;
-  animation: mymove 5s ease infinite;
   background-size: cover;
 }
 #home-container #Memoire .Image-container .one-Image-container p {
@@ -1428,17 +1403,6 @@
 #home-container #Memoire .Image-container .one-Image-container:hover {
   transform: scale(1.1);
   z-index: 2;
-}
-@keyframes mymove {
-  0% {
-    background-color: var(--colorX);
-  }
-  50% {
-    background-color: rgb(73, 72, 72);
-  }
-  100% {
-    background-color: var(--colorX);
-  }
 }
 #home-container #Memoire .Image-container .one-Image-container:nth-child(1) {
   background-image: url("./Image/Memoire/1-IDJATOU-DIALLO-LA-MEMEOIRE-EN-MIROIR-KEDOUGOU-20211.jpg");
@@ -1819,7 +1783,6 @@
   background-repeat: no-repeat;
   transition-duration: 0.3s;
   color: transparent;
-  animation: mymove 5s ease infinite;
   background-size: cover;
 }
 #home-container #Temple .Image-container .one-Image-container p {
@@ -1828,17 +1791,6 @@
 #home-container #Temple .Image-container .one-Image-container:hover {
   transform: scale(1.1);
   z-index: 2;
-}
-@keyframes mymove {
-  0% {
-    background-color: var(--colorX);
-  }
-  50% {
-    background-color: rgb(73, 72, 72);
-  }
-  100% {
-    background-color: var(--colorX);
-  }
 }
 #home-container #Temple .Image-container .one-Image-container:nth-child(1) {
   background-image: url("./Image/Temple/1-AIDA-SARR- LES-GARDIENNES-DU-TEMPLE- MAYA-2021.jpg");
@@ -2209,7 +2161,6 @@
   background-repeat: no-repeat;
   transition-duration: 0.3s;
   color: transparent;
-  animation: mymove 5s ease infinite;
   background-size: cover;
 }
 #home-container #Caillou .Image-container .one-Image-container p {
@@ -2218,17 +2169,6 @@
 #home-container #Caillou .Image-container .one-Image-container:hover {
   transform: scale(1.1);
   z-index: 2;
-}
-@keyframes mymove {
-  0% {
-    background-color: var(--colorX);
-  }
-  50% {
-    background-color: rgb(73, 72, 72);
-  }
-  100% {
-    background-color: var(--colorX);
-  }
 }
 #home-container #Caillou .Image-container .one-Image-container:nth-child(1) {
   background-image: url("./Image/Caillou/CAILLOU-OUSSOUYE-2022.jpg");
@@ -2594,7 +2534,6 @@
   background-repeat: no-repeat;
   transition-duration: 0.3s;
   color: transparent;
-  animation: mymove 5s ease infinite;
   background-size: cover;
 }
 #home-container #Une .Image-container .one-Image-container p {
@@ -2603,17 +2542,6 @@
 #home-container #Une .Image-container .one-Image-container:hover {
   transform: scale(1.1);
   z-index: 2;
-}
-@keyframes mymove {
-  0% {
-    background-color: var(--colorX);
-  }
-  50% {
-    background-color: rgb(73, 72, 72);
-  }
-  100% {
-    background-color: var(--colorX);
-  }
 }
 #home-container #Une .Image-container .one-Image-container:nth-child(1) {
   background-image: url("./Image/Une/A-LA UNE-1-LOUIS-2023.jpg");
@@ -2960,7 +2888,6 @@
   background-repeat: no-repeat;
   transition-duration: 0.3s;
   color: transparent;
-  animation: mymove 5s ease infinite;
   background-size: cover;
 }
 #home-container #Magnifique .Image-container .one-Image-container p {
@@ -2969,17 +2896,6 @@
 #home-container #Magnifique .Image-container .one-Image-container:hover {
   transform: scale(1.1);
   z-index: 2;
-}
-@keyframes mymove {
-  0% {
-    background-color: var(--colorX);
-  }
-  50% {
-    background-color: rgb(73, 72, 72);
-  }
-  100% {
-    background-color: var(--colorX);
-  }
 }
 #home-container #Magnifique .Image-container .one-Image-container:nth-child(1) {
   background-image: url("./Image/Magnifique/BOUSSO, TU ES MAGNIFIQUE - DAKAR 2021.jpg");
@@ -3685,7 +3601,7 @@
 }
 #home-container #Meilleur .Image-container {
   width: 73em;
-  height: 40em;
+  height: 50em;
   display: grid;
   grid-template-columns: repeat(15, auto);
   grid-template-rows: repeat(5, auto);
@@ -3710,7 +3626,6 @@
   background-repeat: no-repeat;
   transition-duration: 0.3s;
   color: transparent;
-  animation: mymove 5s ease infinite;
   background-size: cover;
 }
 #home-container #Meilleur .Image-container .one-Image-container p {
@@ -3720,34 +3635,38 @@
   transform: scale(1.1);
   z-index: 2;
 }
-@keyframes mymove {
-  0% {
-    background-color: var(--colorX);
-  }
-  50% {
-    background-color: rgb(73, 72, 72);
-  }
-  100% {
-    background-color: var(--colorX);
-  }
-}
 #home-container #Meilleur .Image-container .one-Image-container:nth-child(1) {
+  background-image: url("./Image/Meilleur/1-POUR-LE-MEILLEUR-ET-POUR-LE-PIRE-DAKAR-2024.jpg");
   height: 100%;
   animation-delay: 0.5s;
 }
 #home-container #Meilleur .Image-container .one-Image-container:nth-child(2) {
+  background-image: url("./Image/Meilleur/2-POUR-LE-MEILLEUR-ET-POUR-LE-PIRE-DAKAR-2024.jpg");
   animation-delay: 1s;
   height: 100%;
 }
 #home-container #Meilleur .Image-container .one-Image-container:nth-child(3) {
+  background-image: url("./Image/Meilleur/3-POUR-LE-MEILLEUR-ET-POUR-LE-PIRE-DAKAR-2024.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Meilleur .Image-container .one-Image-container:nth-child(4) {
+  background-image: url("./Image/Meilleur/4-POUR-LE-MEILLEUR-ET-POUR-LE-PIRE-DAKAR-2024.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Meilleur .Image-container .one-Image-container:nth-child(5) {
+  background-image: url("./Image/Meilleur/5-POUR-LE-MEILLEUR-ET-POUR-LE-PIRE-DAKAR-2024.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Meilleur .Image-container .one-Image-container:nth-child(6) {
+  background-image: url("./Image/Meilleur/6-POUR-LE-MEILLEUR-ET-POUR-LE-PIRE-DAKAR-2024.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Meilleur .Image-container .one-Image-container:nth-child(7) {
+  background-image: url("./Image/Meilleur/7-POUR-LE-MEILLEUR-ET-POUR-LE-PIRE-DAKAR-2024.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
@@ -4055,7 +3974,7 @@
 }
 #home-container #Sama .Image-container {
   width: 73em;
-  height: 40em;
+  height: 200em;
   display: grid;
   grid-template-columns: repeat(15, auto);
   grid-template-rows: repeat(5, auto);
@@ -4080,7 +3999,6 @@
   background-repeat: no-repeat;
   transition-duration: 0.3s;
   color: transparent;
-  animation: mymove 5s ease infinite;
   background-size: cover;
 }
 #home-container #Sama .Image-container .one-Image-container p {
@@ -4090,36 +4008,129 @@
   transform: scale(1.1);
   z-index: 2;
 }
-@keyframes mymove {
-  0% {
-    background-color: var(--colorX);
-  }
-  50% {
-    background-color: rgb(73, 72, 72);
-  }
-  100% {
-    background-color: var(--colorX);
-  }
-}
 #home-container #Sama .Image-container .one-Image-container:nth-child(1) {
+  background-image: url("./Image/Sama/MARRAKECH/ABDALAH-1-MARRAKECH-2023.jpg");
   height: 100%;
   animation-delay: 0.5s;
 }
 #home-container #Sama .Image-container .one-Image-container:nth-child(2) {
+  background-image: url("./Image/Sama/MARRAKECH/ABDALAH-2-MARRAKECH-2023.jpg");
+  grid-row: span 4;
   animation-delay: 1s;
   height: 100%;
 }
 #home-container #Sama .Image-container .one-Image-container:nth-child(3) {
+  background-image: url("./Image/Sama/MARRAKECH/ABDASSAMAD-1-MARRAKECH-2023.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Sama .Image-container .one-Image-container:nth-child(4) {
+  background-image: url("./Image/Sama/MARRAKECH/ABDASSAMAD-2-MARRAKECH-2023.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Sama .Image-container .one-Image-container:nth-child(5) {
+  background-image: url("./Image/Sama/MARRAKECH/HASSANE-1-MARRAKECH-2023.jpg");
   animation-delay: 1.5s;
   height: 100%;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(6) {
+  background-image: url("./Image/Sama/MARRAKECH/HASSANE-2-MARRAKECH-2023.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+  grid-row: span 4;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(7) {
+  background-image: url("./Image/Sama/MARRAKECH/KHADIJA-1-MARRAKECH-2023.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(8) {
+  background-image: url("./Image/Sama/MARRAKECH/KHADIJA-2-MARRAKECH-2023.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+  grid-row: span 4;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(9) {
+  background-image: url("./Image/Sama/MARRAKECH/OUMEYMA-1-MARRAKECH-2023.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(10) {
+  background-image: url("./Image/Sama/MARRAKECH/OUMEYMA-2-MARRAKECH-2023.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(11) {
+  background-image: url("./Image/Sama/MARRAKECH/TAAHA-1-MARRAKECH-2023.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+  grid-row: span 4;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(12) {
+  background-image: url("./Image/Sama/MARRAKECH/TAHA-2-MARRAKECH-2023.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(13) {
+  animation-delay: 1.5s;
+  height: 100%;
+  grid-column: span 15;
+  grid-row: span 1;
+  opacity: 0;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(14) {
+  background-image: url("./Image/Sama/DAKAR/DOCTA-DAKAR-2023.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(15) {
+  background-image: url("./Image/Sama/DAKAR/DOCTA-2-DAKAR-2023.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(16) {
+  background-image: url("./Image/Sama/DAKAR/DOUTS-1-DAKAR-2023.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(17) {
+  background-image: url("./Image/Sama/DAKAR/DOUTS-2-DAKAR-2023.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(18) {
+  background-image: url("./Image/Sama/DAKAR/N.S-BA-1-DAKAR-2023.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(19) {
+  background-image: url("./Image/Sama/DAKAR/N.S-BA-T-2-DAKAR-2023.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+  grid-row: span 4;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(20) {
+  background-image: url("./Image/Sama/DAKAR/SADIO-1-DAKAR-2023.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+  grid-row: span 4;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(21) {
+  background-image: url("./Image/Sama/DAKAR/SADIO-2-DAKAR-2023.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(22) {
+  background-image: url("./Image/Sama/DAKAR/SOPHIE-1-DAKAR-2023.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Sama .Image-container .one-Image-container:nth-child(23) {
+  background-image: url("./Image/Sama/DAKAR/SOPHIE-2-DAKAR-2023.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+  grid-row: span 4;
 }
 #home-container #Sama .Image-presentation-container {
   position: fixed;
@@ -4450,7 +4461,6 @@
   background-repeat: no-repeat;
   transition-duration: 0.3s;
   color: transparent;
-  animation: mymove 5s ease infinite;
   background-size: cover;
 }
 #home-container #Issue .Image-container .one-Image-container p {
@@ -4459,17 +4469,6 @@
 #home-container #Issue .Image-container .one-Image-container:hover {
   transform: scale(1.1);
   z-index: 2;
-}
-@keyframes mymove {
-  0% {
-    background-color: var(--colorX);
-  }
-  50% {
-    background-color: rgb(73, 72, 72);
-  }
-  100% {
-    background-color: var(--colorX);
-  }
 }
 #home-container #Issue .Image-container .one-Image-container:nth-child(1) {
   background-image: url("./Image/Issue/1-ACT_.jpg");
@@ -4853,7 +4852,6 @@
   background-repeat: no-repeat;
   transition-duration: 0.3s;
   color: transparent;
-  animation: mymove 5s ease infinite;
   background-size: cover;
 }
 #home-container #Obstacle .Image-container .one-Image-container p {
@@ -4862,17 +4860,6 @@
 #home-container #Obstacle .Image-container .one-Image-container:hover {
   transform: scale(1.1);
   z-index: 2;
-}
-@keyframes mymove {
-  0% {
-    background-color: var(--colorX);
-  }
-  50% {
-    background-color: rgb(73, 72, 72);
-  }
-  100% {
-    background-color: var(--colorX);
-  }
 }
 #home-container #Obstacle .Image-container .one-Image-container:nth-child(1) {
   height: 100%;
@@ -5385,7 +5372,6 @@
   background-repeat: no-repeat;
   transition-duration: 0.3s;
   color: transparent;
-  animation: mymove 5s ease infinite;
   background-size: cover;
 }
 #home-container #Tn .Image-container .one-Image-container p {
@@ -5394,17 +5380,6 @@
 #home-container #Tn .Image-container .one-Image-container:hover {
   transform: scale(1.1);
   z-index: 2;
-}
-@keyframes mymove {
-  0% {
-    background-color: var(--colorX);
-  }
-  50% {
-    background-color: rgb(73, 72, 72);
-  }
-  100% {
-    background-color: var(--colorX);
-  }
 }
 #home-container #Tn .Image-container .one-Image-container:nth-child(1) {
   height: 100%;

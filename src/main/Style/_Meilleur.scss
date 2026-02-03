@@ -49,7 +49,7 @@
 
   .Image-container {
     width: 73em;
-    height: 40em;
+    height: 50em;
     display: grid;
     grid-template-columns: repeat(15, auto);
     grid-template-rows: repeat(5, auto);
@@ -74,7 +74,6 @@
       background-repeat: no-repeat;
       transition-duration: 0.3s;
       color: transparent;
-      animation: mymove 5s ease infinite;
       background-size: cover;
 
       p {
@@ -87,46 +86,57 @@
       }
     }
 
-    @keyframes mymove {
-      0% {
-        background-color: var(--colorX);
-      }
+    // @keyframes mymove {
+    //   0% {
+    //     background-color: var(--colorX);
+    //   }
 
-      50% {
-        background-color: rgb(73, 72, 72);
-      }
+    //   50% {
+    //     background-color: rgb(73, 72, 72);
+    //   }
 
-      100% {
-        background-color: var(--colorX);
-      }
-    }
+    //   100% {
+    //     background-color: var(--colorX);
+    //   }
+    // }
 
     .one-Image-container:nth-child(1) {
-      // background-image: url("./Image/Meilleur/1_\ FADIAR-\ ANDANDO-\ OUAKAM\ 2021.JPG.jpg");
+      background-image: url("./Image/Meilleur/1-POUR-LE-MEILLEUR-ET-POUR-LE-PIRE-DAKAR-2024.jpg");
       height: 100%;
       animation-delay: 0.5s;
     }
 
     .one-Image-container:nth-child(2) {
-      // background-image: url("./Image/Meilleur/AISSATOU\ 2\ -\ L'ENVERS\ DU\ DÉCOR\ -\ DIAMAGUEUNE\ 2017.jpg");
+      background-image: url("./Image/Meilleur/2-POUR-LE-MEILLEUR-ET-POUR-LE-PIRE-DAKAR-2024.jpg");
       // grid-row: span 2;
       animation-delay: 1s;
       height: 100%;
     }
 
     .one-Image-container:nth-child(3) {
-      // background-image: url("./Image/Meilleur/DABA-\ L'ENVERS\ DU\ DÉCOR\ -\ RUFISQUE\ 2018jpg.jpg");
+      background-image: url("./Image/Meilleur/3-POUR-LE-MEILLEUR-ET-POUR-LE-PIRE-DAKAR-2024.jpg");
       animation-delay: 1.5s;
       height: 100%;
     }
     .one-Image-container:nth-child(4) {
-      // background-image: url("./Image/Meilleur/VENUS\ -L'ENVERS\ DU\ DECCORD\,\ THIAROYE\ 2018.jpg");
+      background-image: url("./Image/Meilleur/4-POUR-LE-MEILLEUR-ET-POUR-LE-PIRE-DAKAR-2024.jpg");
       animation-delay: 1.5s;
       height: 100%;
       // height: 90%;
     }
     .one-Image-container:nth-child(5) {
-      // background-image: url("./Image/Meilleur/WASSO-\ L'ENVERS\ DU\ DÉCOR\ -\ HANN\ PECHEUR\ 2017.jpg");
+      background-image: url("./Image/Meilleur/5-POUR-LE-MEILLEUR-ET-POUR-LE-PIRE-DAKAR-2024.jpg");
+      animation-delay: 1.5s;
+      height: 100%;
+      // height: 90%;
+    }
+    .one-Image-container:nth-child(6) {
+      background-image: url("./Image/Meilleur/6-POUR-LE-MEILLEUR-ET-POUR-LE-PIRE-DAKAR-2024.jpg");
+      animation-delay: 1.5s;
+      height: 100%;
+    }
+    .one-Image-container:nth-child(7) {
+      background-image: url("./Image/Meilleur/7-POUR-LE-MEILLEUR-ET-POUR-LE-PIRE-DAKAR-2024.jpg");
       animation-delay: 1.5s;
       height: 100%;
       // height: 90%;
