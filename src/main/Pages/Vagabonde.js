@@ -202,6 +202,27 @@ function Vagabonde({ title, langToShow }) {
         >
           <p>Image-5 [07 ‎06 ‎2021]</p>
         </div>
+        <div
+          onClick={clickOnImage}
+          className="one-Image-container vertical"
+          title="Boubacar Ndiaye"
+        >
+          <p>Image-6 [07 ‎06 ‎2021]</p>
+        </div>
+        <div
+          onClick={clickOnImage}
+          className="one-Image-container Horizontal"
+          title="Boubacar Ndiaye"
+        >
+          <p>Image-7 [07 ‎06 ‎2021]</p>
+        </div>
+        <div
+          onClick={clickOnImage}
+          className="one-Image-container vertical"
+          title="Boubacar Ndiaye"
+        >
+          <p>Image-8 [07 ‎06 ‎2021]</p>
+        </div>
       </div>
       <div className="network">
         <div className="network_container">

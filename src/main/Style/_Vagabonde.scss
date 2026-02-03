@@ -49,7 +49,7 @@
 
   .Image-container {
     width: 73em;
-    height: 40em;
+    height: 50em;
     display: grid;
     grid-template-columns: repeat(15, auto);
     grid-template-rows: repeat(5, auto);
@@ -74,7 +74,7 @@
       background-repeat: no-repeat;
       transition-duration: 0.3s;
       color: transparent;
-      animation: mymove 5s ease infinite;
+      // animation: mymove 5s ease infinite;
       background-size: cover;
 
       p {
@@ -87,47 +87,65 @@
       }
     }
 
-    @keyframes mymove {
-      0% {
-        background-color: var(--colorX);
-      }
+    // @keyframes mymove {
+    //   0% {
+    //     background-color: var(--colorX);
+    //   }
 
-      50% {
-        background-color: rgb(73, 72, 72);
-      }
+    //   50% {
+    //     background-color: rgb(73, 72, 72);
+    //   }
 
-      100% {
-        background-color: var(--colorX);
-      }
-    }
+    //   100% {
+    //     background-color: var(--colorX);
+    //   }
+    // }
 
     .one-Image-container:nth-child(1) {
-      // background-image: url("./Image/Vagabonde/1_\ FADIAR-\ ANDANDO-\ OUAKAM\ 2021.JPG.jpg");
+      background-image: url("./Image/Vagabonde/AMAH-IDENTITÉ-VAGABONDE-BRUXELLES-2023.jpg");
       height: 100%;
-      animation-delay: 0.5s;
+      // animation-delay: 0.5s;
     }
 
     .one-Image-container:nth-child(2) {
-      // background-image: url("./Image/Vagabonde/AISSATOU\ 2\ -\ L'ENVERS\ DU\ DÉCOR\ -\ DIAMAGUEVagabonde\ 2017.jpg");
+      background-image: url("./Image/Vagabonde/CANELLE-ET-FLORA-IDENTITÉ-VAGABONDE-BRUXELLES-2023.jpg");
       // grid-row: span 2;
-      animation-delay: 1s;
+      // animation-delay: 1s;
       height: 100%;
     }
 
     .one-Image-container:nth-child(3) {
-      // background-image: url("./Image/Vagabonde/DABA-\ L'ENVERS\ DU\ DÉCOR\ -\ RUFISQUE\ 2018jpg.jpg");
-      animation-delay: 1.5s;
+      background-image: url("./Image/Vagabonde/EBOUELE-IDENTITÉ-VAGABONDE-BRIUXELLES-2023.jpg");
+      // animation-delay: 1.5s;
       height: 100%;
     }
     .one-Image-container:nth-child(4) {
-      // background-image: url("./Image/Vagabonde/VENUS\ -L'ENVERS\ DU\ DECCORD\,\ THIAROYE\ 2018.jpg");
-      animation-delay: 1.5s;
+      background-image: url("./Image/Vagabonde/LUBANSU-IDENTITÉ-VAGABONDE-BRUXELLES-2023.jpg");
+      // animation-delay: 1.5s;
       height: 100%;
       // height: 90%;
     }
     .one-Image-container:nth-child(5) {
-      // background-image: url("./Image/Vagabonde/WASSO-\ L'ENVERS\ DU\ DÉCOR\ -\ HANN\ PECHEUR\ 2017.jpg");
-      animation-delay: 1.5s;
+      background-image: url("./Image/Vagabonde/MBEKA-IDENTITÉ-VAGABONDE-BRUXELLES-2023.jpg");
+      // animation-delay: 1.5s;
+      height: 100%;
+      // height: 90%;
+    }
+    .one-Image-container:nth-child(6) {
+      background-image: url("./Image/Vagabonde/RACHID-IDENTITÉ-VAGABONDE-BRUXELLES-2023.jpg");
+      // animation-delay: 1.5s;
+      height: 100%;
+      // height: 90%;
+    }
+    .one-Image-container:nth-child(7) {
+      background-image: url("./Image/Vagabonde/SIRE-KABA-IDENTITÉ-VAGABONDE-BRUXELLES-2023.jpg");
+      // animation-delay: 1.5s;
+      height: 100%;
+      // height: 90%;
+    }
+    .one-Image-container:nth-child(8) {
+      background-image: url("./Image/Vagabonde/SORANA-IDENTITÉ-VAGABONDE-BRUXELLES-2023.jpg");
+      // animation-delay: 1.5s;
       height: 100%;
       // height: 90%;
     }
