@@ -94,11 +94,12 @@
         @include cent();
 
         // display: none;
+        // margin-bottom: 2em;
       }
 
       #intro {
         width: 100%;
-        height: 7em;
+        height: 20em;
         font-size: 0.9em;
         @include cent();
         padding: 2%;

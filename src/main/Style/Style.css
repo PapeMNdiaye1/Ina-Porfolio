@@ -410,7 +410,7 @@
 }
 #home-container #TheIntro #home .container2 #intro {
   width: 100%;
-  height: 7em;
+  height: 20em;
   font-size: 0.9em;
   display: flex;
   justify-content: center;
@@ -1861,16 +1861,21 @@
   height: 100%;
 }
 #home-container #Temple .Image-container .one-Image-container:nth-child(5) {
+  animation-delay: 1.5s;
+  height: 100%;
+  display: none;
+}
+#home-container #Temple .Image-container .one-Image-container:nth-child(6) {
   background-image: url("./Image/Temple/5-BANBOUGAR-LES-GARDIENNES-DU-TEMPLE-SOKONE-2023.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
-#home-container #Temple .Image-container .one-Image-container:nth-child(6) {
+#home-container #Temple .Image-container .one-Image-container:nth-child(7) {
   background-image: url("./Image/Temple/6-BINETA-LES-GARDIENNES-DU-TEMPLE-DJILOR-2023.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
-#home-container #Temple .Image-container .one-Image-container:nth-child(7) {
+#home-container #Temple .Image-container .one-Image-container:nth-child(8) {
   background-image: url("./Image/Temple/7-AWA-SARR-ET-CIE-LES-GARDIENNES-DU-TEMPLE-DJIRNDA-2021.jpg");
   animation-delay: 1.5s;
   height: 100%;

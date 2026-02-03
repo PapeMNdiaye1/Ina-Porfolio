@@ -84,7 +84,7 @@ function Home() {
   return (
     <Fragment>
       <LeftBare langToShow={langToShow} onChangeTab={changeTab} />
-      <TopBare onChangeLang={changeLang} />
+      <TopBare onChangeLang={changeLang} langToShow={langToShow} />
       {/* ############################################### */}
       <div id="home-container">
         <Suspense

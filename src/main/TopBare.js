@@ -1,6 +1,6 @@
 import { React, useEffect, useState } from "react";
 
-const TopBare = ({ onChangeLang }) => {
+const TopBare = ({ onChangeLang, langToShow }) => {
   const langToSend = "Fr";
 
   const onClickOnLanguage = (e) => {
@@ -12,14 +12,43 @@ const TopBare = ({ onChangeLang }) => {
   };
 
   return (
-    <div id="TopBare-container">
-      <div onClick={onClickOnLanguage} className="buttons En-button">
-        En
-      </div>
-      <div onClick={onClickOnLanguage} className="buttons Fr-button">
-        Fr
-      </div>
-    </div>
+    <>
+      {langToShow === "En" ? (
+        <div id="TopBare-container">
+          <div
+            style={{ color: "black" }}
+            onClick={onClickOnLanguage}
+            className="buttons En-button"
+          >
+            En
+          </div>
+          <div
+            style={{ color: "gray" }}
+            onClick={onClickOnLanguage}
+            className="buttons Fr-button"
+          >
+            Fr
+          </div>
+        </div>
+      ) : (
+        <div id="TopBare-container">
+          <div
+            style={{ color: "gray" }}
+            onClick={onClickOnLanguage}
+            className="buttons En-button"
+          >
+            En
+          </div>
+          <div
+            style={{ color: "black" }}
+            onClick={onClickOnLanguage}
+            className="buttons Fr-button"
+          >
+            Fr
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 

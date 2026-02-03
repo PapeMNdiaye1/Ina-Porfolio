@@ -186,6 +186,14 @@ function Temple({ title, langToShow }) {
         </div>
         <div
           onClick={clickOnImage}
+          className="one-Image-container vertical"
+          title="Boubacar Ndiaye"
+        >
+          <p>Kedougouou 20211</p>
+        </div>
+
+        <div
+          onClick={clickOnImage}
           className="one-Image-container Horizontal"
           title="Boubacar Ndiaye"
         >

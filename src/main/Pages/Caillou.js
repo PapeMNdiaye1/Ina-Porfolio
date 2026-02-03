@@ -99,7 +99,7 @@ function Caillou({ title, langToShow }) {
     <div id="Caillou" className=".all">
       <div className="Nimp">gggg</div>
       <div id="Article-title">
-        {langToShow === "En" ? <h1>Emergency Exit</h1> : <h1>{title}</h1>}
+        {langToShow === "En" ? <h1>Caillou</h1> : <h1>{title}</h1>}
       </div>
       {langToShow === "En" ? (
         <p className="the-paragraph">
@@ -182,7 +182,7 @@ function Caillou({ title, langToShow }) {
           className="one-Image-container Horizontal"
           title="Boubacar Ndiaye"
         >
-          <p>Image-5 [07 ‎06 ‎2021]</p>
+          <p>Compositing and montage [07 ‎06 ‎2021]</p>
         </div>
       </div>
       <div className="network">
