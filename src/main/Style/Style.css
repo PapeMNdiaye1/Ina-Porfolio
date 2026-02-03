@@ -337,7 +337,7 @@
 }
 #home-container #TheIntro #home .container1 {
   margin: auto;
-  width: 25em;
+  width: 27em;
   grid-row-start: 1;
   grid-row-end: 2;
   display: flex;
@@ -375,13 +375,13 @@
   z-index: 1;
 }
 #home-container #TheIntro #home .container1 .profile-picture {
-  width: 25em;
+  width: 27em;
   height: 37em;
   background-image: url("./Image/Ina-Makosi.jpeg");
   background-color: gray;
   background-position: center;
   background-position-y: 0%;
-  background-size: 125%;
+  background-size: 106%;
 }
 #home-container #TheIntro #home .container2 {
   margin: auto;
@@ -420,12 +420,12 @@
   z-index: 100;
 }
 #home-container #TheIntro #home .container2 #intro .intro_title {
-  width: 70%;
+  width: 80%;
   color: #000;
   text-align: center;
   margin-bottom: 0.4em;
-  font-size: 0.8em;
-  line-height: 2em;
+  font-size: 0.9em;
+  line-height: 1.5em;
 }
 #home-container #TheIntro #home .container2 #tel_gMailin_mobil_mode {
   display: none;
@@ -2184,7 +2184,7 @@
 }
 #home-container #Caillou .Image-container {
   width: 73em;
-  height: 40em;
+  height: 50em;
   display: grid;
   grid-template-columns: repeat(15, auto);
   grid-template-rows: repeat(5, auto);
@@ -2231,22 +2231,37 @@
   }
 }
 #home-container #Caillou .Image-container .one-Image-container:nth-child(1) {
+  background-image: url("./Image/Caillou/CAILLOU-OUSSOUYE-2022.jpg");
   height: 100%;
   animation-delay: 0.5s;
 }
 #home-container #Caillou .Image-container .one-Image-container:nth-child(2) {
+  background-image: url("./Image/Caillou/CAILLOU-KABROUSSE-4-2022.jpg");
   animation-delay: 1s;
   height: 100%;
 }
 #home-container #Caillou .Image-container .one-Image-container:nth-child(3) {
+  background-image: url("./Image/Caillou/CAILLOU-DJIMBERENG-2022.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Caillou .Image-container .one-Image-container:nth-child(4) {
+  background-image: url("./Image/Caillou/6-CAILLOU-KABROUSSE-2022.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Caillou .Image-container .one-Image-container:nth-child(5) {
+  background-image: url("./Image/Caillou/5-CAILLOU-KABROUSSE-2022.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Caillou .Image-container .one-Image-container:nth-child(6) {
+  background-image: url("./Image/Caillou/4-CAILLOU-KABROUSSE-2022.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Caillou .Image-container .one-Image-container:nth-child(7) {
+  background-image: url("./Image/Caillou/CAILLOU-ZIGUINCHOR-022.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }

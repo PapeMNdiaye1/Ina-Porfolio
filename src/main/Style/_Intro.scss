@@ -19,7 +19,7 @@
 
     .container1 {
       margin: auto;
-      width: 25em;
+      width: 27em;
       grid-row-start: 1;
       grid-row-end: 2;
       @include cent();
@@ -60,14 +60,14 @@
       }
 
       .profile-picture {
-        width: 25em;
+        width: 27em;
         height: 37em;
         // background-image: url("./Image/Moi-Sur-Fond-Noir-1-min.jpg");
         background-image: url("./Image/Ina-Makosi.jpeg");
         background-color: gray;
         background-position: center;
         background-position-y: 0%;
-        background-size: 125%;
+        background-size: 106%;
       }
     }
 
@@ -107,12 +107,12 @@
         z-index: 100;
 
         .intro_title {
-          width: 70%;
+          width: 80%;
           color: #000;
           text-align: center;
           margin-bottom: 0.4em;
-          font-size: 0.8em;
-          line-height: 2em;
+          font-size: 0.9em;
+          line-height: 1.5em;
         }
       }
 
