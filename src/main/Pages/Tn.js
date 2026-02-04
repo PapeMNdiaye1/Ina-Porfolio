@@ -155,7 +155,7 @@ function Tn({ title, langToShow }) {
         </div>
         <div
           onClick={clickOnImage}
-          className="one-Image-container vertical"
+          className="one-Image-container Horizontal"
           title="Boubacar Ndiaye"
         >
           <p>Image-4 [07 ‎06 ‎2021]</p>
@@ -166,6 +166,42 @@ function Tn({ title, langToShow }) {
           title="Boubacar Ndiaye"
         >
           <p>Image-5 [07 ‎06 ‎2021]</p>
+        </div>
+
+        <div
+          onClick={clickOnImage}
+          className="one-Image-container Horizontal"
+          title="Portrait Digital"
+        >
+          <p>Peinture de portrait sur commande [ ‎18 ‎01 ‎2022]</p>{" "}
+        </div>
+        <div
+          onClick={clickOnImage}
+          className="one-Image-container Horizontal"
+          title="Anna"
+        >
+          <p>Digital oil painting[‎12 ‎01 ‎2022]</p>
+        </div>
+        <div
+          onClick={clickOnImage}
+          className="one-Image-container Horizontal"
+          title="Boubacar Ndiaye"
+        >
+          <p>Compositing and montage [07 ‎06 ‎2021]</p>
+        </div>
+        <div
+          onClick={clickOnImage}
+          className="one-Image-container Horizontal"
+          title="Boubacar Ndiaye"
+        >
+          <p>Image-4</p>
+        </div>
+        <div
+          onClick={clickOnImage}
+          className="one-Image-container Horizontal"
+          title="Boubacar Ndiaye"
+        >
+          <p>Image-5</p>
         </div>
       </div>
       <div className="network">

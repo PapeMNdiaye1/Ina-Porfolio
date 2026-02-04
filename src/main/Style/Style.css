@@ -4862,22 +4862,32 @@
   z-index: 2;
 }
 #home-container #Obstacle .Image-container .one-Image-container:nth-child(1) {
+  background-image: url("./Image/Obstacle/AIDA-SANS-OBSTACLE-DAKAR-2024.jpg");
   height: 100%;
   animation-delay: 0.5s;
 }
 #home-container #Obstacle .Image-container .one-Image-container:nth-child(2) {
+  background-image: url("./Image/Obstacle/CLARISSE-SANS-OBSTACLE-DAKAR-2024.jpg");
   animation-delay: 1s;
   height: 100%;
 }
 #home-container #Obstacle .Image-container .one-Image-container:nth-child(3) {
+  background-image: url("./Image/Obstacle/COLE-SANS-OBSTACLE-DAKAR-2024.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Obstacle .Image-container .one-Image-container:nth-child(4) {
+  background-image: url("./Image/Obstacle/GACIRAH-SANS-OBSTACLE-DAKAR-2024.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Obstacle .Image-container .one-Image-container:nth-child(5) {
+  background-image: url("./Image/Obstacle/GERMAINE-SANS-OBSTACLE-DAKAR-2024.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Obstacle .Image-container .one-Image-container:nth-child(6) {
+  background-image: url("./Image/Obstacle/THIATE-SANS-OBSTACLE-DAKAR-2024.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
@@ -5347,7 +5357,7 @@
 }
 #home-container #Tn .Image-container {
   width: 73em;
-  height: 40em;
+  height: 60em;
   display: grid;
   grid-template-columns: repeat(15, auto);
   grid-template-rows: repeat(5, auto);
@@ -5382,22 +5392,52 @@
   z-index: 2;
 }
 #home-container #Tn .Image-container .one-Image-container:nth-child(1) {
+  background-image: url("./Image/Tn/SANS-TITRE-1.jpg");
   height: 100%;
   animation-delay: 0.5s;
 }
 #home-container #Tn .Image-container .one-Image-container:nth-child(2) {
+  background-image: url("./Image/Tn/SANS-TITRE-2.jpg");
   animation-delay: 1s;
   height: 100%;
 }
 #home-container #Tn .Image-container .one-Image-container:nth-child(3) {
+  background-image: url("./Image/Tn/SANS-TITRE-3.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Tn .Image-container .one-Image-container:nth-child(4) {
+  background-image: url("./Image/Tn/SANS-TITRE-4.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Tn .Image-container .one-Image-container:nth-child(5) {
+  background-image: url("./Image/Tn/SANS-TITRE-5.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Tn .Image-container .one-Image-container:nth-child(6) {
+  background-image: url("./Image/Tn/SANS-TITRE-6.jpg");
+  height: 100%;
+  animation-delay: 0.5s;
+}
+#home-container #Tn .Image-container .one-Image-container:nth-child(7) {
+  background-image: url("./Image/Tn/SANS-TITRE-7.jpg");
+  animation-delay: 1s;
+  height: 100%;
+}
+#home-container #Tn .Image-container .one-Image-container:nth-child(8) {
+  background-image: url("./Image/Tn/SANS-TITRE-8.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Tn .Image-container .one-Image-container:nth-child(9) {
+  background-image: url("./Image/Tn/SANS-TITRE-9.jpg");
+  animation-delay: 1.5s;
+  height: 100%;
+}
+#home-container #Tn .Image-container .one-Image-container:nth-child(10) {
+  background-image: url("./Image/Tn/SANS-TITRE-10.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
