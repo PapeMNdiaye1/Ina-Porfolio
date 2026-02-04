@@ -155,7 +155,7 @@ function Magnifique({ title, langToShow }) {
           className="one-Image-container Horizontal"
           title="Bousso"
         >
-          <p>DAKAR 2021</p>{" "}
+          <p>Dakar 2021</p>{" "}
         </div>
         <div
           onClick={clickOnImage}

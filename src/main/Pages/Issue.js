@@ -184,13 +184,6 @@ function Issue({ title, langToShow }) {
         </div>
         <div
           onClick={clickOnImage}
-          className="one-Image-container vertical"
-          title="Issue"
-        >
-          <p>Bruxelles 2025</p>
-        </div>
-        <div
-          onClick={clickOnImage}
           className="one-Image-container Horizontal"
           title="Issue"
         >
@@ -226,7 +219,14 @@ function Issue({ title, langToShow }) {
         </div>
         <div
           onClick={clickOnImage}
-          className="one-Image-container vertical"
+          className="one-Image-container Horizontal"
+          title="Issue"
+        >
+          <p>Bruxelles 2025</p>
+        </div>
+        <div
+          onClick={clickOnImage}
+          className="one-Image-container Horizontal"
           title="Issue"
         >
           <p>Bruxelles 2025</p>

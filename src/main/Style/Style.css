@@ -670,6 +670,7 @@
   transition-duration: 0.3s;
   color: transparent;
   background-size: cover;
+  cursor: pointer;
 }
 #home-container #Lenvers .Image-container .one-Image-container p {
   display: none;
@@ -724,17 +725,18 @@
   border-radius: 0.2em;
   box-shadow: 0px 0.5px 24px rgba(0, 0, 0, 0.2);
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, auto);
   margin: auto;
+  padding: auto;
 }
 #home-container #Lenvers .Image-presentation-container .Image-container .show-vertical-image {
-  margin: 1em;
-  margin-right: 0em;
-  width: 30em;
+  margin: 4em;
+  height: 70vh;
+  aspect-ratio: 1.5/1;
   height: 45em;
   background-position: center;
-  background-size: 103%;
+  background-size: 100%;
   background-repeat: no-repeat;
   grid-column: 1;
   grid-row: 1;
@@ -742,9 +744,8 @@
 }
 #home-container #Lenvers .Image-presentation-container .Image-container .show-horizontal-image {
   margin: 2em;
-  margin-right: 0em;
-  width: 50em;
-  height: 30em;
+  height: 70vh;
+  aspect-ratio: 1.5/1;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -753,20 +754,24 @@
   grid-row: 1;
 }
 #home-container #Lenvers .Image-presentation-container .Image-container .show-vertical-image-text {
-  width: 20em;
-  grid-column: 2;
-  grid-row: 1;
+  height: 5em;
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 70% 7% 23%;
   color: var(--color0);
+  margin-bottom: 0.5em;
 }
 #home-container #Lenvers .Image-presentation-container .Image-container .show-vertical-image-text span {
   width: 100%;
   grid-row: 2;
   font-size: 2em;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #home-container #Lenvers .Image-presentation-container .Image-container .show-vertical-image-text p {
   width: 90%;
@@ -775,8 +780,8 @@
 }
 #home-container #Lenvers .Image-presentation-container .Image-container .close-Image-presantation {
   position: absolute;
-  top: 0.1em;
-  right: 0.1em;
+  top: 0em;
+  right: -1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -788,6 +793,7 @@
   z-index: 20;
   cursor: pointer;
   border: none;
+  background-color: var(--colorX);
 }
 #home-container #Lenvers .Image-presentation-container .Image-container .close-Image-presantation:hover {
   transform: scale(1.1);
@@ -1043,26 +1049,27 @@
   z-index: 2;
 }
 #home-container #Andadon .Image-container .one-Image-container:nth-child(1) {
-  background-image: url("./Image/Andadon/1_ FADIAR- ANDANDO- OUAKAM 2021.JPG.jpg");
+  background-image: url("./Image/Andadon/1-FADIAR-ANDANDO-OUAKAM-2021.jpg");
   height: 100%;
   animation-delay: 0.5s;
 }
 #home-container #Andadon .Image-container .one-Image-container:nth-child(2) {
-  background-image: url("./Image/Andadon/2_ TISBAAR- ANDANDO- OUAKAM 2021.JPG.jpg");
+  background-image: url("./Image/Andadon/2-TISBAAR-ANDANDO-OUAKAM-2021.jpg");
   animation-delay: 1s;
   height: 100%;
 }
 #home-container #Andadon .Image-container .one-Image-container:nth-child(3) {
-  background-image: url("./Image/Andadon/3_ TAKOUSSAN- ANDANDO- OUAKAM 2021.JPG.jpg");
+  background-image: url("./Image/Andadon/3-TAKOUSSAN-ANDANDO-OUAKAM 2021.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Andadon .Image-container .one-Image-container:nth-child(4) {
-  background-image: url("./Image/Andadon/4_ TIMISS- ANDANDO- OUAKAM 2021.JPG.jpg");
+  background-image: url("./Image/Andadon/4-TIMISS-ANDANDO-OUAKAM-2021.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Andadon .Image-container .one-Image-container:nth-child(5) {
+  background-image: url("./Image/Andadon/5-GUEWE-ANDANDO-OUAKAM-2021.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
@@ -2898,32 +2905,33 @@
   z-index: 2;
 }
 #home-container #Magnifique .Image-container .one-Image-container:nth-child(1) {
-  background-image: url("./Image/Magnifique/BOUSSO, TU ES MAGNIFIQUE - DAKAR 2021.jpg");
+  background-image: url("./Image/Magnifique/BOUSSO-TU-ES-MAGNIFIQUE-DAKAR-2021.jpg");
   height: 100%;
   animation-delay: 0.5s;
 }
 #home-container #Magnifique .Image-container .one-Image-container:nth-child(2) {
-  background-image: url("./Image/Magnifique/KAREN - TU ES MAGNIFIQUE - MONTREAL 2019.jpg");
+  background-image: url("./Image/Magnifique/KAREN-TU-ES-MAGNIFIQUE-MONTREAL-2019.jpg");
   grid-row: span 2;
   animation-delay: 1s;
   height: 100%;
 }
 #home-container #Magnifique .Image-container .one-Image-container:nth-child(3) {
-  background-image: url("./Image/Magnifique/KAREN, TU ES MAGNFIQUE - MONTREAL 2019.jpg");
+  background-image: url("./Image/Magnifique/KAREN-TU-ES-MAGNIFIQUE-MONTREAL-2019-2.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Magnifique .Image-container .one-Image-container:nth-child(4) {
-  background-image: url("./Image/Magnifique/ROXY, TU ES MAGNIFIQUE - MONTREAL 2019.jpg");
+  background-image: url("./Image/Magnifique/ROXY-TU-ES-MAGNIFIQUE-MONTREAL-2019.jpg");
   animation-delay: 1.5s;
   height: 100%;
 }
 #home-container #Magnifique .Image-container .one-Image-container:nth-child(5) {
+  background-image: url("./Image/Magnifique/STEFFI-TU-ES-MAGNIFIQUE-BRUXELLES-2025.jpg");
   animation-delay: 1.5s;
   height: 85%;
 }
 #home-container #Magnifique .Image-container .one-Image-container:nth-child(6) {
-  background-image: url("./Image/Magnifique/STEFFI, TU ES MAGNIFIQUE - BRUXELLES 2025.jpg");
+  background-image: url("./Image/Magnifique/STEFFI-TU-ES-MAGNIFIQUE-BRUXELLES-2025-2.jpg");
   animation-delay: 1.5s;
   height: 85%;
 }
@@ -2947,9 +2955,10 @@
   border-radius: 0.2em;
   box-shadow: 0px 0.5px 24px rgba(0, 0, 0, 0.2);
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, auto);
   margin: auto;
+  padding: auto;
 }
 #home-container #Magnifique .Image-presentation-container .Image-container .show-vertical-image {
   margin: 1em;
@@ -2965,9 +2974,8 @@
 }
 #home-container #Magnifique .Image-presentation-container .Image-container .show-horizontal-image {
   margin: 2em;
-  margin-right: 0em;
-  width: 50em;
-  height: 30em;
+  height: 70vh;
+  aspect-ratio: 1.5/1;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -2976,20 +2984,24 @@
   grid-row: 1;
 }
 #home-container #Magnifique .Image-presentation-container .Image-container .show-vertical-image-text {
-  width: 20em;
-  grid-column: 2;
-  grid-row: 1;
+  height: 5em;
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 70% 7% 23%;
   color: var(--color0);
+  margin-bottom: 0.5em;
 }
 #home-container #Magnifique .Image-presentation-container .Image-container .show-vertical-image-text span {
   width: 100%;
   grid-row: 2;
   font-size: 2em;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #home-container #Magnifique .Image-presentation-container .Image-container .show-vertical-image-text p {
   width: 90%;
@@ -2998,8 +3010,8 @@
 }
 #home-container #Magnifique .Image-presentation-container .Image-container .close-Image-presantation {
   position: absolute;
-  top: 0.1em;
-  right: 0.1em;
+  top: 0em;
+  right: -1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3011,6 +3023,7 @@
   z-index: 20;
   cursor: pointer;
   border: none;
+  background-color: var(--colorX);
 }
 #home-container #Magnifique .Image-presentation-container .Image-container .close-Image-presantation:hover {
   transform: scale(1.1);
@@ -4543,9 +4556,10 @@
   border-radius: 0.2em;
   box-shadow: 0px 0.5px 24px rgba(0, 0, 0, 0.2);
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, auto);
   margin: auto;
+  padding: auto;
 }
 #home-container #Issue .Image-presentation-container .Image-container .show-vertical-image {
   margin: 1em;
@@ -4561,9 +4575,8 @@
 }
 #home-container #Issue .Image-presentation-container .Image-container .show-horizontal-image {
   margin: 2em;
-  margin-right: 0em;
-  width: 50em;
-  height: 30em;
+  height: 70vh;
+  aspect-ratio: 1.5/1;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -4572,20 +4585,24 @@
   grid-row: 1;
 }
 #home-container #Issue .Image-presentation-container .Image-container .show-vertical-image-text {
-  width: 20em;
-  grid-column: 2;
-  grid-row: 1;
+  height: 5em;
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 70% 7% 23%;
   color: var(--color0);
+  margin-bottom: 0.5em;
 }
 #home-container #Issue .Image-presentation-container .Image-container .show-vertical-image-text span {
   width: 100%;
   grid-row: 2;
   font-size: 2em;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #home-container #Issue .Image-presentation-container .Image-container .show-vertical-image-text p {
   width: 90%;
@@ -4594,8 +4611,8 @@
 }
 #home-container #Issue .Image-presentation-container .Image-container .close-Image-presantation {
   position: absolute;
-  top: 0.1em;
-  right: 0.1em;
+  top: 0em;
+  right: -1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4607,6 +4624,7 @@
   z-index: 20;
   cursor: pointer;
   border: none;
+  background-color: var(--colorX);
 }
 #home-container #Issue .Image-presentation-container .Image-container .close-Image-presantation:hover {
   transform: scale(1.1);
