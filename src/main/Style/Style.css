@@ -920,6 +920,11 @@
     display: none;
   }
   #home-container #Lenvers .Image-presentation-container .Image-container {
+    background: var(--colorX);
+    background: rgba(36, 36, 36, 0.96);
+    box-shadow: 0px 0.5px 24px rgba(0, 0, 0, 0.2);
+    display: grid;
+    margin: auto;
     width: 100vw;
     height: 103vh;
     border-radius: 0em;
@@ -941,6 +946,14 @@
     border-radius: 0.2em;
   }
   #home-container #Lenvers .Image-presentation-container .Image-container .show-horizontal-image {
+    margin: 2em;
+    margin-right: 0em;
+    height: 28em;
+    background-position: center;
+    background-size: 103%;
+    background-repeat: no-repeat;
+    grid-column: 1;
+    grid-row: 1;
     margin: auto;
     grid-column: span 2;
     grid-row: 2;
@@ -950,6 +963,8 @@
     border-radius: 0.2em;
   }
   #home-container #Lenvers .Image-presentation-container .Image-container .show-vertical-image-text {
+    flex-wrap: wrap;
+    color: var(--color0);
     width: 100%;
     grid-column: span 2;
     grid-row: 3;
@@ -4741,7 +4756,7 @@
   }
   #home-container #Issue .Image-container {
     width: 93%;
-    height: 80em;
+    height: 170em;
     margin-top: 2em;
     margin-bottom: 10em;
     display: grid;
@@ -4780,19 +4795,27 @@
     grid-column: span 1;
   }
   #home-container #Issue .Image-container .one-Image-container:nth-child(4) {
-    grid-row: span 1;
+    grid-row: span 2;
     grid-column: span 1;
   }
   #home-container #Issue .Image-container .one-Image-container:nth-child(5) {
     grid-row: span 1;
     grid-column: span 1;
   }
+  #home-container #Issue .Image-container .one-Image-container:nth-child(10) {
+    grid-row: span 2;
+    grid-column: span 1;
+  }
   #home-container #Issue .network {
     display: none;
   }
+  #home-container #Issue .Image-presentation-container {
+    width: 100vw;
+    height: 100vh;
+  }
   #home-container #Issue .Image-presentation-container .Image-container {
     width: 100vw;
-    height: 103vh;
+    height: 100vh;
     border-radius: 0em;
     display: grid;
     grid-template-columns: 1 fr;
@@ -4800,25 +4823,16 @@
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
   }
-  #home-container #Issue .Image-presentation-container .Image-container .show-vertical-image {
-    margin: 0em;
-    width: 95%;
-    height: 90%;
-    grid-column: span 2;
-    grid-row: 2;
-    margin: auto;
-    background-color: rgba(11, 11, 11, 0.9);
-    border: 0.3em rgba(11, 11, 11, 0.9) solid;
-    border-radius: 0.2em;
-  }
   #home-container #Issue .Image-presentation-container .Image-container .show-horizontal-image {
     margin: auto;
     grid-column: span 2;
     grid-row: 2;
-    width: 95%;
     background-color: rgba(11, 11, 11, 0.9);
     border: 0.3em rgba(11, 11, 11, 0.9) solid;
     border-radius: 0.2em;
+    height: 70%;
+    aspect-ratio: 1/1;
+    max-width: 100vw;
   }
   #home-container #Issue .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -4840,6 +4854,11 @@
     width: 100%;
     margin: none;
     text-align: center;
+  }
+  #home-container #Issue .Image-presentation-container .Image-container .close-Image-presantation {
+    top: 2em;
+    right: 0.51em;
+    z-index: 2000;
   }
 }
 #home-container #Obstacle {
