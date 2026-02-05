@@ -79,7 +79,7 @@ function Home() {
       case "Sama":
         return <Sama title="Sama Medina" langToShow={langToShow} />;
       case "Obstacle":
-        return <Obstacle title="Obstacle" langToShow={langToShow} />;
+        return <Obstacle title="Sans Obstacle" langToShow={langToShow} />;
 
       case "Contact":
         return <Contact />;
