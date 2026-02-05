@@ -1302,7 +1302,7 @@
     height: 100vh;
     border-radius: 0em;
     display: grid;
-    grid-template-columns: 1 fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 2em 70% 30%;
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
@@ -1698,7 +1698,7 @@
     height: 100vh;
     border-radius: 0em;
     display: grid;
-    grid-template-columns: 1 fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 2em 70% 30%;
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
@@ -2084,7 +2084,7 @@
     height: 100vh;
     border-radius: 0em;
     display: grid;
-    grid-template-columns: 1 fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 2em 70% 30%;
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
@@ -2465,7 +2465,7 @@
     height: 100vh;
     border-radius: 0em;
     display: grid;
-    grid-template-columns: 1 fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 2em 70% 30%;
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
@@ -2827,7 +2827,7 @@
     height: 100vh;
     border-radius: 0em;
     display: grid;
-    grid-template-columns: 1 fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 2em 70% 30%;
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
@@ -3204,7 +3204,7 @@
     height: 100vh;
     border-radius: 0em;
     display: grid;
-    grid-template-columns: 1 fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 2em 70% 30%;
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
@@ -3582,7 +3582,7 @@
     height: 100vh;
     border-radius: 0em;
     display: grid;
-    grid-template-columns: 1 fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 2em 70% 30%;
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
@@ -3963,7 +3963,7 @@
     height: 100vh;
     border-radius: 0em;
     display: grid;
-    grid-template-columns: 1 fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 2em 70% 30%;
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
@@ -4433,7 +4433,7 @@
     height: 100vh;
     border-radius: 0em;
     display: grid;
-    grid-template-columns: 1 fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 2em 70% 30%;
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
@@ -4836,7 +4836,7 @@
     height: 100vh;
     border-radius: 0em;
     display: grid;
-    grid-template-columns: 1 fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 2em 70% 30%;
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
@@ -5212,7 +5212,7 @@
     height: 100vh;
     border-radius: 0em;
     display: grid;
-    grid-template-columns: 1 fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 2em 70% 30%;
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
@@ -5770,7 +5770,7 @@
     height: 100vh;
     border-radius: 0em;
     display: grid;
-    grid-template-columns: 1 fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 2em 70% 30%;
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
