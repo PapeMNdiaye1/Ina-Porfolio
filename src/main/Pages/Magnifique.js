@@ -99,7 +99,7 @@ function Magnifique({ title, langToShow }) {
     <div id="Magnifique" className=".all">
       <div className="Nimp">gggg</div>
       <div id="Article-title">
-        {langToShow === "En" ? <h1>Behind The Scenes</h1> : <h1>{title}</h1>}
+        {langToShow === "En" ? <h1>You Are Beautiful</h1> : <h1>{title}</h1>}
       </div>
       {langToShow === "En" ? (
         <p className="the-paragraph">

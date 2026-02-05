@@ -931,7 +931,7 @@
     height: 100vh;
     border-radius: 0em;
     display: grid;
-    grid-template-columns: 1 fr;
+    grid-template-columns: 1fr;
     grid-template-rows: 2em 70% 30%;
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
@@ -946,6 +946,9 @@
     height: 70%;
     aspect-ratio: 1/1;
     max-width: 100vw;
+  }
+  #home-container #Lenvers .Image-presentation-container .Image-container .show-horizontal-image {
+    margin: auto;
   }
   #home-container #Lenvers .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -1314,6 +1317,9 @@
     height: 70%;
     aspect-ratio: 1/1;
     max-width: 100vw;
+  }
+  #home-container #Andadon .Image-presentation-container .Image-container .show-horizontal-image {
+    margin: auto;
   }
   #home-container #Andadon .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -1708,6 +1714,9 @@
     aspect-ratio: 1/1;
     max-width: 100vw;
   }
+  #home-container #Memoire .Image-presentation-container .Image-container .show-horizontal-image {
+    margin: auto;
+  }
   #home-container #Memoire .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
     grid-column: span 2;
@@ -2091,6 +2100,9 @@
     aspect-ratio: 1/1;
     max-width: 100vw;
   }
+  #home-container #Temple .Image-presentation-container .Image-container .show-horizontal-image {
+    margin: auto;
+  }
   #home-container #Temple .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
     grid-column: span 2;
@@ -2469,6 +2481,9 @@
     aspect-ratio: 1/1;
     max-width: 100vw;
   }
+  #home-container #Caillou .Image-presentation-container .Image-container .show-horizontal-image {
+    margin: auto;
+  }
   #home-container #Caillou .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
     grid-column: span 2;
@@ -2827,6 +2842,9 @@
     height: 70%;
     aspect-ratio: 1/1;
     max-width: 100vw;
+  }
+  #home-container #Une .Image-presentation-container .Image-container .show-horizontal-image {
+    margin: auto;
   }
   #home-container #Une .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -3202,6 +3220,9 @@
     aspect-ratio: 1/1;
     max-width: 100vw;
   }
+  #home-container #Magnifique .Image-presentation-container .Image-container .show-horizontal-image {
+    margin: auto;
+  }
   #home-container #Magnifique .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
     grid-column: span 2;
@@ -3576,6 +3597,9 @@
     height: 70%;
     aspect-ratio: 1/1;
     max-width: 100vw;
+  }
+  #home-container #Vagabonde .Image-presentation-container .Image-container .show-horizontal-image {
+    margin: auto;
   }
   #home-container #Vagabonde .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -3954,6 +3978,9 @@
     height: 70%;
     aspect-ratio: 1/1;
     max-width: 100vw;
+  }
+  #home-container #Meilleur .Image-presentation-container .Image-container .show-horizontal-image {
+    margin: auto;
   }
   #home-container #Meilleur .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -4422,6 +4449,9 @@
     aspect-ratio: 1/1;
     max-width: 100vw;
   }
+  #home-container #Sama .Image-presentation-container .Image-container .show-horizontal-image {
+    margin: auto;
+  }
   #home-container #Sama .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
     grid-column: span 2;
@@ -4822,6 +4852,9 @@
     aspect-ratio: 1/1;
     max-width: 100vw;
   }
+  #home-container #Issue .Image-presentation-container .Image-container .show-horizontal-image {
+    margin: auto;
+  }
   #home-container #Issue .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
     grid-column: span 2;
@@ -5194,6 +5227,9 @@
     height: 70%;
     aspect-ratio: 1/1;
     max-width: 100vw;
+  }
+  #home-container #Obstacle .Image-presentation-container .Image-container .show-horizontal-image {
+    margin: auto;
   }
   #home-container #Obstacle .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -5749,6 +5785,9 @@
     height: 70%;
     aspect-ratio: 1/1;
     max-width: 100vw;
+  }
+  #home-container #Tn .Image-presentation-container .Image-container .show-horizontal-image {
+    margin: auto;
   }
   #home-container #Tn .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
