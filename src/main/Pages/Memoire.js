@@ -187,7 +187,7 @@ function Memoire({ title, langToShow }) {
         </div>
         <div
           onClick={clickOnImage}
-          className="one-Image-container vertical"
+          className="one-Image-container Horizontal"
           title="Saro Mali"
         >
           <p>Kedougou 2021</p>

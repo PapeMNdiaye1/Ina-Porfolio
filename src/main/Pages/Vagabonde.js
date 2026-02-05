@@ -170,56 +170,56 @@ function Vagabonde({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Portrait Digital"
+          title="---"
         >
           <p>Peinture de portrait sur commande [ ‎18 ‎01 ‎2022]</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Anna"
+          title="---"
         >
-          <p>Digital oil painting[‎12 ‎01 ‎2022]</p>
+          <p>localisation ----</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
+          title="---"
         >
-          <p>Compositing and montage [07 ‎06 ‎2021]</p>
+          <p>localisation ----</p>
         </div>
         <div
           onClick={clickOnImage}
-          className="one-Image-container vertical"
-          title="Boubacar Ndiaye"
+          className="one-Image-container Horizontal"
+          title="---"
         >
           <p>Image-4 [07 ‎06 ‎2021]</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
+          title="---"
         >
-          <p>Image-5 [07 ‎06 ‎2021]</p>
+          <p>localisation ----</p>
         </div>
         <div
           onClick={clickOnImage}
-          className="one-Image-container vertical"
-          title="Boubacar Ndiaye"
+          className="one-Image-container Horizontal"
+          title="---"
         >
           <p>Image-6 [07 ‎06 ‎2021]</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
+          title="---"
         >
           <p>Image-7 [07 ‎06 ‎2021]</p>
         </div>
         <div
           onClick={clickOnImage}
-          className="one-Image-container vertical"
-          title="Boubacar Ndiaye"
+          className="one-Image-container Horizontal"
+          title="---"
         >
           <p>Image-8 [07 ‎06 ‎2021]</p>
         </div>

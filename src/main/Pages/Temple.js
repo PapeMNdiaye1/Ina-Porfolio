@@ -166,28 +166,28 @@ function Temple({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Anna"
+          title="---"
         >
           <p>Djirnda 2021</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
+          title="---"
         >
           <p>Kedougouou 20211</p>
         </div>
         <div
           onClick={clickOnImage}
-          className="one-Image-container vertical"
-          title="Boubacar Ndiaye"
+          className="one-Image-container Horizontal"
+          title="---"
         >
           <p>Kedougouou 20211</p>
         </div>
         <div
           onClick={clickOnImage}
-          className="one-Image-container vertical"
-          title="Boubacar Ndiaye"
+          className="one-Image-container Horizontal"
+          title="---"
         >
           <p>Kedougouou 20211</p>
         </div>
@@ -195,21 +195,21 @@ function Temple({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
+          title="---"
         >
           <p>Kedougouou 20211</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
+          title="---"
         >
           <p>Kedougouou 20211</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Boubacar Ndiaye"
+          title="---"
         >
           <p>Kedougouou 20211</p>
         </div>

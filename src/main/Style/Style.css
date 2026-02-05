@@ -1093,9 +1093,10 @@
   border-radius: 0.2em;
   box-shadow: 0px 0.5px 24px rgba(0, 0, 0, 0.2);
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, auto);
   margin: auto;
+  padding: auto;
 }
 #home-container #Andadon .Image-presentation-container .Image-container .show-vertical-image {
   margin: 1em;
@@ -1111,9 +1112,8 @@
 }
 #home-container #Andadon .Image-presentation-container .Image-container .show-horizontal-image {
   margin: 2em;
-  margin-right: 0em;
-  width: 50em;
-  height: 30em;
+  height: 70vh;
+  aspect-ratio: 1.5/1;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -1122,20 +1122,24 @@
   grid-row: 1;
 }
 #home-container #Andadon .Image-presentation-container .Image-container .show-vertical-image-text {
-  width: 20em;
-  grid-column: 2;
-  grid-row: 1;
+  height: 5em;
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 70% 7% 23%;
   color: var(--color0);
+  margin-bottom: 0.5em;
 }
 #home-container #Andadon .Image-presentation-container .Image-container .show-vertical-image-text span {
   width: 100%;
   grid-row: 2;
   font-size: 2em;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #home-container #Andadon .Image-presentation-container .Image-container .show-vertical-image-text p {
   width: 90%;
@@ -1144,8 +1148,8 @@
 }
 #home-container #Andadon .Image-presentation-container .Image-container .close-Image-presantation {
   position: absolute;
-  top: 0.1em;
-  right: 0.1em;
+  top: 0em;
+  right: -1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1157,6 +1161,7 @@
   z-index: 20;
   cursor: pointer;
   border: none;
+  background-color: var(--colorX);
 }
 #home-container #Andadon .Image-presentation-container .Image-container .close-Image-presantation:hover {
   transform: scale(1.1);
@@ -1481,9 +1486,10 @@
   border-radius: 0.2em;
   box-shadow: 0px 0.5px 24px rgba(0, 0, 0, 0.2);
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, auto);
   margin: auto;
+  padding: auto;
 }
 #home-container #Memoire .Image-presentation-container .Image-container .show-vertical-image {
   margin: 1em;
@@ -1499,9 +1505,8 @@
 }
 #home-container #Memoire .Image-presentation-container .Image-container .show-horizontal-image {
   margin: 2em;
-  margin-right: 0em;
-  width: 50em;
-  height: 30em;
+  height: 70vh;
+  aspect-ratio: 1.5/1;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -1510,20 +1515,24 @@
   grid-row: 1;
 }
 #home-container #Memoire .Image-presentation-container .Image-container .show-vertical-image-text {
-  width: 20em;
-  grid-column: 2;
-  grid-row: 1;
+  height: 5em;
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 70% 7% 23%;
   color: var(--color0);
+  margin-bottom: 0.5em;
 }
 #home-container #Memoire .Image-presentation-container .Image-container .show-vertical-image-text span {
   width: 100%;
   grid-row: 2;
   font-size: 2em;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #home-container #Memoire .Image-presentation-container .Image-container .show-vertical-image-text p {
   width: 90%;
@@ -1532,8 +1541,8 @@
 }
 #home-container #Memoire .Image-presentation-container .Image-container .close-Image-presantation {
   position: absolute;
-  top: 0.1em;
-  right: 0.1em;
+  top: 0em;
+  right: -1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1545,6 +1554,7 @@
   z-index: 20;
   cursor: pointer;
   border: none;
+  background-color: var(--colorX);
 }
 #home-container #Memoire .Image-presentation-container .Image-container .close-Image-presantation:hover {
   transform: scale(1.1);
@@ -1859,9 +1869,10 @@
   border-radius: 0.2em;
   box-shadow: 0px 0.5px 24px rgba(0, 0, 0, 0.2);
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, auto);
   margin: auto;
+  padding: auto;
 }
 #home-container #Temple .Image-presentation-container .Image-container .show-vertical-image {
   margin: 1em;
@@ -1877,9 +1888,8 @@
 }
 #home-container #Temple .Image-presentation-container .Image-container .show-horizontal-image {
   margin: 2em;
-  margin-right: 0em;
-  width: 50em;
-  height: 30em;
+  height: 70vh;
+  aspect-ratio: 1.5/1;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -1888,20 +1898,24 @@
   grid-row: 1;
 }
 #home-container #Temple .Image-presentation-container .Image-container .show-vertical-image-text {
-  width: 20em;
-  grid-column: 2;
-  grid-row: 1;
+  height: 5em;
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 70% 7% 23%;
   color: var(--color0);
+  margin-bottom: 0.5em;
 }
 #home-container #Temple .Image-presentation-container .Image-container .show-vertical-image-text span {
   width: 100%;
   grid-row: 2;
   font-size: 2em;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #home-container #Temple .Image-presentation-container .Image-container .show-vertical-image-text p {
   width: 90%;
@@ -1910,8 +1924,8 @@
 }
 #home-container #Temple .Image-presentation-container .Image-container .close-Image-presantation {
   position: absolute;
-  top: 0.1em;
-  right: 0.1em;
+  top: 0em;
+  right: -1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1923,6 +1937,7 @@
   z-index: 20;
   cursor: pointer;
   border: none;
+  background-color: var(--colorX);
 }
 #home-container #Temple .Image-presentation-container .Image-container .close-Image-presantation:hover {
   transform: scale(1.1);
@@ -2232,9 +2247,10 @@
   border-radius: 0.2em;
   box-shadow: 0px 0.5px 24px rgba(0, 0, 0, 0.2);
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, auto);
   margin: auto;
+  padding: auto;
 }
 #home-container #Caillou .Image-presentation-container .Image-container .show-vertical-image {
   margin: 1em;
@@ -2250,9 +2266,8 @@
 }
 #home-container #Caillou .Image-presentation-container .Image-container .show-horizontal-image {
   margin: 2em;
-  margin-right: 0em;
-  width: 50em;
-  height: 30em;
+  height: 70vh;
+  aspect-ratio: 1.5/1;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -2261,20 +2276,24 @@
   grid-row: 1;
 }
 #home-container #Caillou .Image-presentation-container .Image-container .show-vertical-image-text {
-  width: 20em;
-  grid-column: 2;
-  grid-row: 1;
+  height: 5em;
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 70% 7% 23%;
   color: var(--color0);
+  margin-bottom: 0.5em;
 }
 #home-container #Caillou .Image-presentation-container .Image-container .show-vertical-image-text span {
   width: 100%;
   grid-row: 2;
   font-size: 2em;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #home-container #Caillou .Image-presentation-container .Image-container .show-vertical-image-text p {
   width: 90%;
@@ -2283,8 +2302,8 @@
 }
 #home-container #Caillou .Image-presentation-container .Image-container .close-Image-presantation {
   position: absolute;
-  top: 0.1em;
-  right: 0.1em;
+  top: 0em;
+  right: -1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2296,6 +2315,7 @@
   z-index: 20;
   cursor: pointer;
   border: none;
+  background-color: var(--colorX);
 }
 #home-container #Caillou .Image-presentation-container .Image-container .close-Image-presantation:hover {
   transform: scale(1.1);
@@ -2586,9 +2606,10 @@
   border-radius: 0.2em;
   box-shadow: 0px 0.5px 24px rgba(0, 0, 0, 0.2);
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, auto);
   margin: auto;
+  padding: auto;
 }
 #home-container #Une .Image-presentation-container .Image-container .show-vertical-image {
   margin: 1em;
@@ -2604,9 +2625,8 @@
 }
 #home-container #Une .Image-presentation-container .Image-container .show-horizontal-image {
   margin: 2em;
-  margin-right: 0em;
-  width: 50em;
-  height: 30em;
+  height: 70vh;
+  aspect-ratio: 1.5/1;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -2615,20 +2635,24 @@
   grid-row: 1;
 }
 #home-container #Une .Image-presentation-container .Image-container .show-vertical-image-text {
-  width: 20em;
-  grid-column: 2;
-  grid-row: 1;
+  height: 5em;
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 70% 7% 23%;
   color: var(--color0);
+  margin-bottom: 0.5em;
 }
 #home-container #Une .Image-presentation-container .Image-container .show-vertical-image-text span {
   width: 100%;
   grid-row: 2;
   font-size: 2em;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #home-container #Une .Image-presentation-container .Image-container .show-vertical-image-text p {
   width: 90%;
@@ -2637,8 +2661,8 @@
 }
 #home-container #Une .Image-presentation-container .Image-container .close-Image-presantation {
   position: absolute;
-  top: 0.1em;
-  right: 0.1em;
+  top: 0em;
+  right: -1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2650,6 +2674,7 @@
   z-index: 20;
   cursor: pointer;
   border: none;
+  background-color: var(--colorX);
 }
 #home-container #Une .Image-presentation-container .Image-container .close-Image-presantation:hover {
   transform: scale(1.1);
@@ -3330,9 +3355,10 @@
   border-radius: 0.2em;
   box-shadow: 0px 0.5px 24px rgba(0, 0, 0, 0.2);
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, auto);
   margin: auto;
+  padding: auto;
 }
 #home-container #Vagabonde .Image-presentation-container .Image-container .show-vertical-image {
   margin: 1em;
@@ -3348,9 +3374,8 @@
 }
 #home-container #Vagabonde .Image-presentation-container .Image-container .show-horizontal-image {
   margin: 2em;
-  margin-right: 0em;
-  width: 50em;
-  height: 30em;
+  height: 70vh;
+  aspect-ratio: 1.5/1;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -3359,20 +3384,24 @@
   grid-row: 1;
 }
 #home-container #Vagabonde .Image-presentation-container .Image-container .show-vertical-image-text {
-  width: 20em;
-  grid-column: 2;
-  grid-row: 1;
+  height: 5em;
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 70% 7% 23%;
   color: var(--color0);
+  margin-bottom: 0.5em;
 }
 #home-container #Vagabonde .Image-presentation-container .Image-container .show-vertical-image-text span {
   width: 100%;
   grid-row: 2;
   font-size: 2em;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #home-container #Vagabonde .Image-presentation-container .Image-container .show-vertical-image-text p {
   width: 90%;
@@ -3381,8 +3410,8 @@
 }
 #home-container #Vagabonde .Image-presentation-container .Image-container .close-Image-presantation {
   position: absolute;
-  top: 0.1em;
-  right: 0.1em;
+  top: 0em;
+  right: -1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3394,6 +3423,7 @@
   z-index: 20;
   cursor: pointer;
   border: none;
+  background-color: var(--colorX);
 }
 #home-container #Vagabonde .Image-presentation-container .Image-container .close-Image-presantation:hover {
   transform: scale(1.1);
@@ -3703,9 +3733,10 @@
   border-radius: 0.2em;
   box-shadow: 0px 0.5px 24px rgba(0, 0, 0, 0.2);
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, auto);
   margin: auto;
+  padding: auto;
 }
 #home-container #Meilleur .Image-presentation-container .Image-container .show-vertical-image {
   margin: 1em;
@@ -3721,9 +3752,8 @@
 }
 #home-container #Meilleur .Image-presentation-container .Image-container .show-horizontal-image {
   margin: 2em;
-  margin-right: 0em;
-  width: 50em;
-  height: 30em;
+  height: 70vh;
+  aspect-ratio: 1.5/1;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -3732,20 +3762,24 @@
   grid-row: 1;
 }
 #home-container #Meilleur .Image-presentation-container .Image-container .show-vertical-image-text {
-  width: 20em;
-  grid-column: 2;
-  grid-row: 1;
+  height: 5em;
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 70% 7% 23%;
   color: var(--color0);
+  margin-bottom: 0.5em;
 }
 #home-container #Meilleur .Image-presentation-container .Image-container .show-vertical-image-text span {
   width: 100%;
   grid-row: 2;
   font-size: 2em;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #home-container #Meilleur .Image-presentation-container .Image-container .show-vertical-image-text p {
   width: 90%;
@@ -3754,8 +3788,8 @@
 }
 #home-container #Meilleur .Image-presentation-container .Image-container .close-Image-presantation {
   position: absolute;
-  top: 0.1em;
-  right: 0.1em;
+  top: 0em;
+  right: -1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3767,6 +3801,7 @@
   z-index: 20;
   cursor: pointer;
   border: none;
+  background-color: var(--colorX);
 }
 #home-container #Meilleur .Image-presentation-container .Image-container .close-Image-presantation:hover {
   transform: scale(1.1);
@@ -4165,9 +4200,10 @@
   border-radius: 0.2em;
   box-shadow: 0px 0.5px 24px rgba(0, 0, 0, 0.2);
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, auto);
   margin: auto;
+  padding: auto;
 }
 #home-container #Sama .Image-presentation-container .Image-container .show-vertical-image {
   margin: 1em;
@@ -4183,9 +4219,8 @@
 }
 #home-container #Sama .Image-presentation-container .Image-container .show-horizontal-image {
   margin: 2em;
-  margin-right: 0em;
-  width: 50em;
-  height: 30em;
+  height: 70vh;
+  aspect-ratio: 1.5/1;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -4194,20 +4229,24 @@
   grid-row: 1;
 }
 #home-container #Sama .Image-presentation-container .Image-container .show-vertical-image-text {
-  width: 20em;
-  grid-column: 2;
-  grid-row: 1;
+  height: 5em;
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 70% 7% 23%;
   color: var(--color0);
+  margin-bottom: 0.5em;
 }
 #home-container #Sama .Image-presentation-container .Image-container .show-vertical-image-text span {
   width: 100%;
   grid-row: 2;
   font-size: 2em;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #home-container #Sama .Image-presentation-container .Image-container .show-vertical-image-text p {
   width: 90%;
@@ -4216,8 +4255,8 @@
 }
 #home-container #Sama .Image-presentation-container .Image-container .close-Image-presantation {
   position: absolute;
-  top: 0.1em;
-  right: 0.1em;
+  top: 0em;
+  right: -1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4229,6 +4268,7 @@
   z-index: 20;
   cursor: pointer;
   border: none;
+  background-color: var(--colorX);
 }
 #home-container #Sama .Image-presentation-container .Image-container .close-Image-presantation:hover {
   transform: scale(1.1);
@@ -4929,9 +4969,10 @@
   border-radius: 0.2em;
   box-shadow: 0px 0.5px 24px rgba(0, 0, 0, 0.2);
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, auto);
   margin: auto;
+  padding: auto;
 }
 #home-container #Obstacle .Image-presentation-container .Image-container .show-vertical-image {
   margin: 1em;
@@ -4947,9 +4988,8 @@
 }
 #home-container #Obstacle .Image-presentation-container .Image-container .show-horizontal-image {
   margin: 2em;
-  margin-right: 0em;
-  width: 50em;
-  height: 30em;
+  height: 70vh;
+  aspect-ratio: 1.5/1;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -4958,20 +4998,24 @@
   grid-row: 1;
 }
 #home-container #Obstacle .Image-presentation-container .Image-container .show-vertical-image-text {
-  width: 20em;
-  grid-column: 2;
-  grid-row: 1;
+  height: 5em;
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 70% 7% 23%;
   color: var(--color0);
+  margin-bottom: 0.5em;
 }
 #home-container #Obstacle .Image-presentation-container .Image-container .show-vertical-image-text span {
   width: 100%;
   grid-row: 2;
   font-size: 2em;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #home-container #Obstacle .Image-presentation-container .Image-container .show-vertical-image-text p {
   width: 90%;
@@ -4980,8 +5024,8 @@
 }
 #home-container #Obstacle .Image-presentation-container .Image-container .close-Image-presantation {
   position: absolute;
-  top: 0.1em;
-  right: 0.1em;
+  top: 0em;
+  right: -1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4993,6 +5037,7 @@
   z-index: 20;
   cursor: pointer;
   border: none;
+  background-color: var(--colorX);
 }
 #home-container #Obstacle .Image-presentation-container .Image-container .close-Image-presantation:hover {
   transform: scale(1.1);
@@ -5479,9 +5524,10 @@
   border-radius: 0.2em;
   box-shadow: 0px 0.5px 24px rgba(0, 0, 0, 0.2);
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: 100%;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, auto);
   margin: auto;
+  padding: auto;
 }
 #home-container #Tn .Image-presentation-container .Image-container .show-vertical-image {
   margin: 1em;
@@ -5497,9 +5543,8 @@
 }
 #home-container #Tn .Image-presentation-container .Image-container .show-horizontal-image {
   margin: 2em;
-  margin-right: 0em;
-  width: 50em;
-  height: 30em;
+  height: 70vh;
+  aspect-ratio: 1.5/1;
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -5508,20 +5553,24 @@
   grid-row: 1;
 }
 #home-container #Tn .Image-presentation-container .Image-container .show-vertical-image-text {
-  width: 20em;
-  grid-column: 2;
-  grid-row: 1;
+  height: 5em;
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 70% 7% 23%;
   color: var(--color0);
+  margin-bottom: 0.5em;
 }
 #home-container #Tn .Image-presentation-container .Image-container .show-vertical-image-text span {
   width: 100%;
   grid-row: 2;
   font-size: 2em;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #home-container #Tn .Image-presentation-container .Image-container .show-vertical-image-text p {
   width: 90%;
@@ -5530,8 +5579,8 @@
 }
 #home-container #Tn .Image-presentation-container .Image-container .close-Image-presantation {
   position: absolute;
-  top: 0.1em;
-  right: 0.1em;
+  top: 0em;
+  right: -1.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -5543,6 +5592,7 @@
   z-index: 20;
   cursor: pointer;
   border: none;
+  background-color: var(--colorX);
 }
 #home-container #Tn .Image-presentation-container .Image-container .close-Image-presantation:hover {
   transform: scale(1.1);
