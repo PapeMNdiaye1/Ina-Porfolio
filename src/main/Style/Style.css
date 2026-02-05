@@ -566,14 +566,17 @@
   }
   #home-container #TheIntro #home .container2 #intro {
     font-size: 1em;
-    max-width: 19em;
+    max-width: 90vw;
     background-color: rgba(0, 0, 0, 0.2);
-    top: 5em;
+    top: 2em;
     padding: 0.5em;
   }
   #home-container #TheIntro #home .container2 #intro .intro_title {
+    width: 90%;
     border-radius: 2em;
+    font-size: 0.5;
     color: var(--color0);
+    line-height: 1.4em;
   }
   #home-container #TheIntro #home .container2 #tel_gMailin_mobil_mode {
     display: block;
@@ -4756,7 +4759,7 @@
   }
   #home-container #Issue .Image-container {
     width: 93%;
-    height: 170em;
+    height: 190em;
     margin-top: 2em;
     margin-bottom: 10em;
     display: grid;
