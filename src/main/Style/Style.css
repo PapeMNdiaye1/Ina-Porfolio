@@ -493,6 +493,7 @@
     background-position: center;
     background-size: 140%;
     background-repeat: no-repeat;
+    background-color: var(--colorX);
     background-image: url("./Image/Ina-Makosi.jpeg");
   }
   #home-container #TheIntro #home .container1 .name-container {
@@ -529,6 +530,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: space-between;
+    background-color: var(--colorX);
     background-image: url("./Image/Ina-Makosi.jpeg");
     background-size: cover;
     z-index: 3;
@@ -2407,7 +2409,7 @@
   }
   #home-container #Caillou .Image-container {
     width: 93%;
-    height: 80em;
+    height: 100em;
     margin-top: 2em;
     margin-bottom: 10em;
     display: grid;
@@ -3905,7 +3907,7 @@
   }
   #home-container #Meilleur .Image-container {
     width: 93%;
-    height: 110em;
+    height: 90em;
     margin-top: 2em;
     margin-bottom: 10em;
     display: grid;
@@ -4375,7 +4377,7 @@
   }
   #home-container #Sama .Image-container {
     width: 93%;
-    height: 80em;
+    height: 200em;
     margin-top: 2em;
     margin-bottom: 10em;
     display: grid;

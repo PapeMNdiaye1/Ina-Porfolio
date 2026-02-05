@@ -193,7 +193,7 @@ const LeftBare = ({ onChangeTab, langToShow }) => {
           TablangToShow={langToShow}
           parentCallback={callback}
           tabTitleToShow="A La Une"
-          tabTitleToShowEn="in the news"
+          tabTitleToShowEn="In The News"
           tabTitle="Une"
           tabId="tab9"
         />

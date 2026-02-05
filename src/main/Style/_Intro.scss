@@ -192,6 +192,7 @@
         background-position: center;
         background-size: 140%;
         background-repeat: no-repeat;
+        background-color: var(--colorX);
         background-image: url("./Image/Ina-Makosi.jpeg");
 
         .name-container {
@@ -232,7 +233,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: space-between;
-        // background-color: red;
+        background-color: var(--colorX);
         background-image: url("./Image/Ina-Makosi.jpeg");
         background-size: cover;
         z-index: 3;

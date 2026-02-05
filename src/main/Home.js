@@ -58,13 +58,15 @@ function Home() {
       case "Memoire":
         return <Memoire title="La Memoire En Miroir" langToShow={langToShow} />;
       case "Temple":
-        return <Temple title="th Temple" langToShow={langToShow} />;
+        return (
+          <Temple title="les Gradiennes Du Temple" langToShow={langToShow} />
+        );
       case "Caillou":
         return <Caillou title="Caillou" langToShow={langToShow} />;
       case "Une":
         return <Une title="A la Une" langToShow={langToShow} />;
       case "Vagabonde":
-        return <Vagabonde title="Vagabonde" langToShow={langToShow} />;
+        return <Vagabonde title="Identité Vagabonde" langToShow={langToShow} />;
       case "Meilleur":
         return (
           <Meilleur
@@ -75,7 +77,7 @@ function Home() {
       case "Tn":
         return <Tn title="Tn" langToShow={langToShow} />;
       case "Sama":
-        return <Sama title="Sama" langToShow={langToShow} />;
+        return <Sama title="Sama Medina" langToShow={langToShow} />;
       case "Obstacle":
         return <Obstacle title="Obstacle" langToShow={langToShow} />;
 

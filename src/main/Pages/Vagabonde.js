@@ -99,7 +99,7 @@ function Vagabonde({ title, langToShow }) {
     <div id="Vagabonde" className=".all">
       <div className="Nimp">gggg</div>
       <div id="Article-title">
-        {langToShow === "En" ? <h1>Emergency Exit</h1> : <h1>{title}</h1>}
+        {langToShow === "En" ? <h1>Wandering Identity</h1> : <h1>{title}</h1>}
       </div>
       {langToShow === "En" ? (
         <p className="the-paragraph">
@@ -207,21 +207,21 @@ function Vagabonde({ title, langToShow }) {
           className="one-Image-container Horizontal"
           title="---"
         >
-          <p>Image-6 [07 ‎06 ‎2021]</p>
+          <p>localisation ----</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
           title="---"
         >
-          <p>Image-7 [07 ‎06 ‎2021]</p>
+          <p>localisation ----</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
           title="---"
         >
-          <p>Image-8 [07 ‎06 ‎2021]</p>
+          <p>localisation ----</p>
         </div>
       </div>
       <div className="network">
