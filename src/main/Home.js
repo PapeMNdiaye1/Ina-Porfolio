@@ -8,7 +8,7 @@ import React, {
 
 import LeftBare from "./LeftBare";
 import TopBare from "./TopBare";
-import Skills from "./Pages/Skills";
+// import Skills from "./Pages/Skills";
 import Contact from "./Pages/Contact";
 import ContactB from "./Pages/ContactB";
 
