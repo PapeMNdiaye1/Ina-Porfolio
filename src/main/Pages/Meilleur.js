@@ -99,7 +99,11 @@ function Meilleur({ title, langToShow }) {
     <div id="Meilleur" className=".all">
       <div className="Nimp">gggg</div>
       <div id="Article-title">
-        {langToShow === "En" ? <h1>Emergency Exit</h1> : <h1>{title}</h1>}
+        {langToShow === "En" ? (
+          <h1>For Better Or For Worse</h1>
+        ) : (
+          <h1>{title}</h1>
+        )}
       </div>
       {langToShow === "En" ? (
         <p className="the-paragraph">
@@ -182,7 +186,7 @@ function Meilleur({ title, langToShow }) {
           className="one-Image-container Horizontal"
           title="---"
         >
-          <p>Image-4 [07 ‎06 ‎2021]</p>
+          <p>localisation ----</p>
         </div>
         <div
           onClick={clickOnImage}
@@ -196,7 +200,7 @@ function Meilleur({ title, langToShow }) {
           className="one-Image-container Horizontal"
           title="---"
         >
-          <p>Image-4 [07 ‎06 ‎2021]</p>
+          <p>localisation ----</p>
         </div>
         <div
           onClick={clickOnImage}

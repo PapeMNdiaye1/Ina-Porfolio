@@ -329,7 +329,7 @@
 
     .Image-container {
       width: 93%;
-      height: 80em;
+      height: 110em;
       margin-top: 2em;
       margin-bottom: 10em;
       display: grid;
@@ -389,9 +389,12 @@
     }
 
     .Image-presentation-container {
+      width: 100vw;
+      height: 100vh;
+
       .Image-container {
         width: 100vw;
-        height: 103vh;
+        height: 100vh;
         border-radius: 0em;
         display: grid;
         grid-template-columns: 1 fr;
@@ -399,26 +402,17 @@
         background: var(--colorX);
         background: rgba(0, 0, 0, 0.806);
 
-        .show-vertical-image {
-          margin: 0em;
-          width: 95%;
-          height: 90%;
-          grid-column: span 2;
-          grid-row: 2;
-          margin: auto;
-          background-color: rgba(11, 11, 11, 0.9);
-          border: 0.3em rgba(11, 11, 11, 0.9) solid;
-          border-radius: 0.2em;
-        }
-
         .show-horizontal-image {
           margin: auto;
           grid-column: span 2;
           grid-row: 2;
-          width: 95%;
           background-color: rgba(11, 11, 11, 0.9);
           border: 0.3em rgba(11, 11, 11, 0.9) solid;
           border-radius: 0.2em;
+          height: 70%;
+          aspect-ratio: 1 / 1;
+          max-width: 100vw;
+          // background-color: red;
         }
 
         .show-vertical-image-text {
@@ -443,6 +437,11 @@
             margin: none;
             text-align: center;
           }
+        }
+        .close-Image-presantation {
+          top: 2em;
+          right: 0.51em;
+          z-index: 2000;
         }
       }
     }

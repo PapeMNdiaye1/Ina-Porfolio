@@ -166,7 +166,7 @@ function Andadon({ title, langToShow }) {
           className="one-Image-container Horizontal"
           title="---"
         >
-          <p>Peinture de portrait sur commande [ ‎18 ‎01 ‎2022]</p>{" "}
+          <p>localisation ----</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
@@ -187,7 +187,7 @@ function Andadon({ title, langToShow }) {
           className="one-Image-container Horizontal"
           title="---"
         >
-          <p>Image-4 [07 ‎06 ‎2021]</p>
+          <p>localisation ----</p>
         </div>
         <div
           onClick={clickOnImage}

@@ -163,7 +163,7 @@ function Une({ title, langToShow }) {
           className="one-Image-container Horizontal"
           title="---"
         >
-          <p>Peinture de portrait sur commande [ ‎18 ‎01 ‎2022]</p>{" "}
+          <p>localisation ----</p>{" "}
         </div>
         <div
           onClick={clickOnImage}

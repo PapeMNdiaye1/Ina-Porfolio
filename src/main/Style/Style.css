@@ -574,7 +574,7 @@
   #home-container #TheIntro #home .container2 #intro .intro_title {
     width: 90%;
     border-radius: 2em;
-    font-size: 0.5;
+    font-size: 0.3;
     color: var(--color0);
     line-height: 1.4em;
   }
@@ -922,14 +922,13 @@
   #home-container #Lenvers .network {
     display: none;
   }
-  #home-container #Lenvers .Image-presentation-container .Image-container {
-    background: var(--colorX);
-    background: rgba(36, 36, 36, 0.96);
-    box-shadow: 0px 0.5px 24px rgba(0, 0, 0, 0.2);
-    display: grid;
-    margin: auto;
+  #home-container #Lenvers .Image-presentation-container {
     width: 100vw;
-    height: 103vh;
+    height: 100vh;
+  }
+  #home-container #Lenvers .Image-presentation-container .Image-container {
+    width: 100vw;
+    height: 100vh;
     border-radius: 0em;
     display: grid;
     grid-template-columns: 1 fr;
@@ -937,37 +936,18 @@
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
   }
-  #home-container #Lenvers .Image-presentation-container .Image-container .show-vertical-image {
-    margin: 0em;
-    width: 95%;
-    height: 90%;
-    grid-column: span 2;
-    grid-row: 2;
-    margin: auto;
-    background-color: rgba(11, 11, 11, 0.9);
-    border: 0.3em rgba(11, 11, 11, 0.9) solid;
-    border-radius: 0.2em;
-  }
   #home-container #Lenvers .Image-presentation-container .Image-container .show-horizontal-image {
-    margin: 2em;
-    margin-right: 0em;
-    height: 28em;
-    background-position: center;
-    background-size: 103%;
-    background-repeat: no-repeat;
-    grid-column: 1;
-    grid-row: 1;
     margin: auto;
     grid-column: span 2;
     grid-row: 2;
-    width: 95%;
     background-color: rgba(11, 11, 11, 0.9);
     border: 0.3em rgba(11, 11, 11, 0.9) solid;
     border-radius: 0.2em;
+    height: 70%;
+    aspect-ratio: 1/1;
+    max-width: 100vw;
   }
   #home-container #Lenvers .Image-presentation-container .Image-container .show-vertical-image-text {
-    flex-wrap: wrap;
-    color: var(--color0);
     width: 100%;
     grid-column: span 2;
     grid-row: 3;
@@ -987,6 +967,11 @@
     width: 100%;
     margin: none;
     text-align: center;
+  }
+  #home-container #Lenvers .Image-presentation-container .Image-container .close-Image-presantation {
+    top: 2em;
+    right: 0.51em;
+    z-index: 2000;
   }
 }
 #home-container #Andadon {
@@ -1305,9 +1290,13 @@
   #home-container #Andadon .network {
     display: none;
   }
+  #home-container #Andadon .Image-presentation-container {
+    width: 100vw;
+    height: 100vh;
+  }
   #home-container #Andadon .Image-presentation-container .Image-container {
     width: 100vw;
-    height: 103vh;
+    height: 100vh;
     border-radius: 0em;
     display: grid;
     grid-template-columns: 1 fr;
@@ -1315,25 +1304,16 @@
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
   }
-  #home-container #Andadon .Image-presentation-container .Image-container .show-vertical-image {
-    margin: 0em;
-    width: 95%;
-    height: 90%;
-    grid-column: span 2;
-    grid-row: 2;
-    margin: auto;
-    background-color: rgba(11, 11, 11, 0.9);
-    border: 0.3em rgba(11, 11, 11, 0.9) solid;
-    border-radius: 0.2em;
-  }
   #home-container #Andadon .Image-presentation-container .Image-container .show-horizontal-image {
     margin: auto;
     grid-column: span 2;
     grid-row: 2;
-    width: 95%;
     background-color: rgba(11, 11, 11, 0.9);
     border: 0.3em rgba(11, 11, 11, 0.9) solid;
     border-radius: 0.2em;
+    height: 70%;
+    aspect-ratio: 1/1;
+    max-width: 100vw;
   }
   #home-container #Andadon .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -1355,6 +1335,11 @@
     width: 100%;
     margin: none;
     text-align: center;
+  }
+  #home-container #Andadon .Image-presentation-container .Image-container .close-Image-presantation {
+    top: 2em;
+    right: 0.51em;
+    z-index: 2000;
   }
 }
 #home-container #Memoire {
@@ -1400,7 +1385,7 @@
 }
 #home-container #Memoire .Image-container {
   width: 63em;
-  height: 100em;
+  height: 110em;
   display: grid;
   grid-template-columns: repeat(14, auto);
   grid-template-rows: repeat(5, auto);
@@ -1649,7 +1634,7 @@
   }
   #home-container #Memoire .Image-container {
     width: 93%;
-    height: 80em;
+    height: 150em;
     margin-top: 2em;
     margin-bottom: 10em;
     display: grid;
@@ -1698,9 +1683,13 @@
   #home-container #Memoire .network {
     display: none;
   }
+  #home-container #Memoire .Image-presentation-container {
+    width: 100vw;
+    height: 100vh;
+  }
   #home-container #Memoire .Image-presentation-container .Image-container {
     width: 100vw;
-    height: 103vh;
+    height: 100vh;
     border-radius: 0em;
     display: grid;
     grid-template-columns: 1 fr;
@@ -1708,25 +1697,16 @@
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
   }
-  #home-container #Memoire .Image-presentation-container .Image-container .show-vertical-image {
-    margin: 0em;
-    width: 95%;
-    height: 90%;
-    grid-column: span 2;
-    grid-row: 2;
-    margin: auto;
-    background-color: rgba(11, 11, 11, 0.9);
-    border: 0.3em rgba(11, 11, 11, 0.9) solid;
-    border-radius: 0.2em;
-  }
   #home-container #Memoire .Image-presentation-container .Image-container .show-horizontal-image {
     margin: auto;
     grid-column: span 2;
     grid-row: 2;
-    width: 95%;
     background-color: rgba(11, 11, 11, 0.9);
     border: 0.3em rgba(11, 11, 11, 0.9) solid;
     border-radius: 0.2em;
+    height: 70%;
+    aspect-ratio: 1/1;
+    max-width: 100vw;
   }
   #home-container #Memoire .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -1748,6 +1728,11 @@
     width: 100%;
     margin: none;
     text-align: center;
+  }
+  #home-container #Memoire .Image-presentation-container .Image-container .close-Image-presantation {
+    top: 2em;
+    right: 0.51em;
+    z-index: 2000;
   }
 }
 #home-container #Temple {
@@ -2081,9 +2066,13 @@
   #home-container #Temple .network {
     display: none;
   }
+  #home-container #Temple .Image-presentation-container {
+    width: 100vw;
+    height: 100vh;
+  }
   #home-container #Temple .Image-presentation-container .Image-container {
     width: 100vw;
-    height: 103vh;
+    height: 100vh;
     border-radius: 0em;
     display: grid;
     grid-template-columns: 1 fr;
@@ -2091,25 +2080,16 @@
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
   }
-  #home-container #Temple .Image-presentation-container .Image-container .show-vertical-image {
-    margin: 0em;
-    width: 95%;
-    height: 90%;
-    grid-column: span 2;
-    grid-row: 2;
-    margin: auto;
-    background-color: rgba(11, 11, 11, 0.9);
-    border: 0.3em rgba(11, 11, 11, 0.9) solid;
-    border-radius: 0.2em;
-  }
   #home-container #Temple .Image-presentation-container .Image-container .show-horizontal-image {
     margin: auto;
     grid-column: span 2;
     grid-row: 2;
-    width: 95%;
     background-color: rgba(11, 11, 11, 0.9);
     border: 0.3em rgba(11, 11, 11, 0.9) solid;
     border-radius: 0.2em;
+    height: 70%;
+    aspect-ratio: 1/1;
+    max-width: 100vw;
   }
   #home-container #Temple .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -2131,6 +2111,11 @@
     width: 100%;
     margin: none;
     text-align: center;
+  }
+  #home-container #Temple .Image-presentation-container .Image-container .close-Image-presantation {
+    top: 2em;
+    right: 0.51em;
+    z-index: 2000;
   }
 }
 #home-container #Caillou {
@@ -2459,9 +2444,13 @@
   #home-container #Caillou .network {
     display: none;
   }
+  #home-container #Caillou .Image-presentation-container {
+    width: 100vw;
+    height: 100vh;
+  }
   #home-container #Caillou .Image-presentation-container .Image-container {
     width: 100vw;
-    height: 103vh;
+    height: 100vh;
     border-radius: 0em;
     display: grid;
     grid-template-columns: 1 fr;
@@ -2469,25 +2458,16 @@
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
   }
-  #home-container #Caillou .Image-presentation-container .Image-container .show-vertical-image {
-    margin: 0em;
-    width: 95%;
-    height: 90%;
-    grid-column: span 2;
-    grid-row: 2;
-    margin: auto;
-    background-color: rgba(11, 11, 11, 0.9);
-    border: 0.3em rgba(11, 11, 11, 0.9) solid;
-    border-radius: 0.2em;
-  }
   #home-container #Caillou .Image-presentation-container .Image-container .show-horizontal-image {
     margin: auto;
     grid-column: span 2;
     grid-row: 2;
-    width: 95%;
     background-color: rgba(11, 11, 11, 0.9);
     border: 0.3em rgba(11, 11, 11, 0.9) solid;
     border-radius: 0.2em;
+    height: 70%;
+    aspect-ratio: 1/1;
+    max-width: 100vw;
   }
   #home-container #Caillou .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -2509,6 +2489,11 @@
     width: 100%;
     margin: none;
     text-align: center;
+  }
+  #home-container #Caillou .Image-presentation-container .Image-container .close-Image-presantation {
+    top: 2em;
+    right: 0.51em;
+    z-index: 2000;
   }
 }
 #home-container #Une {
@@ -2818,9 +2803,13 @@
   #home-container #Une .network {
     display: none;
   }
+  #home-container #Une .Image-presentation-container {
+    width: 100vw;
+    height: 100vh;
+  }
   #home-container #Une .Image-presentation-container .Image-container {
     width: 100vw;
-    height: 103vh;
+    height: 100vh;
     border-radius: 0em;
     display: grid;
     grid-template-columns: 1 fr;
@@ -2828,25 +2817,16 @@
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
   }
-  #home-container #Une .Image-presentation-container .Image-container .show-vertical-image {
-    margin: 0em;
-    width: 95%;
-    height: 90%;
-    grid-column: span 2;
-    grid-row: 2;
-    margin: auto;
-    background-color: rgba(11, 11, 11, 0.9);
-    border: 0.3em rgba(11, 11, 11, 0.9) solid;
-    border-radius: 0.2em;
-  }
   #home-container #Une .Image-presentation-container .Image-container .show-horizontal-image {
     margin: auto;
     grid-column: span 2;
     grid-row: 2;
-    width: 95%;
     background-color: rgba(11, 11, 11, 0.9);
     border: 0.3em rgba(11, 11, 11, 0.9) solid;
     border-radius: 0.2em;
+    height: 70%;
+    aspect-ratio: 1/1;
+    max-width: 100vw;
   }
   #home-container #Une .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -2868,6 +2848,11 @@
     width: 100%;
     margin: none;
     text-align: center;
+  }
+  #home-container #Une .Image-presentation-container .Image-container .close-Image-presantation {
+    top: 2em;
+    right: 0.51em;
+    z-index: 2000;
   }
 }
 #home-container #Magnifique {
@@ -3192,9 +3177,13 @@
   #home-container #Magnifique .network {
     display: none;
   }
+  #home-container #Magnifique .Image-presentation-container {
+    width: 100vw;
+    height: 100vh;
+  }
   #home-container #Magnifique .Image-presentation-container .Image-container {
     width: 100vw;
-    height: 103vh;
+    height: 100vh;
     border-radius: 0em;
     display: grid;
     grid-template-columns: 1 fr;
@@ -3202,25 +3191,16 @@
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
   }
-  #home-container #Magnifique .Image-presentation-container .Image-container .show-vertical-image {
-    margin: 0em;
-    width: 95%;
-    height: 90%;
-    grid-column: span 2;
-    grid-row: 2;
-    margin: auto;
-    background-color: rgba(11, 11, 11, 0.9);
-    border: 0.3em rgba(11, 11, 11, 0.9) solid;
-    border-radius: 0.2em;
-  }
   #home-container #Magnifique .Image-presentation-container .Image-container .show-horizontal-image {
     margin: auto;
     grid-column: span 2;
     grid-row: 2;
-    width: 95%;
     background-color: rgba(11, 11, 11, 0.9);
     border: 0.3em rgba(11, 11, 11, 0.9) solid;
     border-radius: 0.2em;
+    height: 70%;
+    aspect-ratio: 1/1;
+    max-width: 100vw;
   }
   #home-container #Magnifique .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -3242,6 +3222,11 @@
     width: 100%;
     margin: none;
     text-align: center;
+  }
+  #home-container #Magnifique .Image-presentation-container .Image-container .close-Image-presantation {
+    top: 2em;
+    right: 0.51em;
+    z-index: 2000;
   }
 }
 #home-container #Vagabonde {
@@ -3518,7 +3503,7 @@
   }
   #home-container #Vagabonde .Image-container {
     width: 93%;
-    height: 80em;
+    height: 130em;
     margin-top: 2em;
     margin-bottom: 10em;
     display: grid;
@@ -3567,9 +3552,13 @@
   #home-container #Vagabonde .network {
     display: none;
   }
+  #home-container #Vagabonde .Image-presentation-container {
+    width: 100vw;
+    height: 100vh;
+  }
   #home-container #Vagabonde .Image-presentation-container .Image-container {
     width: 100vw;
-    height: 103vh;
+    height: 100vh;
     border-radius: 0em;
     display: grid;
     grid-template-columns: 1 fr;
@@ -3577,25 +3566,16 @@
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
   }
-  #home-container #Vagabonde .Image-presentation-container .Image-container .show-vertical-image {
-    margin: 0em;
-    width: 95%;
-    height: 90%;
-    grid-column: span 2;
-    grid-row: 2;
-    margin: auto;
-    background-color: rgba(11, 11, 11, 0.9);
-    border: 0.3em rgba(11, 11, 11, 0.9) solid;
-    border-radius: 0.2em;
-  }
   #home-container #Vagabonde .Image-presentation-container .Image-container .show-horizontal-image {
     margin: auto;
     grid-column: span 2;
     grid-row: 2;
-    width: 95%;
     background-color: rgba(11, 11, 11, 0.9);
     border: 0.3em rgba(11, 11, 11, 0.9) solid;
     border-radius: 0.2em;
+    height: 70%;
+    aspect-ratio: 1/1;
+    max-width: 100vw;
   }
   #home-container #Vagabonde .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -3617,6 +3597,11 @@
     width: 100%;
     margin: none;
     text-align: center;
+  }
+  #home-container #Vagabonde .Image-presentation-container .Image-container .close-Image-presantation {
+    top: 2em;
+    right: 0.51em;
+    z-index: 2000;
   }
 }
 #home-container #Meilleur {
@@ -3896,7 +3881,7 @@
   }
   #home-container #Meilleur .Image-container {
     width: 93%;
-    height: 80em;
+    height: 110em;
     margin-top: 2em;
     margin-bottom: 10em;
     display: grid;
@@ -3945,9 +3930,13 @@
   #home-container #Meilleur .network {
     display: none;
   }
+  #home-container #Meilleur .Image-presentation-container {
+    width: 100vw;
+    height: 100vh;
+  }
   #home-container #Meilleur .Image-presentation-container .Image-container {
     width: 100vw;
-    height: 103vh;
+    height: 100vh;
     border-radius: 0em;
     display: grid;
     grid-template-columns: 1 fr;
@@ -3955,25 +3944,16 @@
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
   }
-  #home-container #Meilleur .Image-presentation-container .Image-container .show-vertical-image {
-    margin: 0em;
-    width: 95%;
-    height: 90%;
-    grid-column: span 2;
-    grid-row: 2;
-    margin: auto;
-    background-color: rgba(11, 11, 11, 0.9);
-    border: 0.3em rgba(11, 11, 11, 0.9) solid;
-    border-radius: 0.2em;
-  }
   #home-container #Meilleur .Image-presentation-container .Image-container .show-horizontal-image {
     margin: auto;
     grid-column: span 2;
     grid-row: 2;
-    width: 95%;
     background-color: rgba(11, 11, 11, 0.9);
     border: 0.3em rgba(11, 11, 11, 0.9) solid;
     border-radius: 0.2em;
+    height: 70%;
+    aspect-ratio: 1/1;
+    max-width: 100vw;
   }
   #home-container #Meilleur .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -3995,6 +3975,11 @@
     width: 100%;
     margin: none;
     text-align: center;
+  }
+  #home-container #Meilleur .Image-presentation-container .Image-container .close-Image-presantation {
+    top: 2em;
+    right: 0.51em;
+    z-index: 2000;
   }
 }
 #home-container #Sama {
@@ -4412,9 +4397,13 @@
   #home-container #Sama .network {
     display: none;
   }
+  #home-container #Sama .Image-presentation-container {
+    width: 100vw;
+    height: 100vh;
+  }
   #home-container #Sama .Image-presentation-container .Image-container {
     width: 100vw;
-    height: 103vh;
+    height: 100vh;
     border-radius: 0em;
     display: grid;
     grid-template-columns: 1 fr;
@@ -4422,25 +4411,16 @@
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
   }
-  #home-container #Sama .Image-presentation-container .Image-container .show-vertical-image {
-    margin: 0em;
-    width: 95%;
-    height: 90%;
-    grid-column: span 2;
-    grid-row: 2;
-    margin: auto;
-    background-color: rgba(11, 11, 11, 0.9);
-    border: 0.3em rgba(11, 11, 11, 0.9) solid;
-    border-radius: 0.2em;
-  }
   #home-container #Sama .Image-presentation-container .Image-container .show-horizontal-image {
     margin: auto;
     grid-column: span 2;
     grid-row: 2;
-    width: 95%;
     background-color: rgba(11, 11, 11, 0.9);
     border: 0.3em rgba(11, 11, 11, 0.9) solid;
     border-radius: 0.2em;
+    height: 70%;
+    aspect-ratio: 1/1;
+    max-width: 100vw;
   }
   #home-container #Sama .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -4462,6 +4442,11 @@
     width: 100%;
     margin: none;
     text-align: center;
+  }
+  #home-container #Sama .Image-presentation-container .Image-container .close-Image-presantation {
+    top: 2em;
+    right: 0.51em;
+    z-index: 2000;
   }
 }
 #home-container #Issue {
@@ -5185,9 +5170,13 @@
   #home-container #Obstacle .network {
     display: none;
   }
+  #home-container #Obstacle .Image-presentation-container {
+    width: 100vw;
+    height: 100vh;
+  }
   #home-container #Obstacle .Image-presentation-container .Image-container {
     width: 100vw;
-    height: 103vh;
+    height: 100vh;
     border-radius: 0em;
     display: grid;
     grid-template-columns: 1 fr;
@@ -5195,25 +5184,16 @@
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
   }
-  #home-container #Obstacle .Image-presentation-container .Image-container .show-vertical-image {
-    margin: 0em;
-    width: 95%;
-    height: 90%;
-    grid-column: span 2;
-    grid-row: 2;
-    margin: auto;
-    background-color: rgba(11, 11, 11, 0.9);
-    border: 0.3em rgba(11, 11, 11, 0.9) solid;
-    border-radius: 0.2em;
-  }
   #home-container #Obstacle .Image-presentation-container .Image-container .show-horizontal-image {
     margin: auto;
     grid-column: span 2;
     grid-row: 2;
-    width: 95%;
     background-color: rgba(11, 11, 11, 0.9);
     border: 0.3em rgba(11, 11, 11, 0.9) solid;
     border-radius: 0.2em;
+    height: 70%;
+    aspect-ratio: 1/1;
+    max-width: 100vw;
   }
   #home-container #Obstacle .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -5235,6 +5215,11 @@
     width: 100%;
     margin: none;
     text-align: center;
+  }
+  #home-container #Obstacle .Image-presentation-container .Image-container .close-Image-presantation {
+    top: 2em;
+    right: 0.51em;
+    z-index: 2000;
   }
 }
 #home-container #Contact {
@@ -5740,9 +5725,13 @@
   #home-container #Tn .network {
     display: none;
   }
+  #home-container #Tn .Image-presentation-container {
+    width: 100vw;
+    height: 100vh;
+  }
   #home-container #Tn .Image-presentation-container .Image-container {
     width: 100vw;
-    height: 103vh;
+    height: 100vh;
     border-radius: 0em;
     display: grid;
     grid-template-columns: 1 fr;
@@ -5750,25 +5739,16 @@
     background: var(--colorX);
     background: rgba(0, 0, 0, 0.806);
   }
-  #home-container #Tn .Image-presentation-container .Image-container .show-vertical-image {
-    margin: 0em;
-    width: 95%;
-    height: 90%;
-    grid-column: span 2;
-    grid-row: 2;
-    margin: auto;
-    background-color: rgba(11, 11, 11, 0.9);
-    border: 0.3em rgba(11, 11, 11, 0.9) solid;
-    border-radius: 0.2em;
-  }
   #home-container #Tn .Image-presentation-container .Image-container .show-horizontal-image {
     margin: auto;
     grid-column: span 2;
     grid-row: 2;
-    width: 95%;
     background-color: rgba(11, 11, 11, 0.9);
     border: 0.3em rgba(11, 11, 11, 0.9) solid;
     border-radius: 0.2em;
+    height: 70%;
+    aspect-ratio: 1/1;
+    max-width: 100vw;
   }
   #home-container #Tn .Image-presentation-container .Image-container .show-vertical-image-text {
     width: 100%;
@@ -5790,6 +5770,11 @@
     width: 100%;
     margin: none;
     text-align: center;
+  }
+  #home-container #Tn .Image-presentation-container .Image-container .close-Image-presantation {
+    top: 2em;
+    right: 0.51em;
+    z-index: 2000;
   }
 }
 #home-container #ContactB {

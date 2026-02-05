@@ -66,7 +66,12 @@ function Home() {
       case "Vagabonde":
         return <Vagabonde title="Vagabonde" langToShow={langToShow} />;
       case "Meilleur":
-        return <Meilleur title="Meilleur" langToShow={langToShow} />;
+        return (
+          <Meilleur
+            title="Pour Le Meilleur Et Pour Le Pire"
+            langToShow={langToShow}
+          />
+        );
       case "Tn":
         return <Tn title="Tn" langToShow={langToShow} />;
       case "Sama":
