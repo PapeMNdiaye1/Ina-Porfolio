@@ -569,7 +569,7 @@
   #home-container #TheIntro #home .container2 #intro {
     font-size: 1em;
     max-width: 90vw;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.9);
     top: 2em;
     padding: 0.5em;
   }
@@ -577,7 +577,7 @@
     width: 90%;
     border-radius: 2em;
     font-size: 0.3;
-    color: var(--color0);
+    color: var(--colorX);
     line-height: 1.4em;
   }
   #home-container #TheIntro #home .container2 #tel_gMailin_mobil_mode {
@@ -598,6 +598,7 @@
     border-radius: 0.4em;
     padding: 0.5em;
     color: var(--color0);
+    opacity: 0;
   }
   #home-container #TheIntro #tel_gMail {
     display: none;
@@ -4406,7 +4407,7 @@
   }
   #home-container #Sama .Image-container {
     width: 93%;
-    height: 380em;
+    height: 400em;
     margin-top: 2em;
     margin-bottom: 10em;
     display: grid;
