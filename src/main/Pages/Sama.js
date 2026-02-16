@@ -140,84 +140,84 @@ function Sama({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="ABDALAH "
         >
           <p>Medina De Marrakech 2023</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="ABDALAH "
         >
           <p>Medina De Marrakech 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="ABDASSAMAD "
         >
           <p>Medina De Marrakech 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="ABDASSAMAD "
         >
           <p>Medina De Marrakech 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="HASSANE "
         >
           <p>Medina De Marrakech 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="HASSANE"
         >
           <p>Medina De Marrakech 2023</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="KHADIJA"
         >
           <p>Medina De Marrakech 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="KHADIJA"
         >
           <p>Medina De Marrakech 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="OUMEYMA"
         >
           <p>Medina De Marrakech 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="OUMEYMA"
         >
           <p>Medina De Marrakech 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="TAAHA"
         >
           <p>Medina De Marrakech 2023</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="TAAHA"
         >
           <p>Medina De Marrakech 2023</p>
         </div>
@@ -229,70 +229,70 @@ function Sama({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="DOCTA"
         >
           <p>Medina De Dakar 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="DOCTA"
         >
           <p>Medina De Dakar 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="DOUTS"
         >
           <p>Medina De Dakar 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="DOUTS"
         >
           <p>Medina De Dakar 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="N.S BA"
         >
           <p>Medina De Dakar 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="N.S BA"
         >
           <p>Medina De Dakar 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="SADIO"
         >
           <p>Medina De Dakar 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="SADIO"
         >
           <p>Medina De Dakar 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="SOPHIE"
         >
           <p>Medina De Dakar 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="SOPHIE"
         >
           <p>Medina De Dakar 2023</p>
         </div>
