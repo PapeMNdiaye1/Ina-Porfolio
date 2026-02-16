@@ -164,72 +164,72 @@ function Issue({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Issue"
+          title="ACT"
         >
-          <p>Bruxelles 2025</p>{" "}
+          <p>Dakar 2018</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Issue"
+          title="ABSCENCE"
         >
-          <p>Bruxelles 2025</p>
+          <p>Dakar 2018</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Issue"
+          title="TRISTESSE"
         >
-          <p>Bruxelles 2025</p>
+          <p>Dakar 2018</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Issue"
+          title="BASKET"
         >
-          <p>Bruxelles 2025</p>
+          <p>Dakar 2018</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Issue"
+          title="ERREUR"
         >
-          <p>Bruxelles 2025</p>
+          <p>Dakar 2018</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Issue"
+          title="ISSUE DE SECOURS"
         >
-          <p>Bruxelles 2025</p>
+          <p>Dakar 2018</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Issue"
+          title="EXPRESSION"
         >
-          <p>Bruxelles 2025</p>
+          <p>Dakar 2018</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Issue"
+          title="JOIE"
         >
-          <p>Bruxelles 2025</p>
+          <p>Dakar 2018</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Issue"
+          title="COLÉRE"
         >
-          <p>Bruxelles 2025</p>
+          <p>Dakar 2018</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Issue"
+          title="RECONCILIATION"
         >
-          <p>Bruxelles 2025</p>
+          <p>Dakar 2018</p>
         </div>
       </div>
       <div className="network">

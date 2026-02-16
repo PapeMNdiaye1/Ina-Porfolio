@@ -135,71 +135,71 @@ function Tn({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>{" "}
+          <p>Bruxelles 2025</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Bruxelles 2025</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Bruxelles 2025</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Bruxelles 2025</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Bruxelles 2025</p>
         </div>
 
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>{" "}
+          <p>Bruxelles 2025</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Bruxelles 2025</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Bruxelles 2025</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
           <p>Image-4</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
           <p>Image-5</p>
         </div>

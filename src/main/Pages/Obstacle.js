@@ -132,44 +132,44 @@ function Obstacle({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="AIDA DANSE FÉ"
         >
-          <p>localisation ----</p>{" "}
+          <p>Zac Mbao 2024</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="CLARISSE"
         >
-          <p>localisation ----</p>
+          <p>Thiaroye Azure 2024</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="COLE"
         >
-          <p>localisation ----</p>
+          <p>Grand Yoff 2024</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="GACIRAH"
         >
-          <p>localisation ----</p>
+          <p>Médina 2024</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="GERMAINE ACOGNIE"
         >
-          <p>localisation ----</p>
+          <p>Toubab Dialow 2024</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="THIATE"
         >
-          <p>localisation ----</p>
+          <p>Saint Louis 2020</p>
         </div>
       </div>
       <div className="network">

@@ -10,13 +10,13 @@ import LeftBare from "./LeftBare";
 import TopBare from "./TopBare";
 // import Skills from "./Pages/Skills";
 import Contact from "./Pages/Contact";
-import ContactB from "./Pages/ContactB";
+// import ContactB from "./Pages/ContactB";
 
 const Intro = React.lazy(() => import("./Pages/Intro"));
 // const Design = React.lazy(() => import("./Pages/Design"));
 // const Logos = React.lazy(() => import("./Pages/Logos"));
 const Lenvers = React.lazy(() => import("./Pages/Lenvers"));
-const Andadon = React.lazy(() => import("./Pages/Andadon"));
+const Andando = React.lazy(() => import("./Pages/Andando"));
 const Memoire = React.lazy(() => import("./Pages/Memoire"));
 const Magnifique = React.lazy(() => import("./Pages/Magnifique"));
 const Temple = React.lazy(() => import("./Pages/Temple"));
@@ -53,8 +53,8 @@ function Home() {
         return <Magnifique title="Tu Es Magnifique" langToShow={langToShow} />;
       case "Issue":
         return <Issue title="Issue De Secours" langToShow={langToShow} />;
-      case "Andadon":
-        return <Andadon title="Andadon" langToShow={langToShow} />;
+      case "Andando":
+        return <Andando title="Andando" langToShow={langToShow} />;
       case "Memoire":
         return <Memoire title="La Memoire En Miroir" langToShow={langToShow} />;
       case "Temple":
@@ -80,11 +80,8 @@ function Home() {
         return <Sama title="Sama Medina" langToShow={langToShow} />;
       case "Obstacle":
         return <Obstacle title="Sans Obstacle" langToShow={langToShow} />;
-
       case "Contact":
         return <Contact />;
-      case "ContactB":
-        return <ContactB />;
     }
   };
 

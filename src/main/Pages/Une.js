@@ -161,23 +161,23 @@ function Une({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>{" "}
+          <p>Petit Mbao 2023</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Petit Mbao 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Petit Mbao 2023</p>
         </div>
       </div>
       <div className="network">

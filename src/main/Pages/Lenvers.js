@@ -188,7 +188,7 @@ function Lenvers({ title, langToShow }) {
           className="one-Image-container Horizontal"
           title="Wasso"
         >
-          <p>Pecheur 2017</p>
+          <p>Hann Pecheur 2017</p>
         </div>
       </div>
       <div className="network">

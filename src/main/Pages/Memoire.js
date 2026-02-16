@@ -167,7 +167,7 @@ function Memoire({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Khadidjatou Diallo"
+          title="Idjatou Diallo"
         >
           <p>Kedougou 2021</p>{" "}
         </div>
@@ -181,7 +181,7 @@ function Memoire({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Khadidjatou Diallo"
+          title="Khadija Diallo"
         >
           <p>Kedougou 2021</p>
         </div>
@@ -202,7 +202,7 @@ function Memoire({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Fatou Souaré"
+          title="Fanta Souaré"
         >
           <p>Kedougou 2021</p>
         </div>

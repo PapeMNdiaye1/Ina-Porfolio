@@ -159,59 +159,59 @@ function Temple({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="Amy Thior Et Cie Les Gardiennes Du Temple Djirnda"
+          title="AIDA SARR"
         >
-          <p>Djirnda 2021</p>{" "}
+          <p>Maya 2021</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="AMY THIOR ET CIE"
         >
           <p>Djirnda 2021</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="AIDA SARR"
         >
-          <p>Kedougouou 20211</p>
+          <p>Maya 2021</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="KHADY NDIAYE"
         >
-          <p>Kedougouou 20211</p>
+          <p>Maya 2021</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="KHADY NDIAYE"
         >
-          <p>Kedougouou 20211</p>
+          <p>Maya 2021</p>
         </div>
 
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="BANBOUGAR"
         >
-          <p>Kedougouou 20211</p>
+          <p>Sokone 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="BINETA"
         >
-          <p>Kedougouou 20211</p>
+          <p>Djilor 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="AWA SARR ET CIE"
         >
-          <p>Kedougouou 20211</p>
+          <p>Djirnda 2021</p>
         </div>
       </div>
       <div className="network">

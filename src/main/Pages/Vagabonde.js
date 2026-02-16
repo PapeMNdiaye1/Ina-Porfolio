@@ -170,58 +170,58 @@ function Vagabonde({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="AMAH"
         >
-          <p>localisation ----</p>{" "}
+          <p>Bruxelles 2023</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="CANELLE ET FLORA"
         >
-          <p>localisation ----</p>
+          <p>Bruxelles 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="EBOUELE"
         >
-          <p>localisation ----</p>
+          <p>Bruxelles 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="LES LUBANSU"
         >
-          <p>localisation ----</p>
+          <p>Bruxelles 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="LES MBEKA"
         >
-          <p>localisation ----</p>
+          <p>Bruxelles 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="RACHID"
         >
-          <p>localisation ----</p>
+          <p>Bruxelles 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="SIRE"
         >
-          <p>localisation ----</p>
+          <p>Bruxelles 2023</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="SORANA"
         >
-          <p>localisation ----</p>
+          <p>Bruxelles 2023</p>
         </div>
       </div>
       <div className="network">

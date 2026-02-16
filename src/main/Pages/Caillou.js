@@ -152,51 +152,51 @@ function Caillou({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>{" "}
+          <p> Oussouye 2022</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Kabrousse 2022</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Djimbereng 2022</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Kabrousse 2022</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Kabrousse 2022</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Kabrousse 2022</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Ziguinchor 2022</p>
         </div>
       </div>
       <div className="network">

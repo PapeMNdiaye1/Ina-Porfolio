@@ -39,7 +39,7 @@ const AndadonPresentation = ({
   );
 };
 
-function Andadon({ title, langToShow }) {
+function Andando({ title, langToShow }) {
   // let [TheImageReloader, setTheImageReloader] = useState();
 
   useEffect(() => {
@@ -96,10 +96,10 @@ function Andadon({ title, langToShow }) {
   };
 
   return (
-    <div id="Andadon" className=".all">
+    <div id="Andando" className=".all">
       <div className="Nimp">gggg</div>
       <div id="Article-title">
-        {langToShow === "En" ? <h1>Andadon</h1> : <h1>{title}</h1>}
+        {langToShow === "En" ? <h1>Andando</h1> : <h1>{title}</h1>}
       </div>
       {langToShow === "En" ? (
         <p className="the-paragraph">
@@ -142,12 +142,12 @@ function Andadon({ title, langToShow }) {
           et refermé des portes mais j'ai fini par voir l'Andadon De Secours. 
           Mon Andadon De Secours, c'est l'art, les cultures urbaines. Alors, je
           pense que chaque victime a le droit de trouver cette porte et de se
-          libérer.  Andadon De Secours est un livre photo de 105 pages qui
+          libérer.  Andando De Secours est un livre photo de 105 pages qui
           combine 10 autoportraits et 10 dialogues. Chaque couple photo/dialogue
           décrit une étape de ma résilience. Travailler sur cette œuvre est une
           thérapie pour moi, une façon de m’assumer devant tout le monde et
           surtout de dépasser l’étape de victime. Je suis une survivante et
-          l’objectif est que Andadon De Secours puisse inspirer d’autres femmes.
+          l’objectif est que Andando De Secours puisse inspirer d’autres femmes.
         </p>
       )}
 
@@ -164,37 +164,37 @@ function Andadon({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="FADIAR"
         >
-          <p>localisation ----</p>{" "}
+          <p>Ouakam 2021</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="TISBAAR"
         >
-          <p>localisation ----</p>
+          <p>Ouakam 2021</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="TAKOUSSAN"
         >
-          <p>localisation ----</p>
+          <p>Ouakam 2021</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="TIMISS"
         >
-          <p>localisation ----</p>
+          <p>Ouakam 2021</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title="GUEWE"
         >
-          <p>localisation ----</p>
+          <p>Ouakam 2021</p>
         </div>
       </div>
       <div className="network">
@@ -244,4 +244,4 @@ function Andadon({ title, langToShow }) {
   );
 }
 
-export default Andadon;
+export default Andando;

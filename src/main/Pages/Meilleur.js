@@ -163,51 +163,51 @@ function Meilleur({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
           <p>Bousso [ DAKAR 2021]</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Matam 2024</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Matam 2024</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Matam 2024</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Matam 2024</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Matam 2024</p>
         </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="---"
+          title=""
         >
-          <p>localisation ----</p>
+          <p>Matam 2024</p>
         </div>
       </div>
       <div className="network">
