@@ -4045,7 +4045,7 @@
   font-weight: 700;
 }
 #home-container #Sama .Image-container {
-  width: 73em;
+  width: 70em;
   height: 350em;
   display: grid;
   grid-template-columns: repeat(11, auto);
@@ -4476,7 +4476,15 @@
     grid-row: span 2;
     grid-column: span 1;
   }
-  #home-container #Sama .Image-container .one-Image-container:nth-child(24) {
+  #home-container #Sama .Image-container .one-Image-container:nth-child(21) {
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+  #home-container #Sama .Image-container .one-Image-container:nth-child(22) {
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+  #home-container #Sama .Image-container .one-Image-container:nth-child(23) {
     grid-row: span 2;
     grid-column: span 1;
   }

@@ -48,7 +48,7 @@
   }
 
   .Image-container {
-    width: 73em;
+    width: 70em;
     height: 350em;
     display: grid;
     grid-template-columns: repeat(11, auto);
@@ -57,6 +57,8 @@
     grid-row-gap: 1em;
     margin-top: 5em;
     margin-bottom: 3em;
+    // justify-content: center;
+    // align-items: center;
 
     .one-Image-container {
       display: flex;
@@ -542,7 +544,15 @@
         grid-row: span 2;
         grid-column: span 1;
       }
-      .one-Image-container:nth-child(24) {
+      .one-Image-container:nth-child(21) {
+        grid-row: span 1;
+        grid-column: span 1;
+      }
+      .one-Image-container:nth-child(22) {
+        grid-row: span 1;
+        grid-column: span 1;
+      }
+      .one-Image-container:nth-child(23) {
         grid-row: span 2;
         grid-column: span 1;
       }
