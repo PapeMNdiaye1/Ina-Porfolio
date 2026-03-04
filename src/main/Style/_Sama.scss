@@ -103,16 +103,14 @@
     //   }
     // }
     .one-Image-container:nth-child(1) {
-      // background-image: url("./Image/Sama/MARRAKECH/TAHA-2-MARRAKECH-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
-      // height: 90%;
       grid-column: span 14;
       grid-row: span 1;
       background-color: var(--color0);
-      // background-color: red;
       border: none;
       @include cent();
+      justify-content: start;
       h2 {
         color: var(--colorX);
         font-size: 1.5em;
@@ -121,7 +119,6 @@
       }
       &:hover {
         transform: scale(1);
-        // z-index: 2;
       }
     }
 
@@ -222,9 +219,9 @@
       grid-column: span 14;
       grid-row: span 1;
       background-color: var(--color0);
-      // background-color: red;
       border: none;
       @include cent();
+      justify-content: start;
       h2 {
         color: var(--colorX);
         font-size: 1.5em;
@@ -536,6 +533,7 @@
         grid-row: span 1;
         grid-column: span 1;
         box-shadow: none;
+        @include cent();
       }
       .one-Image-container:nth-child(2) {
         grid-row: span 1;
@@ -580,6 +578,7 @@
         // grid-row: span 2;
         // grid-column: span 1;
         box-shadow: none;
+        @include cent();
       }
       .one-Image-container:nth-child(20) {
         grid-row: span 2;

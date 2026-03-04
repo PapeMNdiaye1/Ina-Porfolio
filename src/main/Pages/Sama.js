@@ -138,7 +138,11 @@ function Sama({ title, langToShow }) {
       )}
       <div className="Image-container">
         <div className="one-Image-container Horizontal" title="---">
-          <h2>Medina De Marrakech</h2>
+          {langToShow === "En" ? (
+            <h2>Medina In Marrakech</h2>
+          ) : (
+            <h2>Medina De Marrakech</h2>
+          )}
         </div>
         <div
           onClick={clickOnImage}
@@ -226,7 +230,11 @@ function Sama({ title, langToShow }) {
         </div>
 
         <div className="one-Image-container Horizontal" title="---">
-          <h2>Medina De Dakar</h2>
+          {langToShow === "En" ? (
+            <h2>Medina In Dakar</h2>
+          ) : (
+            <h2>Medina De Dakar</h2>
+          )}
         </div>
 
         <div
