@@ -102,8 +102,30 @@
     //     background-color: var(--colorX);
     //   }
     // }
-
     .one-Image-container:nth-child(1) {
+      // background-image: url("./Image/Sama/MARRAKECH/TAHA-2-MARRAKECH-2023.jpg");
+      animation-delay: 1.5s;
+      height: 100%;
+      // height: 90%;
+      grid-column: span 14;
+      grid-row: span 1;
+      background-color: var(--color0);
+      // background-color: red;
+      border: none;
+      @include cent();
+      h2 {
+        color: var(--colorX);
+        font-size: 1.5em;
+        margin: auto;
+        position: absolute;
+      }
+      &:hover {
+        transform: scale(1);
+        // z-index: 2;
+      }
+    }
+
+    .one-Image-container:nth-child(2) {
       background-image: url("./Image/Sama/MARRAKECH/ABDALAH-1-MARRAKECH-2023.jpg");
       height: 100%;
       grid-column: span 9;
@@ -111,7 +133,7 @@
       animation-delay: 0.5s;
     }
 
-    .one-Image-container:nth-child(2) {
+    .one-Image-container:nth-child(3) {
       background-image: url("./Image/Sama/MARRAKECH/ABDALAH-2-MARRAKECH-2023.jpg");
       grid-column: span 5;
       grid-row: span 6;
@@ -119,14 +141,14 @@
       height: 100%;
     }
 
-    .one-Image-container:nth-child(3) {
+    .one-Image-container:nth-child(4) {
       background-image: url("./Image/Sama/MARRAKECH/ABDASSAMAD-1-MARRAKECH-2023.jpg");
       animation-delay: 1.5s;
       grid-column: span 7;
       grid-row: span 4;
       height: 100%;
     }
-    .one-Image-container:nth-child(4) {
+    .one-Image-container:nth-child(5) {
       background-image: url("./Image/Sama/MARRAKECH/ABDASSAMAD-2-MARRAKECH-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
@@ -134,7 +156,7 @@
       grid-row: span 4;
       // height: 90%;
     }
-    .one-Image-container:nth-child(5) {
+    .one-Image-container:nth-child(6) {
       background-image: url("./Image/Sama/MARRAKECH/HASSANE-1-MARRAKECH-2023.jpg");
       animation-delay: 1.5s;
       grid-column: span 9;
@@ -142,42 +164,42 @@
       height: 100%;
       // height: 90%;
     }
-    .one-Image-container:nth-child(6) {
+    .one-Image-container:nth-child(7) {
       background-image: url("./Image/Sama/MARRAKECH/HASSANE-2-MARRAKECH-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
       grid-column: span 5;
       grid-row: span 6;
     }
-    .one-Image-container:nth-child(7) {
+    .one-Image-container:nth-child(8) {
       background-image: url("./Image/Sama/MARRAKECH/KHADIJA-2-MARRAKECH-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
       grid-column: span 5;
       grid-row: span 6;
     }
-    .one-Image-container:nth-child(8) {
+    .one-Image-container:nth-child(9) {
       background-image: url("./Image/Sama/MARRAKECH/KHADIJA-1-MARRAKECH-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
       grid-column: span 9;
       grid-row: span 6;
     }
-    .one-Image-container:nth-child(9) {
+    .one-Image-container:nth-child(10) {
       background-image: url("./Image/Sama/MARRAKECH/OUMEYMA-1-MARRAKECH-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
       grid-column: span 7;
       grid-row: span 4;
     }
-    .one-Image-container:nth-child(10) {
+    .one-Image-container:nth-child(11) {
       background-image: url("./Image/Sama/MARRAKECH/OUMEYMA-2-MARRAKECH-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
       grid-column: span 7;
       grid-row: span 4;
     }
-    .one-Image-container:nth-child(11) {
+    .one-Image-container:nth-child(12) {
       background-image: url("./Image/Sama/MARRAKECH/TAAHA-1-MARRAKECH-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
@@ -185,23 +207,36 @@
       grid-column: span 5;
       grid-row: span 6;
     }
-    .one-Image-container:nth-child(12) {
+    .one-Image-container:nth-child(13) {
       background-image: url("./Image/Sama/MARRAKECH/TAHA-2-MARRAKECH-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
       grid-column: span 9;
       grid-row: span 6;
     }
-    .one-Image-container:nth-child(13) {
+    .one-Image-container:nth-child(14) {
       // background-image: url("./Image/Sama/MARRAKECH/TAHA-2-MARRAKECH-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
       // height: 90%;
-      grid-column: span 15;
+      grid-column: span 14;
       grid-row: span 1;
-      opacity: 0;
+      background-color: var(--color0);
+      // background-color: red;
+      border: none;
+      @include cent();
+      h2 {
+        color: var(--colorX);
+        font-size: 1.5em;
+        margin: auto;
+        position: absolute;
+      }
+      &:hover {
+        transform: scale(1);
+        // z-index: 2;
+      }
     }
-    .one-Image-container:nth-child(14) {
+    .one-Image-container:nth-child(15) {
       background-image: url("./Image/Sama/DAKAR/DOCTA-DAKAR-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
@@ -210,7 +245,7 @@
       // height: 90%;
       // grid-row: span 4;
     }
-    .one-Image-container:nth-child(15) {
+    .one-Image-container:nth-child(16) {
       background-image: url("./Image/Sama/DAKAR/DOCTA-2-DAKAR-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
@@ -219,7 +254,7 @@
       // height: 90%;
       // grid-row: span 4;
     }
-    .one-Image-container:nth-child(16) {
+    .one-Image-container:nth-child(17) {
       background-image: url("./Image/Sama/DAKAR/DOUTS-1-DAKAR-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
@@ -228,7 +263,7 @@
       // height: 90%;
       // grid-row: span 4;
     }
-    .one-Image-container:nth-child(17) {
+    .one-Image-container:nth-child(18) {
       background-image: url("./Image/Sama/DAKAR/DOUTS-2-DAKAR-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
@@ -237,42 +272,42 @@
       // height: 90%;
       // grid-row: span 4;
     }
-    .one-Image-container:nth-child(18) {
+    .one-Image-container:nth-child(19) {
       background-image: url("./Image/Sama/DAKAR/N.S-BA-1-DAKAR-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
       grid-column: span 9;
       grid-row: span 6;
     }
-    .one-Image-container:nth-child(19) {
+    .one-Image-container:nth-child(20) {
       background-image: url("./Image/Sama/DAKAR/N.S-BA-T-2-DAKAR-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
       grid-column: span 5;
       grid-row: span 6;
     }
-    .one-Image-container:nth-child(20) {
+    .one-Image-container:nth-child(21) {
       background-image: url("./Image/Sama/DAKAR/SADIO-1-DAKAR-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
       grid-column: span 5;
       grid-row: span 6;
     }
-    .one-Image-container:nth-child(21) {
+    .one-Image-container:nth-child(22) {
       background-image: url("./Image/Sama/DAKAR/SADIO-2-DAKAR-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
       grid-column: span 9;
       grid-row: span 6;
     }
-    .one-Image-container:nth-child(22) {
+    .one-Image-container:nth-child(23) {
       background-image: url("./Image/Sama/DAKAR/SOPHIE-1-DAKAR-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
       grid-column: span 9;
       grid-row: span 6;
     }
-    .one-Image-container:nth-child(23) {
+    .one-Image-container:nth-child(24) {
       background-image: url("./Image/Sama/DAKAR/SOPHIE-2-DAKAR-2023.jpg");
       animation-delay: 1.5s;
       height: 100%;
@@ -500,10 +535,10 @@
       .one-Image-container:nth-child(1) {
         grid-row: span 1;
         grid-column: span 1;
+        box-shadow: none;
       }
-
       .one-Image-container:nth-child(2) {
-        grid-row: span 2;
+        grid-row: span 1;
         grid-column: span 1;
       }
 
@@ -513,15 +548,16 @@
       }
 
       .one-Image-container:nth-child(4) {
-        grid-row: span 1;
+        grid-row: span 2;
         grid-column: span 1;
       }
+
       .one-Image-container:nth-child(5) {
         grid-row: span 1;
         grid-column: span 1;
       }
       .one-Image-container:nth-child(6) {
-        grid-row: span 2;
+        grid-row: span 1;
         grid-column: span 1;
       }
       .one-Image-container:nth-child(7) {
@@ -532,20 +568,25 @@
         grid-row: span 2;
         grid-column: span 1;
       }
-      .one-Image-container:nth-child(11) {
+      .one-Image-container:nth-child(9) {
         grid-row: span 2;
         grid-column: span 1;
       }
-      .one-Image-container:nth-child(19) {
+      .one-Image-container:nth-child(12) {
         grid-row: span 2;
         grid-column: span 1;
+      }
+      .one-Image-container:nth-child(14) {
+        // grid-row: span 2;
+        // grid-column: span 1;
+        box-shadow: none;
       }
       .one-Image-container:nth-child(20) {
         grid-row: span 2;
         grid-column: span 1;
       }
       .one-Image-container:nth-child(21) {
-        grid-row: span 1;
+        grid-row: span 2;
         grid-column: span 1;
       }
       .one-Image-container:nth-child(22) {
@@ -553,6 +594,10 @@
         grid-column: span 1;
       }
       .one-Image-container:nth-child(23) {
+        grid-row: span 1;
+        grid-column: span 1;
+      }
+      .one-Image-container:nth-child(24) {
         grid-row: span 2;
         grid-column: span 1;
       }

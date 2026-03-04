@@ -137,6 +137,9 @@ function Sama({ title, langToShow }) {
         />
       )}
       <div className="Image-container">
+        <div className="one-Image-container Horizontal" title="---">
+          <h2>Medina De Marrakech</h2>
+        </div>
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
@@ -223,7 +226,7 @@ function Sama({ title, langToShow }) {
         </div>
 
         <div className="one-Image-container Horizontal" title="---">
-          Senegal
+          <h2>Medina De Dakar</h2>
         </div>
 
         <div
