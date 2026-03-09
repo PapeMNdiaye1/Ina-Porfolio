@@ -5408,89 +5408,26 @@
   font-family: "Notable", sans-serif;
   z-index: 3;
 }
-#home-container #Contact .contact_container_flex .contact_container a {
-  text-decoration: none;
+#home-container #Contact .contact_container_flex .contact_container .Logos {
+  width: 30vw;
+  height: 10vh;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-#home-container #Contact .contact_container_flex .contact_container a:hover {
-  color: #000;
+#home-container #Contact .contact_container_flex .contact_container .Logos:nth-child(1) {
+  background-image: url("../Style/Image/Logos/Logo-1.png");
 }
-#home-container #Contact .contact_container_flex .contact_container a:nth-child(1) {
-  left: 20%;
+#home-container #Contact .contact_container_flex .contact_container .Logos:nth-child(2) {
+  background-image: url("../Style/Image/Logos/Logo-2.png");
 }
-#home-container #Contact .contact_container_flex .contact_container a:nth-child(2) {
-  left: -20%;
+#home-container #Contact .contact_container_flex .contact_container .Logos:nth-child(3) {
+  background-image: url("../Style/Image/Logos/Logo-3.png");
 }
-#home-container #Contact .contact_container_flex .contact_container a:nth-child(3) {
-  left: 15%;
-}
-#home-container #Contact .contact_container_flex .contact_container a:nth-child(4) {
-  left: -20%;
-}
-#home-container #Contact .contact_container_flex .contact_container a:nth-child(5) {
-  left: 10%;
-}
-#home-container #Contact .contact_container_flex .contact_container a:nth-child(6) {
-  left: -35%;
-}
-#home-container #Contact .contact_container_flex .contact_container .contact_cart {
-  cursor: pointer;
-  font-size: 4em;
-  font-stretch: condensed;
-  color: var(--colorX);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-shadow: var(--shadow0);
-  transform: scale(1);
-}
-#home-container #Contact .contact_container_flex .contact_container .contact_cart:hover {
-  color: var(--colorX);
-  z-index: 40;
-  transform: scale(1.2);
-}
-#home-container #Contact .contact_container_flex .contact_cart_info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: var(--color0);
-  background-color: var(--colorX);
-  font-size: 0.6em;
-  border: 0.3em var(--colorX) solid;
-  border-radius: 0.3em;
-  opacity: 0.1;
-  transition: all 1s;
-  position: absolute;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
-}
-#home-container #Contact .contact_container_flex .contact_cart_info:nth-child(2) {
-  top: 50%;
-  left: 55%;
-}
-#home-container #Contact .contact_container_flex .contact_cart_info:nth-child(3) {
-  top: 50%;
-  left: 15%;
-}
-#home-container #Contact .contact_container_flex .contact_cart_info:nth-child(4) {
-  top: 64%;
-  left: 25%;
-}
-#home-container #Contact .contact_container_flex .contact_cart_info:nth-child(5) {
-  top: 72%;
-  left: 45%;
-}
-#home-container #Contact .contact_container_flex .contact_cart_info:nth-child(6) {
-  top: 20%;
-  left: 65%;
-}
-#home-container #Contact .contact_container_flex .contact_cart_info:nth-child(7) {
-  top: 56%;
-  left: 75%;
-}
-#home-container #Contact .contact_container_flex .contact_cart_info:nth-child(8) {
-  top: 35%;
-  left: 35%;
+#home-container #Contact .contact_container_flex .contact_container .Logos:nth-child(4) {
+  background-image: url("../Style/Image/Logos/Signatur.svg");
 }
 #home-container #Contact #tel_gMail {
   bottom: 2%;
@@ -5518,7 +5455,7 @@
   #home-container #Contact .contact_container_flex {
     height: 100%;
     width: 90%;
-    left: 10%;
+    left: 5vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -5527,12 +5464,11 @@
   #home-container #Contact .contact_container_flex .contact_container {
     line-height: 2em;
   }
-  #home-container #Contact .contact_container_flex .contact_container a:nth-child(6) {
-    left: -25%;
-  }
-  #home-container #Contact .contact_container_flex .contact_container .contact_cart {
-    font-size: 2em;
-    color: var(--colorX);
+  #home-container #Contact .contact_container_flex .contact_container .Logos {
+    width: 70vw;
+    height: 10vh;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
   }
   #home-container #Contact #tel_gMail {
     text-align: center;
