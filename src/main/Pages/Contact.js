@@ -15,15 +15,18 @@ function Contact() {
         <div class="contact_container">
           <a
             href="https://www.instagram.com/makosi_sports/?hl=fr"
+            target="_blank"
             class="Logos"
           ></a>
           <a
             href="https://www.instagram.com/makosiprod/?hl=fr"
+            target="_blank"
             class="Logos"
           ></a>
           <a class="Logos"></a>
           <a
             href="https://www.instagram.com/ina_makosi/?hl=fr"
+            target="_blank"
             class="Logos"
           ></a>
         </div>
