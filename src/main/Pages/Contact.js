@@ -13,10 +13,19 @@ function Contact() {
 
       <div class="contact_container_flex">
         <div class="contact_container">
-          <div class="Logos"></div>
-          <div class="Logos"></div>
-          <div class="Logos"> </div>
-          <div class="Logos"></div>
+          <a
+            href="https://www.instagram.com/makosi_sports/?hl=fr"
+            class="Logos"
+          ></a>
+          <a
+            href="https://www.instagram.com/makosiprod/?hl=fr"
+            class="Logos"
+          ></a>
+          <a class="Logos"></a>
+          <a
+            href="https://www.instagram.com/ina_makosi/?hl=fr"
+            class="Logos"
+          ></a>
         </div>
       </div>
       <div id="tel_gMail">
