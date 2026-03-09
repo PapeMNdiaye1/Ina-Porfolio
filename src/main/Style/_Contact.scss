@@ -37,6 +37,10 @@
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
+        &:hover {
+          transform: scale(1.1);
+          transition: all 0.3s ease-in-out;
+        }
       }
 
       .Logos:nth-child(1) {

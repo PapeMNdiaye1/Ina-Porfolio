@@ -5417,6 +5417,10 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+#home-container #Contact .contact_container_flex .contact_container .Logos:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
 #home-container #Contact .contact_container_flex .contact_container .Logos:nth-child(1) {
   background-image: url("../Style/Image/Logos/Logo-1.png");
 }
