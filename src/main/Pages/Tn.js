@@ -203,7 +203,21 @@ function Tn({ title, langToShow }) {
         >
           <p>Image-5</p>
         </div>
+
+        <div className="Video-container">
+          <iframe
+            width="90%"
+            height="90%"
+            src="https://www.youtube.com/embed/oqVjLoPu78U?si=3pCqZw0naGmFczuh"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
       </div>
+
       <div className="network">
         <div className="network_container">
           <a

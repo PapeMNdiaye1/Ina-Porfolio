@@ -5428,9 +5428,6 @@
   background-image: url("../Style/Image/Logos/Logo-2.png");
 }
 #home-container #Contact .contact_container_flex .contact_container .Logos:nth-child(3) {
-  background-image: url("../Style/Image/Logos/Logo-3.png");
-}
-#home-container #Contact .contact_container_flex .contact_container .Logos:nth-child(4) {
   background-image: url("../Style/Image/Logos/Signatur.svg");
 }
 #home-container #Contact #tel_gMail {
@@ -5524,7 +5521,7 @@
 }
 #home-container #Tn .Image-container {
   width: 73em;
-  height: 60em;
+  height: 100em;
   display: grid;
   grid-template-columns: repeat(15, auto);
   grid-template-rows: repeat(5, auto);
@@ -5607,6 +5604,13 @@
   background-image: url("./Image/Tn/SANS-TITRE-10.jpg");
   animation-delay: 1.5s;
   height: 100%;
+}
+#home-container #Tn .Image-container .Video-container {
+  grid-column: span 15;
+  grid-row: span 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #home-container #Tn .Image-presentation-container {
   position: fixed;
@@ -5773,7 +5777,7 @@
   }
   #home-container #Tn .Image-container {
     width: 93%;
-    height: 120em;
+    height: 160em;
     margin-top: 2em;
     margin-bottom: 10em;
     display: grid;
@@ -5818,6 +5822,13 @@
   #home-container #Tn .Image-container .one-Image-container:nth-child(5) {
     grid-row: span 1;
     grid-column: span 1;
+  }
+  #home-container #Tn .Image-container .Video-container {
+    grid-row: span 1;
+    grid-column: span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   #home-container #Tn .network {
     display: none;

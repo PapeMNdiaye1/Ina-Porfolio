@@ -173,7 +173,7 @@ function Temple({ title, langToShow }) {
         <div
           onClick={clickOnImage}
           className="one-Image-container Horizontal"
-          title="AIDA SARR"
+          title="AWA SARR"
         >
           <p>Maya 2021</p>
         </div>

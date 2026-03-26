@@ -23,12 +23,12 @@ function Contact() {
             target="_blank"
             class="Logos"
           ></a>
-          <a class="Logos"></a>
           <a
-            href="https://www.instagram.com/ina_makosi/?hl=fr"
+            href="https://www.linkedin.com/in/ina-thiam-b13bb5281/"
             target="_blank"
             class="Logos"
           ></a>
+          {/* <a class="Logos"></a> */}
         </div>
       </div>
       <div id="tel_gMail">

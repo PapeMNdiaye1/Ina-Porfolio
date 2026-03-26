@@ -165,7 +165,7 @@ function Meilleur({ title, langToShow }) {
           className="one-Image-container Horizontal"
           title=""
         >
-          <p>Bousso [ DAKAR 2021]</p>{" "}
+          <p>Matam 2024</p>{" "}
         </div>
         <div
           onClick={clickOnImage}
