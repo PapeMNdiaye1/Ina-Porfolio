@@ -230,7 +230,9 @@ function Lenvers({ title, langToShow }) {
         </div>
 
         <div id="tel_gMail">
-          Mail: makosiprod@gmail.com <br />
+          Mail: makosiprod@gmail.com / ina.nfthiam@gmail.com /
+          makosi.sports@gmail.com
+          <br />
           Tel: +221 76 611 75 08
         </div>
       </div>
