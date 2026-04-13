@@ -5434,7 +5434,7 @@
   bottom: 2%;
   right: 50%;
   position: absolute;
-  max-width: 15em;
+  max-width: 50em;
   width: 40%;
   font-weight: 700;
   font-size: 0.6em;
@@ -5442,6 +5442,10 @@
   display: flex;
   color: #000;
   transform: translate(50%, 0%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 @media all and (max-width: 800px) {
   #home-container #Contact {
